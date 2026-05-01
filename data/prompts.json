@@ -1,0 +1,3537 @@
+{
+  "version": "0.1.0",
+  "model_target": "gpt-image-2 / ChatGPT Images 2.0",
+  "language_versions": [
+    "en",
+    "zh-CN"
+  ],
+  "count": 50,
+  "categories": [
+    {
+      "slug": "marketing-growth",
+      "title": {
+        "en": "Marketing & Growth",
+        "zh": "营销增长"
+      },
+      "target_user": {
+        "en": "growth marketer",
+        "zh": "增长营销人员"
+      }
+    },
+    {
+      "slug": "product-ecommerce",
+      "title": {
+        "en": "Product & Ecommerce",
+        "zh": "产品与电商"
+      },
+      "target_user": {
+        "en": "ecommerce operator",
+        "zh": "电商运营"
+      }
+    },
+    {
+      "slug": "brand-design-system",
+      "title": {
+        "en": "Brand & Design System",
+        "zh": "品牌与设计系统"
+      },
+      "target_user": {
+        "en": "brand designer",
+        "zh": "品牌设计师"
+      }
+    },
+    {
+      "slug": "sales-pitch",
+      "title": {
+        "en": "Sales & Pitch",
+        "zh": "销售与提案"
+      },
+      "target_user": {
+        "en": "sales lead",
+        "zh": "销售负责人"
+      }
+    },
+    {
+      "slug": "education-training",
+      "title": {
+        "en": "Education & Training",
+        "zh": "教育培训"
+      },
+      "target_user": {
+        "en": "trainer",
+        "zh": "培训负责人"
+      }
+    },
+    {
+      "slug": "data-operations",
+      "title": {
+        "en": "Data & Operations",
+        "zh": "数据与运营"
+      },
+      "target_user": {
+        "en": "operations analyst",
+        "zh": "运营分析师"
+      }
+    },
+    {
+      "slug": "hr-internal-comms",
+      "title": {
+        "en": "HR & Internal Comms",
+        "zh": "HR 与内部沟通"
+      },
+      "target_user": {
+        "en": "people ops manager",
+        "zh": "组织发展负责人"
+      }
+    },
+    {
+      "slug": "customer-success-support",
+      "title": {
+        "en": "Customer Success & Support",
+        "zh": "客户成功与支持"
+      },
+      "target_user": {
+        "en": "customer success manager",
+        "zh": "客户成功经理"
+      }
+    },
+    {
+      "slug": "events-community",
+      "title": {
+        "en": "Events & Community",
+        "zh": "活动与社群"
+      },
+      "target_user": {
+        "en": "community manager",
+        "zh": "社群运营"
+      }
+    },
+    {
+      "slug": "founder-strategy",
+      "title": {
+        "en": "Founder & Strategy",
+        "zh": "创始人与战略"
+      },
+      "target_user": {
+        "en": "founder",
+        "zh": "创始人"
+      }
+    }
+  ],
+  "prompts": [
+    {
+      "id": "gptimg2-work-001",
+      "slug": "linkedin-launch-carousel-cover",
+      "title": {
+        "en": "LinkedIn launch carousel cover",
+        "zh": "LinkedIn 发布轮播封面"
+      },
+      "category": {
+        "slug": "marketing-growth",
+        "en": "Marketing & Growth",
+        "zh": "营销增长"
+      },
+      "target_user": {
+        "en": "growth marketer",
+        "zh": "增长营销人员"
+      },
+      "use_case": {
+        "en": "Create a professional launch carousel cover for a B2B SaaS feature announcement",
+        "zh": "B2B SaaS 功能发布的专业轮播封面"
+      },
+      "deliverable": {
+        "en": "social launch",
+        "zh": "LinkedIn 发布轮播封面"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 大胆分栏社媒图，包含清晰标题区、产品 UI 片段、三个利益点标签和克制的品牌动势。 business-ready image for a growth marketer. Goal: Create a professional launch carousel cover for a B2B SaaS feature announcement. Deliverable: LinkedIn launch carousel cover. Visual direction: A bold split-layout social graphic with a clear headline area, product UI fragments, three benefit chips and restrained brand motion cues. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为增长营销人员生成一张 16:9 的工作场景图片。目标：B2B SaaS 功能发布的专业轮播封面。交付物：LinkedIn 发布轮播封面。视觉方向：大胆分栏社媒图，包含清晰标题区、产品 UI 片段、三个利益点标签和克制的品牌动势。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "LinkedIn launch carousel cover",
+        "context": "Marketing & Growth",
+        "composition": "A bold split-layout social graphic with a clear headline area, product UI fragments, three benefit chips and restrained brand motion cues.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "marketing-growth",
+        "social launch",
+        "16:9",
+        "growth-marketer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-001-linkedin-launch-carousel-cover.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 1
+      }
+    },
+    {
+      "id": "gptimg2-work-002",
+      "slug": "search-ad-landing-hero",
+      "title": {
+        "en": "Search ad landing hero",
+        "zh": "搜索广告落地页首屏"
+      },
+      "category": {
+        "slug": "marketing-growth",
+        "en": "Marketing & Growth",
+        "zh": "营销增长"
+      },
+      "target_user": {
+        "en": "growth marketer",
+        "zh": "增长营销人员"
+      },
+      "use_case": {
+        "en": "Create a high-converting hero image for a search-ad landing page",
+        "zh": "搜索广告落地页转化导向首屏图"
+      },
+      "deliverable": {
+        "en": "landing hero",
+        "zh": "搜索广告落地页首屏"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 干净的对比场景，旧的手工流程淡出，聚焦到清晰仪表盘，并预留一句 CTA 标题空间。 business-ready image for a growth marketer. Goal: Create a high-converting hero image for a search-ad landing page. Deliverable: Search ad landing hero. Visual direction: A clean comparison scene showing the old manual workflow fading into a focused dashboard, with one short CTA headline space. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为增长营销人员生成一张 16:9 的工作场景图片。目标：搜索广告落地页转化导向首屏图。交付物：搜索广告落地页首屏。视觉方向：干净的对比场景，旧的手工流程淡出，聚焦到清晰仪表盘，并预留一句 CTA 标题空间。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Search ad landing hero",
+        "context": "Marketing & Growth",
+        "composition": "A clean comparison scene showing the old manual workflow fading into a focused dashboard, with one short CTA headline space.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "marketing-growth",
+        "landing hero",
+        "16:9",
+        "growth-marketer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-002-search-ad-landing-hero.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 2
+      }
+    },
+    {
+      "id": "gptimg2-work-003",
+      "slug": "newsletter-sponsorship-banner",
+      "title": {
+        "en": "Newsletter sponsorship banner",
+        "zh": "Newsletter 赞助横幅"
+      },
+      "category": {
+        "slug": "marketing-growth",
+        "en": "Marketing & Growth",
+        "zh": "营销增长"
+      },
+      "target_user": {
+        "en": "growth marketer",
+        "zh": "增长营销人员"
+      },
+      "use_case": {
+        "en": "Create a premium newsletter sponsorship banner for a productivity tool",
+        "zh": "生产力工具的高级感 newsletter 赞助横幅"
+      },
+      "deliverable": {
+        "en": "newsletter",
+        "zh": "Newsletter 赞助横幅"
+      },
+      "format": {
+        "aspect_ratio": "3:2",
+        "recommended_size": "1536x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 编辑部科技横幅，含设备样机、柔和纸张质感、简洁赞助标签和可信优先的构图。 business-ready image for a growth marketer. Goal: Create a premium newsletter sponsorship banner for a productivity tool. Deliverable: Newsletter sponsorship banner. Visual direction: Editorial tech banner with device mockup, soft paper texture, concise sponsorship label and a calm credibility-first composition. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为增长营销人员生成一张 3:2 的工作场景图片。目标：生产力工具的高级感 newsletter 赞助横幅。交付物：Newsletter 赞助横幅。视觉方向：编辑部科技横幅，含设备样机、柔和纸张质感、简洁赞助标签和可信优先的构图。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Newsletter sponsorship banner",
+        "context": "Marketing & Growth",
+        "composition": "Editorial tech banner with device mockup, soft paper texture, concise sponsorship label and a calm credibility-first composition.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "marketing-growth",
+        "newsletter",
+        "3:2",
+        "growth-marketer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-003-newsletter-sponsorship-banner.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 3
+      }
+    },
+    {
+      "id": "gptimg2-work-004",
+      "slug": "app-store-feature-graphic",
+      "title": {
+        "en": "App store feature graphic",
+        "zh": "应用商店特色图"
+      },
+      "category": {
+        "slug": "marketing-growth",
+        "en": "Marketing & Growth",
+        "zh": "营销增长"
+      },
+      "target_user": {
+        "en": "growth marketer",
+        "zh": "增长营销人员"
+      },
+      "use_case": {
+        "en": "Create an app store feature graphic for an AI writing assistant",
+        "zh": "AI 写作助手应用商店特色图"
+      },
+      "deliverable": {
+        "en": "app store",
+        "zh": "应用商店特色图"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 明亮但专业的移动应用主视觉，展示三张消息卡转化为精修文档。 business-ready image for a growth marketer. Goal: Create an app store feature graphic for an AI writing assistant. Deliverable: App store feature graphic. Visual direction: Bright but professional mobile app key visual, showing three message cards transforming into a polished document. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为增长营销人员生成一张 16:9 的工作场景图片。目标：AI 写作助手应用商店特色图。交付物：应用商店特色图。视觉方向：明亮但专业的移动应用主视觉，展示三张消息卡转化为精修文档。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "App store feature graphic",
+        "context": "Marketing & Growth",
+        "composition": "Bright but professional mobile app key visual, showing three message cards transforming into a polished document.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "marketing-growth",
+        "app store",
+        "16:9",
+        "growth-marketer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-004-app-store-feature-graphic.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 4
+      }
+    },
+    {
+      "id": "gptimg2-work-005",
+      "slug": "retargeting-ad-creative",
+      "title": {
+        "en": "Retargeting ad creative",
+        "zh": "再营销广告素材"
+      },
+      "category": {
+        "slug": "marketing-growth",
+        "en": "Marketing & Growth",
+        "zh": "营销增长"
+      },
+      "target_user": {
+        "en": "growth marketer",
+        "zh": "增长营销人员"
+      },
+      "use_case": {
+        "en": "Create a retargeting ad for visitors who abandoned a trial signup",
+        "zh": "面向放弃试用注册访客的再营销广告"
+      },
+      "deliverable": {
+        "en": "paid ad",
+        "zh": "再营销广告素材"
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "recommended_size": "1024x1280",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 信任导向广告，含简单工作流图、轻微紧迫感标签，不使用虚假折扣或操控性文案。 business-ready image for a growth marketer. Goal: Create a retargeting ad for visitors who abandoned a trial signup. Deliverable: Retargeting ad creative. Visual direction: Trust-oriented ad with a simple workflow diagram, subtle urgency badge, and no fake discounts or manipulative copy. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为增长营销人员生成一张 4:5 的工作场景图片。目标：面向放弃试用注册访客的再营销广告。交付物：再营销广告素材。视觉方向：信任导向广告，含简单工作流图、轻微紧迫感标签，不使用虚假折扣或操控性文案。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Retargeting ad creative",
+        "context": "Marketing & Growth",
+        "composition": "Trust-oriented ad with a simple workflow diagram, subtle urgency badge, and no fake discounts or manipulative copy.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "marketing-growth",
+        "paid ad",
+        "4:5",
+        "growth-marketer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-005-retargeting-ad-creative.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 5
+      }
+    },
+    {
+      "id": "gptimg2-work-006",
+      "slug": "premium-product-hero-shot",
+      "title": {
+        "en": "Premium product hero shot",
+        "zh": "高级产品主图"
+      },
+      "category": {
+        "slug": "product-ecommerce",
+        "en": "Product & Ecommerce",
+        "zh": "产品与电商"
+      },
+      "target_user": {
+        "en": "ecommerce operator",
+        "zh": "电商运营"
+      },
+      "use_case": {
+        "en": "Create a premium ecommerce hero shot for a desk accessory brand",
+        "zh": "桌面配件品牌高级电商主图"
+      },
+      "deliverable": {
+        "en": "product shot",
+        "zh": "高级产品主图"
+      },
+      "format": {
+        "aspect_ratio": "3:2",
+        "recommended_size": "1536x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 摄影棚质感桌面产品图，展示材质细节、比例、包装边缘和两个功能标注。 business-ready image for a ecommerce operator. Goal: Create a premium ecommerce hero shot for a desk accessory brand. Deliverable: Premium product hero shot. Visual direction: Studio-lit product scene on a real desk, showing material detail, scale, packaging edge and two functional callouts. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为电商运营生成一张 3:2 的工作场景图片。目标：桌面配件品牌高级电商主图。交付物：高级产品主图。视觉方向：摄影棚质感桌面产品图，展示材质细节、比例、包装边缘和两个功能标注。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Premium product hero shot",
+        "context": "Product & Ecommerce",
+        "composition": "Studio-lit product scene on a real desk, showing material detail, scale, packaging edge and two functional callouts.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "product-ecommerce",
+        "product shot",
+        "3:2",
+        "ecommerce-operator"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-006-premium-product-hero-shot.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 6
+      }
+    },
+    {
+      "id": "gptimg2-work-007",
+      "slug": "amazon-listing-infographic",
+      "title": {
+        "en": "Amazon listing infographic",
+        "zh": "亚马逊详情信息图"
+      },
+      "category": {
+        "slug": "product-ecommerce",
+        "en": "Product & Ecommerce",
+        "zh": "产品与电商"
+      },
+      "target_user": {
+        "en": "ecommerce operator",
+        "zh": "电商运营"
+      },
+      "use_case": {
+        "en": "Create a marketplace listing infographic that explains three product benefits",
+        "zh": "解释三个产品利益点的市场详情信息图"
+      },
+      "deliverable": {
+        "en": "marketplace",
+        "zh": "亚马逊详情信息图"
+      },
+      "format": {
+        "aspect_ratio": "1:1",
+        "recommended_size": "1024x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 白底商业信息图，含产品剖面、编号利益点、干净阴影和可读微文案。 business-ready image for a ecommerce operator. Goal: Create a marketplace listing infographic that explains three product benefits. Deliverable: Amazon listing infographic. Visual direction: White-background commercial infographic with product cutaway, numbered benefit callouts, clean shadows and readable micro text. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为电商运营生成一张 1:1 的工作场景图片。目标：解释三个产品利益点的市场详情信息图。交付物：亚马逊详情信息图。视觉方向：白底商业信息图，含产品剖面、编号利益点、干净阴影和可读微文案。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Amazon listing infographic",
+        "context": "Product & Ecommerce",
+        "composition": "White-background commercial infographic with product cutaway, numbered benefit callouts, clean shadows and readable micro text.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "product-ecommerce",
+        "marketplace",
+        "1:1",
+        "ecommerce-operator"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-007-amazon-listing-infographic.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 7
+      }
+    },
+    {
+      "id": "gptimg2-work-008",
+      "slug": "subscription-box-unboxing",
+      "title": {
+        "en": "Subscription box unboxing",
+        "zh": "订阅盒开箱图"
+      },
+      "category": {
+        "slug": "product-ecommerce",
+        "en": "Product & Ecommerce",
+        "zh": "产品与电商"
+      },
+      "target_user": {
+        "en": "ecommerce operator",
+        "zh": "电商运营"
+      },
+      "use_case": {
+        "en": "Create an unboxing visual for a monthly wellness subscription box",
+        "zh": "月度健康订阅盒开箱视觉"
+      },
+      "deliverable": {
+        "en": "unboxing",
+        "zh": "订阅盒开箱图"
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "recommended_size": "1024x1280",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 俯拍开箱构图，内容物有序摆放，含插卡、柔和日光和清晰品牌色层级。 business-ready image for a ecommerce operator. Goal: Create an unboxing visual for a monthly wellness subscription box. Deliverable: Subscription box unboxing. Visual direction: Top-down unboxing composition with organized contents, insert card, soft daylight and clear brand color hierarchy. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为电商运营生成一张 4:5 的工作场景图片。目标：月度健康订阅盒开箱视觉。交付物：订阅盒开箱图。视觉方向：俯拍开箱构图，内容物有序摆放，含插卡、柔和日光和清晰品牌色层级。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Subscription box unboxing",
+        "context": "Product & Ecommerce",
+        "composition": "Top-down unboxing composition with organized contents, insert card, soft daylight and clear brand color hierarchy.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "product-ecommerce",
+        "unboxing",
+        "4:5",
+        "ecommerce-operator"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-008-subscription-box-unboxing.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 8
+      }
+    },
+    {
+      "id": "gptimg2-work-009",
+      "slug": "before-after-product-demo",
+      "title": {
+        "en": "Before-after product demo",
+        "zh": "产品前后对比演示"
+      },
+      "category": {
+        "slug": "product-ecommerce",
+        "en": "Product & Ecommerce",
+        "zh": "产品与电商"
+      },
+      "target_user": {
+        "en": "ecommerce operator",
+        "zh": "电商运营"
+      },
+      "use_case": {
+        "en": "Create a before-after demo graphic for a cleaning product without exaggerated claims",
+        "zh": "清洁产品前后对比图，但不夸大功效"
+      },
+      "deliverable": {
+        "en": "comparison",
+        "zh": "产品前后对比演示"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 双栏对比，同一表面和光线，改善真实可信，标签精确，并有小使用说明。 business-ready image for a ecommerce operator. Goal: Create a before-after demo graphic for a cleaning product without exaggerated claims. Deliverable: Before-after product demo. Visual direction: Two-panel comparison with consistent lighting, same surface, realistic improvement, precise labels and a small usage note. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为电商运营生成一张 16:9 的工作场景图片。目标：清洁产品前后对比图，但不夸大功效。交付物：产品前后对比演示。视觉方向：双栏对比，同一表面和光线，改善真实可信，标签精确，并有小使用说明。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Before-after product demo",
+        "context": "Product & Ecommerce",
+        "composition": "Two-panel comparison with consistent lighting, same surface, realistic improvement, precise labels and a small usage note.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "product-ecommerce",
+        "comparison",
+        "16:9",
+        "ecommerce-operator"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-009-before-after-product-demo.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 9
+      }
+    },
+    {
+      "id": "gptimg2-work-010",
+      "slug": "b2b-hardware-spec-sheet-visual",
+      "title": {
+        "en": "B2B hardware spec sheet visual",
+        "zh": "B2B 硬件规格表视觉"
+      },
+      "category": {
+        "slug": "product-ecommerce",
+        "en": "Product & Ecommerce",
+        "zh": "产品与电商"
+      },
+      "target_user": {
+        "en": "ecommerce operator",
+        "zh": "电商运营"
+      },
+      "use_case": {
+        "en": "Create a spec-sheet visual for an industrial scanner",
+        "zh": "工业扫描仪规格表视觉"
+      },
+      "deliverable": {
+        "en": "spec sheet",
+        "zh": "B2B 硬件规格表视觉"
+      },
+      "format": {
+        "aspect_ratio": "3:2",
+        "recommended_size": "1536x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 技术产品渲染，标注接口、尺寸线、兼容性徽章和规格表区域。 business-ready image for a ecommerce operator. Goal: Create a spec-sheet visual for an industrial scanner. Deliverable: B2B hardware spec sheet visual. Visual direction: Technical product rendering with annotated ports, dimension lines, compatibility badges and a reserved table area. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为电商运营生成一张 3:2 的工作场景图片。目标：工业扫描仪规格表视觉。交付物：B2B 硬件规格表视觉。视觉方向：技术产品渲染，标注接口、尺寸线、兼容性徽章和规格表区域。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "B2B hardware spec sheet visual",
+        "context": "Product & Ecommerce",
+        "composition": "Technical product rendering with annotated ports, dimension lines, compatibility badges and a reserved table area.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "product-ecommerce",
+        "spec sheet",
+        "3:2",
+        "ecommerce-operator"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-010-b2b-hardware-spec-sheet-visual.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 10
+      }
+    },
+    {
+      "id": "gptimg2-work-011",
+      "slug": "brand-moodboard-one-pager",
+      "title": {
+        "en": "Brand moodboard one-pager",
+        "zh": "品牌情绪板单页"
+      },
+      "category": {
+        "slug": "brand-design-system",
+        "en": "Brand & Design System",
+        "zh": "品牌与设计系统"
+      },
+      "target_user": {
+        "en": "brand designer",
+        "zh": "品牌设计师"
+      },
+      "use_case": {
+        "en": "Create a brand moodboard one-pager for a fintech startup",
+        "zh": "金融科技初创品牌情绪板单页"
+      },
+      "deliverable": {
+        "en": "moodboard",
+        "zh": "品牌情绪板单页"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 结构化情绪板，含 logo 占位、字体块、色彩样本、图像参考和使用说明。 business-ready image for a brand designer. Goal: Create a brand moodboard one-pager for a fintech startup. Deliverable: Brand moodboard one-pager. Visual direction: A structured moodboard with logo placeholder, typography blocks, color chips, imagery references and usage notes. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为品牌设计师生成一张 16:9 的工作场景图片。目标：金融科技初创品牌情绪板单页。交付物：品牌情绪板单页。视觉方向：结构化情绪板，含 logo 占位、字体块、色彩样本、图像参考和使用说明。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Brand moodboard one-pager",
+        "context": "Brand & Design System",
+        "composition": "A structured moodboard with logo placeholder, typography blocks, color chips, imagery references and usage notes.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "brand-design-system",
+        "moodboard",
+        "16:9",
+        "brand-designer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-011-brand-moodboard-one-pager.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 11
+      }
+    },
+    {
+      "id": "gptimg2-work-012",
+      "slug": "design-token-poster",
+      "title": {
+        "en": "Design token poster",
+        "zh": "设计 Token 海报"
+      },
+      "category": {
+        "slug": "brand-design-system",
+        "en": "Brand & Design System",
+        "zh": "品牌与设计系统"
+      },
+      "target_user": {
+        "en": "brand designer",
+        "zh": "品牌设计师"
+      },
+      "use_case": {
+        "en": "Create a design token poster that visualizes spacing, radius, color and typography rules",
+        "zh": "可视化间距、圆角、颜色和字体规则的设计 Token 海报"
+      },
+      "deliverable": {
+        "en": "design system",
+        "zh": "设计 Token 海报"
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "recommended_size": "1024x1280",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 精准系统海报，含网格、token 标签、色板、组件状态和文档式字体。 business-ready image for a brand designer. Goal: Create a design token poster that visualizes spacing, radius, color and typography rules. Deliverable: Design token poster. Visual direction: Precise system poster with grids, token labels, swatches, component states and clean documentation-style typography. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为品牌设计师生成一张 4:5 的工作场景图片。目标：可视化间距、圆角、颜色和字体规则的设计 Token 海报。交付物：设计 Token 海报。视觉方向：精准系统海报，含网格、token 标签、色板、组件状态和文档式字体。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Design token poster",
+        "context": "Brand & Design System",
+        "composition": "Precise system poster with grids, token labels, swatches, component states and clean documentation-style typography.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "brand-design-system",
+        "design system",
+        "4:5",
+        "brand-designer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-012-design-token-poster.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 12
+      }
+    },
+    {
+      "id": "gptimg2-work-013",
+      "slug": "logo-usage-guide-spread",
+      "title": {
+        "en": "Logo usage guide spread",
+        "zh": "Logo 使用规范跨页"
+      },
+      "category": {
+        "slug": "brand-design-system",
+        "en": "Brand & Design System",
+        "zh": "品牌与设计系统"
+      },
+      "target_user": {
+        "en": "brand designer",
+        "zh": "品牌设计师"
+      },
+      "use_case": {
+        "en": "Create a logo usage guide spread for a professional services firm",
+        "zh": "专业服务公司 Logo 使用规范跨页"
+      },
+      "deliverable": {
+        "en": "brand guide",
+        "zh": "Logo 使用规范跨页"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 双页编辑版式，展示安全区、最小尺寸、正确和错误用法，以及沉稳企业视觉语言。 business-ready image for a brand designer. Goal: Create a logo usage guide spread for a professional services firm. Deliverable: Logo usage guide spread. Visual direction: Two-page editorial spread showing safe area, minimum size, correct and incorrect usage, and calm corporate visual language. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为品牌设计师生成一张 16:9 的工作场景图片。目标：专业服务公司 Logo 使用规范跨页。交付物：Logo 使用规范跨页。视觉方向：双页编辑版式，展示安全区、最小尺寸、正确和错误用法，以及沉稳企业视觉语言。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Logo usage guide spread",
+        "context": "Brand & Design System",
+        "composition": "Two-page editorial spread showing safe area, minimum size, correct and incorrect usage, and calm corporate visual language.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "brand-design-system",
+        "brand guide",
+        "16:9",
+        "brand-designer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-013-logo-usage-guide-spread.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 13
+      }
+    },
+    {
+      "id": "gptimg2-work-014",
+      "slug": "social-template-kit-preview",
+      "title": {
+        "en": "Social template kit preview",
+        "zh": "社媒模板套件预览"
+      },
+      "category": {
+        "slug": "brand-design-system",
+        "en": "Brand & Design System",
+        "zh": "品牌与设计系统"
+      },
+      "target_user": {
+        "en": "brand designer",
+        "zh": "品牌设计师"
+      },
+      "use_case": {
+        "en": "Create a preview image for a reusable social media template kit",
+        "zh": "可复用社媒模板套件预览图"
+      },
+      "deliverable": {
+        "en": "template kit",
+        "zh": "社媒模板套件预览"
+      },
+      "format": {
+        "aspect_ratio": "1:1",
+        "recommended_size": "1024x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 六个协调一致的帖子模板平铺预览，内容密度不同但遵循同一品牌系统。 business-ready image for a brand designer. Goal: Create a preview image for a reusable social media template kit. Deliverable: Social template kit preview. Visual direction: A tiled set of six coordinated post templates with different content densities, aligned to one brand system. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为品牌设计师生成一张 1:1 的工作场景图片。目标：可复用社媒模板套件预览图。交付物：社媒模板套件预览。视觉方向：六个协调一致的帖子模板平铺预览，内容密度不同但遵循同一品牌系统。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Social template kit preview",
+        "context": "Brand & Design System",
+        "composition": "A tiled set of six coordinated post templates with different content densities, aligned to one brand system.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "brand-design-system",
+        "template kit",
+        "1:1",
+        "brand-designer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-014-social-template-kit-preview.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 14
+      }
+    },
+    {
+      "id": "gptimg2-work-015",
+      "slug": "icon-style-direction-sheet",
+      "title": {
+        "en": "Icon style direction sheet",
+        "zh": "图标风格方向表"
+      },
+      "category": {
+        "slug": "brand-design-system",
+        "en": "Brand & Design System",
+        "zh": "品牌与设计系统"
+      },
+      "target_user": {
+        "en": "brand designer",
+        "zh": "品牌设计师"
+      },
+      "use_case": {
+        "en": "Create an icon style direction sheet for a SaaS analytics product",
+        "zh": "SaaS 分析产品图标风格方向表"
+      },
+      "deliverable": {
+        "en": "icons",
+        "zh": "图标风格方向表"
+      },
+      "format": {
+        "aspect_ratio": "3:2",
+        "recommended_size": "1536x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 多行一致图标，含描边规则、填充变体、隐喻说明和真实 UI 表面示例。 business-ready image for a brand designer. Goal: Create an icon style direction sheet for a SaaS analytics product. Deliverable: Icon style direction sheet. Visual direction: Rows of consistent icons with stroke rules, filled variants, metaphor notes and examples placed on real UI surfaces. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为品牌设计师生成一张 3:2 的工作场景图片。目标：SaaS 分析产品图标风格方向表。交付物：图标风格方向表。视觉方向：多行一致图标，含描边规则、填充变体、隐喻说明和真实 UI 表面示例。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Icon style direction sheet",
+        "context": "Brand & Design System",
+        "composition": "Rows of consistent icons with stroke rules, filled variants, metaphor notes and examples placed on real UI surfaces.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "brand-design-system",
+        "icons",
+        "3:2",
+        "brand-designer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-015-icon-style-direction-sheet.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 15
+      }
+    },
+    {
+      "id": "gptimg2-work-016",
+      "slug": "investor-problem-slide",
+      "title": {
+        "en": "Investor problem slide",
+        "zh": "投资人问题页"
+      },
+      "category": {
+        "slug": "sales-pitch",
+        "en": "Sales & Pitch",
+        "zh": "销售与提案"
+      },
+      "target_user": {
+        "en": "sales lead",
+        "zh": "销售负责人"
+      },
+      "use_case": {
+        "en": "Create a sharp investor pitch slide visualizing the customer problem",
+        "zh": "可视化客户痛点的投资人路演页"
+      },
+      "deliverable": {
+        "en": "pitch deck",
+        "zh": "投资人问题页"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 电影感但清晰的幻灯片，展示客户流程阻力、一个核心指标和真实商业环境。 business-ready image for a sales lead. Goal: Create a sharp investor pitch slide visualizing the customer problem. Deliverable: Investor problem slide. Visual direction: Cinematic but clear slide with customer workflow friction, one central metric and a realistic business environment. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为销售负责人生成一张 16:9 的工作场景图片。目标：可视化客户痛点的投资人路演页。交付物：投资人问题页。视觉方向：电影感但清晰的幻灯片，展示客户流程阻力、一个核心指标和真实商业环境。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Investor problem slide",
+        "context": "Sales & Pitch",
+        "composition": "Cinematic but clear slide with customer workflow friction, one central metric and a realistic business environment.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "sales-pitch",
+        "pitch deck",
+        "16:9",
+        "sales-lead"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-016-investor-problem-slide.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 16
+      }
+    },
+    {
+      "id": "gptimg2-work-017",
+      "slug": "roi-calculator-visual",
+      "title": {
+        "en": "ROI calculator visual",
+        "zh": "ROI 计算器视觉"
+      },
+      "category": {
+        "slug": "sales-pitch",
+        "en": "Sales & Pitch",
+        "zh": "销售与提案"
+      },
+      "target_user": {
+        "en": "sales lead",
+        "zh": "销售负责人"
+      },
+      "use_case": {
+        "en": "Create a visual for an ROI calculator module",
+        "zh": "ROI 计算器模块视觉"
+      },
+      "deliverable": {
+        "en": "ROI",
+        "zh": "ROI 计算器视觉"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 仪表盘视觉，含输入区、节省结果卡、图表和企业级可信细节。 business-ready image for a sales lead. Goal: Create a visual for an ROI calculator module. Deliverable: ROI calculator visual. Visual direction: Dashboard-style visual with inputs, output savings card, chart and enterprise-grade credibility cues. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为销售负责人生成一张 16:9 的工作场景图片。目标：ROI 计算器模块视觉。交付物：ROI 计算器视觉。视觉方向：仪表盘视觉，含输入区、节省结果卡、图表和企业级可信细节。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "ROI calculator visual",
+        "context": "Sales & Pitch",
+        "composition": "Dashboard-style visual with inputs, output savings card, chart and enterprise-grade credibility cues.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "sales-pitch",
+        "ROI",
+        "16:9",
+        "sales-lead"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-017-roi-calculator-visual.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 17
+      }
+    },
+    {
+      "id": "gptimg2-work-018",
+      "slug": "sales-one-pager-cover",
+      "title": {
+        "en": "Sales one-pager cover",
+        "zh": "销售单页封面"
+      },
+      "category": {
+        "slug": "sales-pitch",
+        "en": "Sales & Pitch",
+        "zh": "销售与提案"
+      },
+      "target_user": {
+        "en": "sales lead",
+        "zh": "销售负责人"
+      },
+      "use_case": {
+        "en": "Create a sales one-pager cover for a cybersecurity service",
+        "zh": "网络安全服务销售单页封面"
+      },
+      "deliverable": {
+        "en": "one pager",
+        "zh": "销售单页封面"
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "recommended_size": "1024x1280",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 高级 B2B 封面，含分层网络图、安全态势评分和干净标题区域。 business-ready image for a sales lead. Goal: Create a sales one-pager cover for a cybersecurity service. Deliverable: Sales one-pager cover. Visual direction: Premium B2B cover with layered network diagram, security posture score and clean headline area. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为销售负责人生成一张 4:5 的工作场景图片。目标：网络安全服务销售单页封面。交付物：销售单页封面。视觉方向：高级 B2B 封面，含分层网络图、安全态势评分和干净标题区域。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Sales one-pager cover",
+        "context": "Sales & Pitch",
+        "composition": "Premium B2B cover with layered network diagram, security posture score and clean headline area.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "sales-pitch",
+        "one pager",
+        "4:5",
+        "sales-lead"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-018-sales-one-pager-cover.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 18
+      }
+    },
+    {
+      "id": "gptimg2-work-019",
+      "slug": "conference-booth-backdrop",
+      "title": {
+        "en": "Conference booth backdrop",
+        "zh": "展会展台背板"
+      },
+      "category": {
+        "slug": "sales-pitch",
+        "en": "Sales & Pitch",
+        "zh": "销售与提案"
+      },
+      "target_user": {
+        "en": "sales lead",
+        "zh": "销售负责人"
+      },
+      "use_case": {
+        "en": "Create a conference booth backdrop for a data platform",
+        "zh": "数据平台展会展台背板"
+      },
+      "deliverable": {
+        "en": "booth",
+        "zh": "展会展台背板"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 宽幅展台图，含产品承诺、抽象数据架构、logo 区和适合远距离阅读的层级。 business-ready image for a sales lead. Goal: Create a conference booth backdrop for a data platform. Deliverable: Conference booth backdrop. Visual direction: Wide-format booth graphic with product promise, abstract data architecture, logo zone and human-scale readability. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为销售负责人生成一张 16:9 的工作场景图片。目标：数据平台展会展台背板。交付物：展会展台背板。视觉方向：宽幅展台图，含产品承诺、抽象数据架构、logo 区和适合远距离阅读的层级。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Conference booth backdrop",
+        "context": "Sales & Pitch",
+        "composition": "Wide-format booth graphic with product promise, abstract data architecture, logo zone and human-scale readability.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "sales-pitch",
+        "booth",
+        "16:9",
+        "sales-lead"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-019-conference-booth-backdrop.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 19
+      }
+    },
+    {
+      "id": "gptimg2-work-020",
+      "slug": "enterprise-case-study-header",
+      "title": {
+        "en": "Enterprise case study header",
+        "zh": "企业案例研究头图"
+      },
+      "category": {
+        "slug": "sales-pitch",
+        "en": "Sales & Pitch",
+        "zh": "销售与提案"
+      },
+      "target_user": {
+        "en": "sales lead",
+        "zh": "销售负责人"
+      },
+      "use_case": {
+        "en": "Create a case study header for an enterprise logistics customer",
+        "zh": "企业物流客户案例研究头图"
+      },
+      "deliverable": {
+        "en": "case study",
+        "zh": "企业案例研究头图"
+      },
+      "format": {
+        "aspect_ratio": "3:2",
+        "recommended_size": "1536x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 纪实物流场景融合仪表盘叠层、可衡量成果和客户 logo 预留区。 business-ready image for a sales lead. Goal: Create a case study header for an enterprise logistics customer. Deliverable: Enterprise case study header. Visual direction: Documentary logistics scene blended with dashboard overlays, measurable outcomes and a reserved customer-logo area. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为销售负责人生成一张 3:2 的工作场景图片。目标：企业物流客户案例研究头图。交付物：企业案例研究头图。视觉方向：纪实物流场景融合仪表盘叠层、可衡量成果和客户 logo 预留区。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Enterprise case study header",
+        "context": "Sales & Pitch",
+        "composition": "Documentary logistics scene blended with dashboard overlays, measurable outcomes and a reserved customer-logo area.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "sales-pitch",
+        "case study",
+        "3:2",
+        "sales-lead"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-020-enterprise-case-study-header.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 20
+      }
+    },
+    {
+      "id": "gptimg2-work-021",
+      "slug": "microlearning-lesson-card",
+      "title": {
+        "en": "Microlearning lesson card",
+        "zh": "微课课程卡"
+      },
+      "category": {
+        "slug": "education-training",
+        "en": "Education & Training",
+        "zh": "教育培训"
+      },
+      "target_user": {
+        "en": "trainer",
+        "zh": "培训负责人"
+      },
+      "use_case": {
+        "en": "Create a microlearning lesson card for workplace AI literacy",
+        "zh": "职场 AI 素养微课课程卡"
+      },
+      "deliverable": {
+        "en": "learning card",
+        "zh": "微课课程卡"
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "recommended_size": "1024x1280",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 友好专业课程卡，含模块编号、概念插画、进度指示和无障碍对比度。 business-ready image for a trainer. Goal: Create a microlearning lesson card for workplace AI literacy. Deliverable: Microlearning lesson card. Visual direction: Friendly professional course card with module number, concept illustration, progress indicator and accessible contrast. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为培训负责人生成一张 4:5 的工作场景图片。目标：职场 AI 素养微课课程卡。交付物：微课课程卡。视觉方向：友好专业课程卡，含模块编号、概念插画、进度指示和无障碍对比度。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Microlearning lesson card",
+        "context": "Education & Training",
+        "composition": "Friendly professional course card with module number, concept illustration, progress indicator and accessible contrast.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "education-training",
+        "learning card",
+        "4:5",
+        "trainer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-021-microlearning-lesson-card.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 21
+      }
+    },
+    {
+      "id": "gptimg2-work-022",
+      "slug": "explainer-diagram",
+      "title": {
+        "en": "Explainer diagram",
+        "zh": "解释型图表"
+      },
+      "category": {
+        "slug": "education-training",
+        "en": "Education & Training",
+        "zh": "教育培训"
+      },
+      "target_user": {
+        "en": "trainer",
+        "zh": "培训负责人"
+      },
+      "use_case": {
+        "en": "Create an explainer diagram about how retrieval augmented generation works",
+        "zh": "解释 RAG 工作原理的图解"
+      },
+      "deliverable": {
+        "en": "diagram",
+        "zh": "解释型图表"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 清晰三阶段图，含文档、检索、模型回答和护栏说明，面向非技术员工。 business-ready image for a trainer. Goal: Create an explainer diagram about how retrieval augmented generation works. Deliverable: Explainer diagram. Visual direction: Clear three-stage diagram with documents, retrieval, model response and guardrail notes, designed for non-technical staff. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为培训负责人生成一张 16:9 的工作场景图片。目标：解释 RAG 工作原理的图解。交付物：解释型图表。视觉方向：清晰三阶段图，含文档、检索、模型回答和护栏说明，面向非技术员工。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Explainer diagram",
+        "context": "Education & Training",
+        "composition": "Clear three-stage diagram with documents, retrieval, model response and guardrail notes, designed for non-technical staff.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "education-training",
+        "diagram",
+        "16:9",
+        "trainer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-022-explainer-diagram.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 22
+      }
+    },
+    {
+      "id": "gptimg2-work-023",
+      "slug": "workshop-agenda-poster",
+      "title": {
+        "en": "Workshop agenda poster",
+        "zh": "工作坊议程海报"
+      },
+      "category": {
+        "slug": "education-training",
+        "en": "Education & Training",
+        "zh": "教育培训"
+      },
+      "target_user": {
+        "en": "trainer",
+        "zh": "培训负责人"
+      },
+      "use_case": {
+        "en": "Create a workshop agenda poster for a half-day team training",
+        "zh": "半天团队培训工作坊议程海报"
+      },
+      "deliverable": {
+        "en": "agenda",
+        "zh": "工作坊议程海报"
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "recommended_size": "1024x1280",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 可读议程海报，含时间块、讲师区、学习目标和沉稳企业氛围。 business-ready image for a trainer. Goal: Create a workshop agenda poster for a half-day team training. Deliverable: Workshop agenda poster. Visual direction: Readable event agenda with time blocks, facilitator section, learning outcomes and calm corporate energy. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为培训负责人生成一张 4:5 的工作场景图片。目标：半天团队培训工作坊议程海报。交付物：工作坊议程海报。视觉方向：可读议程海报，含时间块、讲师区、学习目标和沉稳企业氛围。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Workshop agenda poster",
+        "context": "Education & Training",
+        "composition": "Readable event agenda with time blocks, facilitator section, learning outcomes and calm corporate energy.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "education-training",
+        "agenda",
+        "4:5",
+        "trainer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-023-workshop-agenda-poster.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 23
+      }
+    },
+    {
+      "id": "gptimg2-work-024",
+      "slug": "safety-checklist-visual",
+      "title": {
+        "en": "Safety checklist visual",
+        "zh": "安全清单视觉"
+      },
+      "category": {
+        "slug": "education-training",
+        "en": "Education & Training",
+        "zh": "教育培训"
+      },
+      "target_user": {
+        "en": "trainer",
+        "zh": "培训负责人"
+      },
+      "use_case": {
+        "en": "Create a safety checklist poster for responsible AI use at work",
+        "zh": "职场负责任 AI 使用安全清单海报"
+      },
+      "deliverable": {
+        "en": "checklist",
+        "zh": "安全清单视觉"
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "recommended_size": "1024x1280",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 清单海报，含五条原则、图标、安全输入示例和清晰的禁止共享区。 business-ready image for a trainer. Goal: Create a safety checklist poster for responsible AI use at work. Deliverable: Safety checklist visual. Visual direction: Checklist poster with five principles, icons, examples of safe inputs, and a clear do-not-share section. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为培训负责人生成一张 4:5 的工作场景图片。目标：职场负责任 AI 使用安全清单海报。交付物：安全清单视觉。视觉方向：清单海报，含五条原则、图标、安全输入示例和清晰的禁止共享区。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Safety checklist visual",
+        "context": "Education & Training",
+        "composition": "Checklist poster with five principles, icons, examples of safe inputs, and a clear do-not-share section.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "education-training",
+        "checklist",
+        "4:5",
+        "trainer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-024-safety-checklist-visual.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 24
+      }
+    },
+    {
+      "id": "gptimg2-work-025",
+      "slug": "course-certificate-mockup",
+      "title": {
+        "en": "Course certificate mockup",
+        "zh": "课程证书样机"
+      },
+      "category": {
+        "slug": "education-training",
+        "en": "Education & Training",
+        "zh": "教育培训"
+      },
+      "target_user": {
+        "en": "trainer",
+        "zh": "培训负责人"
+      },
+      "use_case": {
+        "en": "Create a course certificate mockup for a professional academy",
+        "zh": "专业学院课程证书样机"
+      },
+      "deliverable": {
+        "en": "certificate",
+        "zh": "课程证书样机"
+      },
+      "format": {
+        "aspect_ratio": "3:2",
+        "recommended_size": "1536x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 优雅桌面证书样机，含低调印章、姓名占位、结业徽章和克制学院风设计。 business-ready image for a trainer. Goal: Create a course certificate mockup for a professional academy. Deliverable: Course certificate mockup. Visual direction: Elegant certificate on desk with subtle seal, typed name placeholder, completion badge and restrained institutional design. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为培训负责人生成一张 3:2 的工作场景图片。目标：专业学院课程证书样机。交付物：课程证书样机。视觉方向：优雅桌面证书样机，含低调印章、姓名占位、结业徽章和克制学院风设计。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Course certificate mockup",
+        "context": "Education & Training",
+        "composition": "Elegant certificate on desk with subtle seal, typed name placeholder, completion badge and restrained institutional design.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "education-training",
+        "certificate",
+        "3:2",
+        "trainer"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-025-course-certificate-mockup.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 25
+      }
+    },
+    {
+      "id": "gptimg2-work-026",
+      "slug": "weekly-ops-dashboard",
+      "title": {
+        "en": "Weekly ops dashboard",
+        "zh": "周运营仪表盘"
+      },
+      "category": {
+        "slug": "data-operations",
+        "en": "Data & Operations",
+        "zh": "数据与运营"
+      },
+      "target_user": {
+        "en": "operations analyst",
+        "zh": "运营分析师"
+      },
+      "use_case": {
+        "en": "Create a weekly operations dashboard screenshot for an executive update",
+        "zh": "高管周运营更新仪表盘截图"
+      },
+      "deliverable": {
+        "en": "dashboard",
+        "zh": "周运营仪表盘"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 信息密集但有序的仪表盘，含 KPI 卡、趋势线、异常队列和清晰视觉层级。 business-ready image for a operations analyst. Goal: Create a weekly operations dashboard screenshot for an executive update. Deliverable: Weekly ops dashboard. Visual direction: Dense but organized dashboard with KPI cards, trend lines, exception queue and clear visual hierarchy. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为运营分析师生成一张 16:9 的工作场景图片。目标：高管周运营更新仪表盘截图。交付物：周运营仪表盘。视觉方向：信息密集但有序的仪表盘，含 KPI 卡、趋势线、异常队列和清晰视觉层级。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Weekly ops dashboard",
+        "context": "Data & Operations",
+        "composition": "Dense but organized dashboard with KPI cards, trend lines, exception queue and clear visual hierarchy.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "data-operations",
+        "dashboard",
+        "16:9",
+        "operations-analyst"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-026-weekly-ops-dashboard.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 26
+      }
+    },
+    {
+      "id": "gptimg2-work-027",
+      "slug": "process-map-poster",
+      "title": {
+        "en": "Process map poster",
+        "zh": "流程地图海报"
+      },
+      "category": {
+        "slug": "data-operations",
+        "en": "Data & Operations",
+        "zh": "数据与运营"
+      },
+      "target_user": {
+        "en": "operations analyst",
+        "zh": "运营分析师"
+      },
+      "use_case": {
+        "en": "Create a process map poster for order fulfillment",
+        "zh": "订单履约流程地图海报"
+      },
+      "deliverable": {
+        "en": "process map",
+        "zh": "流程地图海报"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 端到端流程地图，含泳道、交接点、瓶颈标记和运营说明。 business-ready image for a operations analyst. Goal: Create a process map poster for order fulfillment. Deliverable: Process map poster. Visual direction: End-to-end process map with swimlanes, handoffs, bottleneck markers and operational notes. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为运营分析师生成一张 16:9 的工作场景图片。目标：订单履约流程地图海报。交付物：流程地图海报。视觉方向：端到端流程地图，含泳道、交接点、瓶颈标记和运营说明。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Process map poster",
+        "context": "Data & Operations",
+        "composition": "End-to-end process map with swimlanes, handoffs, bottleneck markers and operational notes.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "data-operations",
+        "process map",
+        "16:9",
+        "operations-analyst"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-027-process-map-poster.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 27
+      }
+    },
+    {
+      "id": "gptimg2-work-028",
+      "slug": "incident-timeline-visual",
+      "title": {
+        "en": "Incident timeline visual",
+        "zh": "故障时间线视觉"
+      },
+      "category": {
+        "slug": "data-operations",
+        "en": "Data & Operations",
+        "zh": "数据与运营"
+      },
+      "target_user": {
+        "en": "operations analyst",
+        "zh": "运营分析师"
+      },
+      "use_case": {
+        "en": "Create an incident timeline visual for a postmortem report",
+        "zh": "复盘报告故障时间线视觉"
+      },
+      "deliverable": {
+        "en": "postmortem",
+        "zh": "故障时间线视觉"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 中性复盘时间线，含发现、响应、缓解、根因和后续动作。 business-ready image for a operations analyst. Goal: Create an incident timeline visual for a postmortem report. Deliverable: Incident timeline visual. Visual direction: Neutral postmortem timeline with detection, response, mitigation, root cause and follow-up actions. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为运营分析师生成一张 16:9 的工作场景图片。目标：复盘报告故障时间线视觉。交付物：故障时间线视觉。视觉方向：中性复盘时间线，含发现、响应、缓解、根因和后续动作。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Incident timeline visual",
+        "context": "Data & Operations",
+        "composition": "Neutral postmortem timeline with detection, response, mitigation, root cause and follow-up actions.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "data-operations",
+        "postmortem",
+        "16:9",
+        "operations-analyst"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-028-incident-timeline-visual.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 28
+      }
+    },
+    {
+      "id": "gptimg2-work-029",
+      "slug": "inventory-planning-board",
+      "title": {
+        "en": "Inventory planning board",
+        "zh": "库存规划看板"
+      },
+      "category": {
+        "slug": "data-operations",
+        "en": "Data & Operations",
+        "zh": "数据与运营"
+      },
+      "target_user": {
+        "en": "operations analyst",
+        "zh": "运营分析师"
+      },
+      "use_case": {
+        "en": "Create an inventory planning board for a retail operations team",
+        "zh": "零售运营团队库存规划看板"
+      },
+      "deliverable": {
+        "en": "inventory",
+        "zh": "库存规划看板"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 规划看板，含预测条、缺货风险标签、补货窗口和门店区域分组。 business-ready image for a operations analyst. Goal: Create an inventory planning board for a retail operations team. Deliverable: Inventory planning board. Visual direction: Planning board with forecast bars, stockout risk labels, reorder windows and store-region grouping. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为运营分析师生成一张 16:9 的工作场景图片。目标：零售运营团队库存规划看板。交付物：库存规划看板。视觉方向：规划看板，含预测条、缺货风险标签、补货窗口和门店区域分组。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Inventory planning board",
+        "context": "Data & Operations",
+        "composition": "Planning board with forecast bars, stockout risk labels, reorder windows and store-region grouping.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "data-operations",
+        "inventory",
+        "16:9",
+        "operations-analyst"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-029-inventory-planning-board.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 29
+      }
+    },
+    {
+      "id": "gptimg2-work-030",
+      "slug": "automation-opportunity-matrix",
+      "title": {
+        "en": "Automation opportunity matrix",
+        "zh": "自动化机会矩阵"
+      },
+      "category": {
+        "slug": "data-operations",
+        "en": "Data & Operations",
+        "zh": "数据与运营"
+      },
+      "target_user": {
+        "en": "operations analyst",
+        "zh": "运营分析师"
+      },
+      "use_case": {
+        "en": "Create an automation opportunity matrix for back-office workflows",
+        "zh": "后台流程自动化机会矩阵"
+      },
+      "deliverable": {
+        "en": "matrix",
+        "zh": "自动化机会矩阵"
+      },
+      "format": {
+        "aspect_ratio": "3:2",
+        "recommended_size": "1536x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 二维矩阵展示投入与影响，含流程卡、信心标签和下一步行动栏。 business-ready image for a operations analyst. Goal: Create an automation opportunity matrix for back-office workflows. Deliverable: Automation opportunity matrix. Visual direction: 2x2 matrix showing effort vs impact, with workflow cards, confidence tags and next-action lane. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为运营分析师生成一张 3:2 的工作场景图片。目标：后台流程自动化机会矩阵。交付物：自动化机会矩阵。视觉方向：二维矩阵展示投入与影响，含流程卡、信心标签和下一步行动栏。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Automation opportunity matrix",
+        "context": "Data & Operations",
+        "composition": "2x2 matrix showing effort vs impact, with workflow cards, confidence tags and next-action lane.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "data-operations",
+        "matrix",
+        "3:2",
+        "operations-analyst"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-030-automation-opportunity-matrix.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 30
+      }
+    },
+    {
+      "id": "gptimg2-work-031",
+      "slug": "new-hire-onboarding-map",
+      "title": {
+        "en": "New hire onboarding map",
+        "zh": "新人入职地图"
+      },
+      "category": {
+        "slug": "hr-internal-comms",
+        "en": "HR & Internal Comms",
+        "zh": "HR 与内部沟通"
+      },
+      "target_user": {
+        "en": "people ops manager",
+        "zh": "组织发展负责人"
+      },
+      "use_case": {
+        "en": "Create a new hire onboarding journey map",
+        "zh": "新人入职旅程地图"
+      },
+      "deliverable": {
+        "en": "onboarding",
+        "zh": "新人入职地图"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 温暖专业的旅程地图，含首日、首周、首月里程碑和资源卡。 business-ready image for a people ops manager. Goal: Create a new hire onboarding journey map. Deliverable: New hire onboarding map. Visual direction: Warm professional journey map with day-one, week-one, month-one milestones and helpful resource cards. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为组织发展负责人生成一张 16:9 的工作场景图片。目标：新人入职旅程地图。交付物：新人入职地图。视觉方向：温暖专业的旅程地图，含首日、首周、首月里程碑和资源卡。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "New hire onboarding map",
+        "context": "HR & Internal Comms",
+        "composition": "Warm professional journey map with day-one, week-one, month-one milestones and helpful resource cards.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "hr-internal-comms",
+        "onboarding",
+        "16:9",
+        "people-ops-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-031-new-hire-onboarding-map.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 31
+      }
+    },
+    {
+      "id": "gptimg2-work-032",
+      "slug": "benefits-explainer-poster",
+      "title": {
+        "en": "Benefits explainer poster",
+        "zh": "福利说明海报"
+      },
+      "category": {
+        "slug": "hr-internal-comms",
+        "en": "HR & Internal Comms",
+        "zh": "HR 与内部沟通"
+      },
+      "target_user": {
+        "en": "people ops manager",
+        "zh": "组织发展负责人"
+      },
+      "use_case": {
+        "en": "Create an employee benefits explainer poster",
+        "zh": "员工福利说明海报"
+      },
+      "deliverable": {
+        "en": "benefits",
+        "zh": "福利说明海报"
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "recommended_size": "1024x1280",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 干净 HR 海报，含福利类别、白话示例、登记日期和包容性图像。 business-ready image for a people ops manager. Goal: Create an employee benefits explainer poster. Deliverable: Benefits explainer poster. Visual direction: Clean HR poster with benefit categories, plain-language examples, enrollment dates and inclusive imagery. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为组织发展负责人生成一张 4:5 的工作场景图片。目标：员工福利说明海报。交付物：福利说明海报。视觉方向：干净 HR 海报，含福利类别、白话示例、登记日期和包容性图像。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Benefits explainer poster",
+        "context": "HR & Internal Comms",
+        "composition": "Clean HR poster with benefit categories, plain-language examples, enrollment dates and inclusive imagery.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "hr-internal-comms",
+        "benefits",
+        "4:5",
+        "people-ops-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-032-benefits-explainer-poster.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 32
+      }
+    },
+    {
+      "id": "gptimg2-work-033",
+      "slug": "all-hands-announcement-slide",
+      "title": {
+        "en": "All-hands announcement slide",
+        "zh": "全员会公告页"
+      },
+      "category": {
+        "slug": "hr-internal-comms",
+        "en": "HR & Internal Comms",
+        "zh": "HR 与内部沟通"
+      },
+      "target_user": {
+        "en": "people ops manager",
+        "zh": "组织发展负责人"
+      },
+      "use_case": {
+        "en": "Create an all-hands announcement slide for a company operating update",
+        "zh": "公司运营更新全员会公告页"
+      },
+      "deliverable": {
+        "en": "all hands",
+        "zh": "全员会公告页"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 沉稳领导力幻灯片，含标题、三个更新卡、指标条和讲者备注空间。 business-ready image for a people ops manager. Goal: Create an all-hands announcement slide for a company operating update. Deliverable: All-hands announcement slide. Visual direction: Calm leadership slide with headline, three update cards, metric strip and room for speaker notes. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为组织发展负责人生成一张 16:9 的工作场景图片。目标：公司运营更新全员会公告页。交付物：全员会公告页。视觉方向：沉稳领导力幻灯片，含标题、三个更新卡、指标条和讲者备注空间。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "All-hands announcement slide",
+        "context": "HR & Internal Comms",
+        "composition": "Calm leadership slide with headline, three update cards, metric strip and room for speaker notes.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "hr-internal-comms",
+        "all hands",
+        "16:9",
+        "people-ops-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-033-all-hands-announcement-slide.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 33
+      }
+    },
+    {
+      "id": "gptimg2-work-034",
+      "slug": "culture-values-card-set",
+      "title": {
+        "en": "Culture values card set",
+        "zh": "文化价值观卡片组"
+      },
+      "category": {
+        "slug": "hr-internal-comms",
+        "en": "HR & Internal Comms",
+        "zh": "HR 与内部沟通"
+      },
+      "target_user": {
+        "en": "people ops manager",
+        "zh": "组织发展负责人"
+      },
+      "use_case": {
+        "en": "Create a culture values card set for an internal portal",
+        "zh": "内部门户文化价值观卡片组"
+      },
+      "deliverable": {
+        "en": "culture",
+        "zh": "文化价值观卡片组"
+      },
+      "format": {
+        "aspect_ratio": "1:1",
+        "recommended_size": "1024x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 四张价值观卡片，含职场场景、简短行为示例和一致视觉系统。 business-ready image for a people ops manager. Goal: Create a culture values card set for an internal portal. Deliverable: Culture values card set. Visual direction: Set of four values cards with workplace scenes, short behavior examples and a coherent visual system. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为组织发展负责人生成一张 1:1 的工作场景图片。目标：内部门户文化价值观卡片组。交付物：文化价值观卡片组。视觉方向：四张价值观卡片，含职场场景、简短行为示例和一致视觉系统。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Culture values card set",
+        "context": "HR & Internal Comms",
+        "composition": "Set of four values cards with workplace scenes, short behavior examples and a coherent visual system.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "hr-internal-comms",
+        "culture",
+        "1:1",
+        "people-ops-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-034-culture-values-card-set.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 34
+      }
+    },
+    {
+      "id": "gptimg2-work-035",
+      "slug": "policy-update-infographic",
+      "title": {
+        "en": "Policy update infographic",
+        "zh": "制度更新信息图"
+      },
+      "category": {
+        "slug": "hr-internal-comms",
+        "en": "HR & Internal Comms",
+        "zh": "HR 与内部沟通"
+      },
+      "target_user": {
+        "en": "people ops manager",
+        "zh": "组织发展负责人"
+      },
+      "use_case": {
+        "en": "Create a policy update infographic for hybrid work rules",
+        "zh": "混合办公制度更新信息图"
+      },
+      "deliverable": {
+        "en": "policy",
+        "zh": "制度更新信息图"
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "recommended_size": "1024x1280",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 清晰制度信息图，含变化内容、影响人群、生效日期和支持渠道。 business-ready image for a people ops manager. Goal: Create a policy update infographic for hybrid work rules. Deliverable: Policy update infographic. Visual direction: Clear policy infographic with what changed, who is affected, effective date and support channel. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为组织发展负责人生成一张 4:5 的工作场景图片。目标：混合办公制度更新信息图。交付物：制度更新信息图。视觉方向：清晰制度信息图，含变化内容、影响人群、生效日期和支持渠道。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Policy update infographic",
+        "context": "HR & Internal Comms",
+        "composition": "Clear policy infographic with what changed, who is affected, effective date and support channel.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "hr-internal-comms",
+        "policy",
+        "4:5",
+        "people-ops-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-035-policy-update-infographic.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 35
+      }
+    },
+    {
+      "id": "gptimg2-work-036",
+      "slug": "help-center-hero-visual",
+      "title": {
+        "en": "Help center hero visual",
+        "zh": "帮助中心头图"
+      },
+      "category": {
+        "slug": "customer-success-support",
+        "en": "Customer Success & Support",
+        "zh": "客户成功与支持"
+      },
+      "target_user": {
+        "en": "customer success manager",
+        "zh": "客户成功经理"
+      },
+      "use_case": {
+        "en": "Create a help center hero visual for a SaaS knowledge base",
+        "zh": "SaaS 知识库帮助中心头图"
+      },
+      "deliverable": {
+        "en": "help center",
+        "zh": "帮助中心头图"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 搜索优先的支持头图，含文章卡、产品截图、友好服务暗示，避免通用耳机客服套路。 business-ready image for a customer success manager. Goal: Create a help center hero visual for a SaaS knowledge base. Deliverable: Help center hero visual. Visual direction: Search-first support hero with article cards, product screenshots, friendly service cues and no generic headset cliché. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为客户成功经理生成一张 16:9 的工作场景图片。目标：SaaS 知识库帮助中心头图。交付物：帮助中心头图。视觉方向：搜索优先的支持头图，含文章卡、产品截图、友好服务暗示，避免通用耳机客服套路。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Help center hero visual",
+        "context": "Customer Success & Support",
+        "composition": "Search-first support hero with article cards, product screenshots, friendly service cues and no generic headset cliché.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "customer-success-support",
+        "help center",
+        "16:9",
+        "customer-success-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-036-help-center-hero-visual.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 36
+      }
+    },
+    {
+      "id": "gptimg2-work-037",
+      "slug": "feature-adoption-email-header",
+      "title": {
+        "en": "Feature adoption email header",
+        "zh": "功能采纳邮件头图"
+      },
+      "category": {
+        "slug": "customer-success-support",
+        "en": "Customer Success & Support",
+        "zh": "客户成功与支持"
+      },
+      "target_user": {
+        "en": "customer success manager",
+        "zh": "客户成功经理"
+      },
+      "use_case": {
+        "en": "Create an email header that encourages users to try a newly released feature",
+        "zh": "鼓励用户尝试新功能的邮件头图"
+      },
+      "deliverable": {
+        "en": "email",
+        "zh": "功能采纳邮件头图"
+      },
+      "format": {
+        "aspect_ratio": "3:2",
+        "recommended_size": "1536x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 适合邮件的头图，含简洁功能可视化、前后行动路径和微妙成功状态。 business-ready image for a customer success manager. Goal: Create an email header that encourages users to try a newly released feature. Deliverable: Feature adoption email header. Visual direction: Email-safe header with concise feature visualization, before-after action path and subtle success state. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为客户成功经理生成一张 3:2 的工作场景图片。目标：鼓励用户尝试新功能的邮件头图。交付物：功能采纳邮件头图。视觉方向：适合邮件的头图，含简洁功能可视化、前后行动路径和微妙成功状态。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Feature adoption email header",
+        "context": "Customer Success & Support",
+        "composition": "Email-safe header with concise feature visualization, before-after action path and subtle success state.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "customer-success-support",
+        "email",
+        "3:2",
+        "customer-success-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-037-feature-adoption-email-header.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 37
+      }
+    },
+    {
+      "id": "gptimg2-work-038",
+      "slug": "support-escalation-flow",
+      "title": {
+        "en": "Support escalation flow",
+        "zh": "支持升级流程图"
+      },
+      "category": {
+        "slug": "customer-success-support",
+        "en": "Customer Success & Support",
+        "zh": "客户成功与支持"
+      },
+      "target_user": {
+        "en": "customer success manager",
+        "zh": "客户成功经理"
+      },
+      "use_case": {
+        "en": "Create a support escalation flow diagram for enterprise customers",
+        "zh": "企业客户支持升级流程图"
+      },
+      "deliverable": {
+        "en": "support flow",
+        "zh": "支持升级流程图"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 分层流程图，含严重级别、响应窗口、责任箭头和客户友好语言。 business-ready image for a customer success manager. Goal: Create a support escalation flow diagram for enterprise customers. Deliverable: Support escalation flow. Visual direction: Tiered flow diagram with severity labels, response windows, ownership arrows and customer-friendly language. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为客户成功经理生成一张 16:9 的工作场景图片。目标：企业客户支持升级流程图。交付物：支持升级流程图。视觉方向：分层流程图，含严重级别、响应窗口、责任箭头和客户友好语言。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Support escalation flow",
+        "context": "Customer Success & Support",
+        "composition": "Tiered flow diagram with severity labels, response windows, ownership arrows and customer-friendly language.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "customer-success-support",
+        "support flow",
+        "16:9",
+        "customer-success-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-038-support-escalation-flow.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 38
+      }
+    },
+    {
+      "id": "gptimg2-work-039",
+      "slug": "customer-health-score-card",
+      "title": {
+        "en": "Customer health score card",
+        "zh": "客户健康评分卡"
+      },
+      "category": {
+        "slug": "customer-success-support",
+        "en": "Customer Success & Support",
+        "zh": "客户成功与支持"
+      },
+      "target_user": {
+        "en": "customer success manager",
+        "zh": "客户成功经理"
+      },
+      "use_case": {
+        "en": "Create a customer health score card preview for a CSM dashboard",
+        "zh": "客户成功仪表盘健康评分卡预览"
+      },
+      "deliverable": {
+        "en": "CSM dashboard",
+        "zh": "客户健康评分卡"
+      },
+      "format": {
+        "aspect_ratio": "1:1",
+        "recommended_size": "1024x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 紧凑仪表盘卡，含评分、趋势、风险原因、建议动作和账户上下文。 business-ready image for a customer success manager. Goal: Create a customer health score card preview for a CSM dashboard. Deliverable: Customer health score card. Visual direction: Compact dashboard card with score, trend, risk reasons, recommended action and account context. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为客户成功经理生成一张 1:1 的工作场景图片。目标：客户成功仪表盘健康评分卡预览。交付物：客户健康评分卡。视觉方向：紧凑仪表盘卡，含评分、趋势、风险原因、建议动作和账户上下文。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Customer health score card",
+        "context": "Customer Success & Support",
+        "composition": "Compact dashboard card with score, trend, risk reasons, recommended action and account context.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "customer-success-support",
+        "CSM dashboard",
+        "1:1",
+        "customer-success-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-039-customer-health-score-card.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 39
+      }
+    },
+    {
+      "id": "gptimg2-work-040",
+      "slug": "implementation-checklist",
+      "title": {
+        "en": "Implementation checklist",
+        "zh": "实施清单"
+      },
+      "category": {
+        "slug": "customer-success-support",
+        "en": "Customer Success & Support",
+        "zh": "客户成功与支持"
+      },
+      "target_user": {
+        "en": "customer success manager",
+        "zh": "客户成功经理"
+      },
+      "use_case": {
+        "en": "Create an implementation checklist visual for onboarding enterprise customers",
+        "zh": "企业客户上线实施清单视觉"
+      },
+      "deliverable": {
+        "en": "implementation",
+        "zh": "实施清单"
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "recommended_size": "1024x1280",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 清单视觉，含阶段、负责人、依赖、完成状态和可靠项目管理语气。 business-ready image for a customer success manager. Goal: Create an implementation checklist visual for onboarding enterprise customers. Deliverable: Implementation checklist. Visual direction: Checklist visual with phases, owners, dependencies, completed states and a confident project-management tone. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为客户成功经理生成一张 4:5 的工作场景图片。目标：企业客户上线实施清单视觉。交付物：实施清单。视觉方向：清单视觉，含阶段、负责人、依赖、完成状态和可靠项目管理语气。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Implementation checklist",
+        "context": "Customer Success & Support",
+        "composition": "Checklist visual with phases, owners, dependencies, completed states and a confident project-management tone.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "customer-success-support",
+        "implementation",
+        "4:5",
+        "customer-success-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-040-implementation-checklist.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 40
+      }
+    },
+    {
+      "id": "gptimg2-work-041",
+      "slug": "webinar-registration-banner",
+      "title": {
+        "en": "Webinar registration banner",
+        "zh": "线上研讨会报名横幅"
+      },
+      "category": {
+        "slug": "events-community",
+        "en": "Events & Community",
+        "zh": "活动与社群"
+      },
+      "target_user": {
+        "en": "community manager",
+        "zh": "社群运营"
+      },
+      "use_case": {
+        "en": "Create a webinar registration banner for a practical AI workflow session",
+        "zh": "实用 AI 工作流线上研讨会报名横幅"
+      },
+      "deliverable": {
+        "en": "webinar",
+        "zh": "线上研讨会报名横幅"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 专业活动横幅，含嘉宾头像位、主题阶梯、日期徽章和精致但不浮夸的科技风。 business-ready image for a community manager. Goal: Create a webinar registration banner for a practical AI workflow session. Deliverable: Webinar registration banner. Visual direction: Professional event banner with speaker tiles, topic ladder, date badge and polished but not flashy tech style. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为社群运营生成一张 16:9 的工作场景图片。目标：实用 AI 工作流线上研讨会报名横幅。交付物：线上研讨会报名横幅。视觉方向：专业活动横幅，含嘉宾头像位、主题阶梯、日期徽章和精致但不浮夸的科技风。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Webinar registration banner",
+        "context": "Events & Community",
+        "composition": "Professional event banner with speaker tiles, topic ladder, date badge and polished but not flashy tech style.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "events-community",
+        "webinar",
+        "16:9",
+        "community-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-041-webinar-registration-banner.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 41
+      }
+    },
+    {
+      "id": "gptimg2-work-042",
+      "slug": "community-challenge-poster",
+      "title": {
+        "en": "Community challenge poster",
+        "zh": "社群挑战海报"
+      },
+      "category": {
+        "slug": "events-community",
+        "en": "Events & Community",
+        "zh": "活动与社群"
+      },
+      "target_user": {
+        "en": "community manager",
+        "zh": "社群运营"
+      },
+      "use_case": {
+        "en": "Create a community challenge poster for a 7-day product design sprint",
+        "zh": "7 天产品设计冲刺社群挑战海报"
+      },
+      "deliverable": {
+        "en": "challenge",
+        "zh": "社群挑战海报"
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "recommended_size": "1024x1280",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 有活力但聚焦工作的海报，含每日挑战卡、提交截止和成果预览。 business-ready image for a community manager. Goal: Create a community challenge poster for a 7-day product design sprint. Deliverable: Community challenge poster. Visual direction: Energetic but work-focused poster with day-by-day challenge cards, submission deadline and outcome preview. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为社群运营生成一张 4:5 的工作场景图片。目标：7 天产品设计冲刺社群挑战海报。交付物：社群挑战海报。视觉方向：有活力但聚焦工作的海报，含每日挑战卡、提交截止和成果预览。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Community challenge poster",
+        "context": "Events & Community",
+        "composition": "Energetic but work-focused poster with day-by-day challenge cards, submission deadline and outcome preview.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "events-community",
+        "challenge",
+        "4:5",
+        "community-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-042-community-challenge-poster.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 42
+      }
+    },
+    {
+      "id": "gptimg2-work-043",
+      "slug": "meetup-recap-cover",
+      "title": {
+        "en": "Meetup recap cover",
+        "zh": "线下聚会回顾封面"
+      },
+      "category": {
+        "slug": "events-community",
+        "en": "Events & Community",
+        "zh": "活动与社群"
+      },
+      "target_user": {
+        "en": "community manager",
+        "zh": "社群运营"
+      },
+      "use_case": {
+        "en": "Create a meetup recap cover for a founder community",
+        "zh": "创始人社群线下聚会回顾封面"
+      },
+      "deliverable": {
+        "en": "recap",
+        "zh": "线下聚会回顾封面"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 编辑式照片拼贴封面，含演讲金句块、参会者快照和社群识别。 business-ready image for a community manager. Goal: Create a meetup recap cover for a founder community. Deliverable: Meetup recap cover. Visual direction: Editorial photo-collage style cover with speaker quote block, attendee snapshots and community identity. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为社群运营生成一张 16:9 的工作场景图片。目标：创始人社群线下聚会回顾封面。交付物：线下聚会回顾封面。视觉方向：编辑式照片拼贴封面，含演讲金句块、参会者快照和社群识别。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Meetup recap cover",
+        "context": "Events & Community",
+        "composition": "Editorial photo-collage style cover with speaker quote block, attendee snapshots and community identity.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "events-community",
+        "recap",
+        "16:9",
+        "community-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-043-meetup-recap-cover.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 43
+      }
+    },
+    {
+      "id": "gptimg2-work-044",
+      "slug": "hackathon-project-board",
+      "title": {
+        "en": "Hackathon project board",
+        "zh": "黑客松项目看板"
+      },
+      "category": {
+        "slug": "events-community",
+        "en": "Events & Community",
+        "zh": "活动与社群"
+      },
+      "target_user": {
+        "en": "community manager",
+        "zh": "社群运营"
+      },
+      "use_case": {
+        "en": "Create a hackathon project board preview for team submissions",
+        "zh": "团队提交黑客松项目看板预览"
+      },
+      "deliverable": {
+        "en": "hackathon",
+        "zh": "黑客松项目看板"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 项目卡网格，含类别标签、进度状态、演示缩略图和评委备注区域。 business-ready image for a community manager. Goal: Create a hackathon project board preview for team submissions. Deliverable: Hackathon project board. Visual direction: Grid of project cards with category tags, progress status, demo thumbnails and judge notes area. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为社群运营生成一张 16:9 的工作场景图片。目标：团队提交黑客松项目看板预览。交付物：黑客松项目看板。视觉方向：项目卡网格，含类别标签、进度状态、演示缩略图和评委备注区域。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Hackathon project board",
+        "context": "Events & Community",
+        "composition": "Grid of project cards with category tags, progress status, demo thumbnails and judge notes area.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "events-community",
+        "hackathon",
+        "16:9",
+        "community-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-044-hackathon-project-board.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 44
+      }
+    },
+    {
+      "id": "gptimg2-work-045",
+      "slug": "partner-announcement-visual",
+      "title": {
+        "en": "Partner announcement visual",
+        "zh": "合作伙伴公告视觉"
+      },
+      "category": {
+        "slug": "events-community",
+        "en": "Events & Community",
+        "zh": "活动与社群"
+      },
+      "target_user": {
+        "en": "community manager",
+        "zh": "社群运营"
+      },
+      "use_case": {
+        "en": "Create a partner announcement visual for two SaaS companies",
+        "zh": "两家 SaaS 公司的合作伙伴公告视觉"
+      },
+      "deliverable": {
+        "en": "partnership",
+        "zh": "合作伙伴公告视觉"
+      },
+      "format": {
+        "aspect_ratio": "3:2",
+        "recommended_size": "1536x1024",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 平衡的联合品牌视觉，含双 logo 区、集成示意、共同价值主张和公告标题。 business-ready image for a community manager. Goal: Create a partner announcement visual for two SaaS companies. Deliverable: Partner announcement visual. Visual direction: Balanced co-brand visual with two logo zones, integration diagram, shared value proposition and announcement headline. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为社群运营生成一张 3:2 的工作场景图片。目标：两家 SaaS 公司的合作伙伴公告视觉。交付物：合作伙伴公告视觉。视觉方向：平衡的联合品牌视觉，含双 logo 区、集成示意、共同价值主张和公告标题。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Partner announcement visual",
+        "context": "Events & Community",
+        "composition": "Balanced co-brand visual with two logo zones, integration diagram, shared value proposition and announcement headline.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "events-community",
+        "partnership",
+        "3:2",
+        "community-manager"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-045-partner-announcement-visual.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 45
+      }
+    },
+    {
+      "id": "gptimg2-work-046",
+      "slug": "market-map-visual",
+      "title": {
+        "en": "Market map visual",
+        "zh": "市场地图视觉"
+      },
+      "category": {
+        "slug": "founder-strategy",
+        "en": "Founder & Strategy",
+        "zh": "创始人与战略"
+      },
+      "target_user": {
+        "en": "founder",
+        "zh": "创始人"
+      },
+      "use_case": {
+        "en": "Create a market map visual for a startup strategy memo",
+        "zh": "创业公司战略备忘录市场地图视觉"
+      },
+      "deliverable": {
+        "en": "market map",
+        "zh": "市场地图视觉"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 干净品类地图，含细分区、空白机会、竞品占位和投资人可读标签。 business-ready image for a founder. Goal: Create a market map visual for a startup strategy memo. Deliverable: Market map visual. Visual direction: Clean category map with segments, whitespace opportunity, competitor placeholders and investor-readable labels. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为创始人生成一张 16:9 的工作场景图片。目标：创业公司战略备忘录市场地图视觉。交付物：市场地图视觉。视觉方向：干净品类地图，含细分区、空白机会、竞品占位和投资人可读标签。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Market map visual",
+        "context": "Founder & Strategy",
+        "composition": "Clean category map with segments, whitespace opportunity, competitor placeholders and investor-readable labels.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "founder-strategy",
+        "market map",
+        "16:9",
+        "founder"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-046-market-map-visual.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 46
+      }
+    },
+    {
+      "id": "gptimg2-work-047",
+      "slug": "pricing-page-concept",
+      "title": {
+        "en": "Pricing page concept",
+        "zh": "定价页概念图"
+      },
+      "category": {
+        "slug": "founder-strategy",
+        "en": "Founder & Strategy",
+        "zh": "创始人与战略"
+      },
+      "target_user": {
+        "en": "founder",
+        "zh": "创始人"
+      },
+      "use_case": {
+        "en": "Create a pricing page concept visual for a three-tier SaaS plan",
+        "zh": "三档 SaaS 方案定价页概念图"
+      },
+      "deliverable": {
+        "en": "pricing",
+        "zh": "定价页概念图"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 网站截图式定价布局，含三档方案、用量说明、信任条和清晰推荐方案。 business-ready image for a founder. Goal: Create a pricing page concept visual for a three-tier SaaS plan. Deliverable: Pricing page concept. Visual direction: Website screenshot-style pricing layout with three plans, usage notes, trust strip and clear recommended plan. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为创始人生成一张 16:9 的工作场景图片。目标：三档 SaaS 方案定价页概念图。交付物：定价页概念图。视觉方向：网站截图式定价布局，含三档方案、用量说明、信任条和清晰推荐方案。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Pricing page concept",
+        "context": "Founder & Strategy",
+        "composition": "Website screenshot-style pricing layout with three plans, usage notes, trust strip and clear recommended plan.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "founder-strategy",
+        "pricing",
+        "16:9",
+        "founder"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-047-pricing-page-concept.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 47
+      }
+    },
+    {
+      "id": "gptimg2-work-048",
+      "slug": "product-roadmap-poster",
+      "title": {
+        "en": "Product roadmap poster",
+        "zh": "产品路线图海报"
+      },
+      "category": {
+        "slug": "founder-strategy",
+        "en": "Founder & Strategy",
+        "zh": "创始人与战略"
+      },
+      "target_user": {
+        "en": "founder",
+        "zh": "创始人"
+      },
+      "use_case": {
+        "en": "Create a product roadmap poster for the next two quarters",
+        "zh": "未来两个季度产品路线图海报"
+      },
+      "deliverable": {
+        "en": "roadmap",
+        "zh": "产品路线图海报"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 路线图视觉，含 now-next-later 泳道、主题标签、依赖关系和客户价值标注。 business-ready image for a founder. Goal: Create a product roadmap poster for the next two quarters. Deliverable: Product roadmap poster. Visual direction: Roadmap visual with now-next-later lanes, theme tags, dependencies and customer-value annotations. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为创始人生成一张 16:9 的工作场景图片。目标：未来两个季度产品路线图海报。交付物：产品路线图海报。视觉方向：路线图视觉，含 now-next-later 泳道、主题标签、依赖关系和客户价值标注。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Product roadmap poster",
+        "context": "Founder & Strategy",
+        "composition": "Roadmap visual with now-next-later lanes, theme tags, dependencies and customer-value annotations.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "founder-strategy",
+        "roadmap",
+        "16:9",
+        "founder"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-048-product-roadmap-poster.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 48
+      }
+    },
+    {
+      "id": "gptimg2-work-049",
+      "slug": "executive-memo-cover",
+      "title": {
+        "en": "Executive memo cover",
+        "zh": "高管备忘录封面"
+      },
+      "category": {
+        "slug": "founder-strategy",
+        "en": "Founder & Strategy",
+        "zh": "创始人与战略"
+      },
+      "target_user": {
+        "en": "founder",
+        "zh": "创始人"
+      },
+      "use_case": {
+        "en": "Create an executive memo cover about entering a new market",
+        "zh": "进入新市场的高管备忘录封面"
+      },
+      "deliverable": {
+        "en": "memo",
+        "zh": "高管备忘录封面"
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "recommended_size": "1024x1280",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 严肃编辑式备忘录封面，含市场信号拼贴、风险机会平衡和克制字体。 business-ready image for a founder. Goal: Create an executive memo cover about entering a new market. Deliverable: Executive memo cover. Visual direction: Serious editorial memo cover with market signal collage, risk/opportunity balance and restrained typography. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为创始人生成一张 4:5 的工作场景图片。目标：进入新市场的高管备忘录封面。交付物：高管备忘录封面。视觉方向：严肃编辑式备忘录封面，含市场信号拼贴、风险机会平衡和克制字体。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Executive memo cover",
+        "context": "Founder & Strategy",
+        "composition": "Serious editorial memo cover with market signal collage, risk/opportunity balance and restrained typography.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "founder-strategy",
+        "memo",
+        "4:5",
+        "founder"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-049-executive-memo-cover.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 49
+      }
+    },
+    {
+      "id": "gptimg2-work-050",
+      "slug": "operating-model-diagram",
+      "title": {
+        "en": "Operating model diagram",
+        "zh": "经营模型图"
+      },
+      "category": {
+        "slug": "founder-strategy",
+        "en": "Founder & Strategy",
+        "zh": "创始人与战略"
+      },
+      "target_user": {
+        "en": "founder",
+        "zh": "创始人"
+      },
+      "use_case": {
+        "en": "Create an operating model diagram for an AI-native service business",
+        "zh": "AI 原生服务业务经营模型图"
+      },
+      "deliverable": {
+        "en": "operating model",
+        "zh": "经营模型图"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 战略系统图，展示获客、交付、自动化层、质量循环和利润飞轮。 business-ready image for a founder. Goal: Create an operating model diagram for an AI-native service business. Deliverable: Operating model diagram. Visual direction: Strategic systems diagram showing acquisition, delivery, automation layer, quality loop and margin flywheel. Use precise layout language, keep text short and legible, show realistic work context, include enough negative space for website cropping, avoid generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, and exaggerated claims.",
+        "zh": "为创始人生成一张 16:9 的工作场景图片。目标：AI 原生服务业务经营模型图。交付物：经营模型图。视觉方向：战略系统图，展示获客、交付、自动化层、质量循环和利润飞轮。。请使用明确的版式语言，文字短且清晰可读，呈现真实工作语境，保留足够留白方便网站裁切；避免通用图库式假笑、奇幻元素、名人肖像、受版权保护品牌、乱码文字、杂乱构图、畸形手部和夸大承诺。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Operating model diagram",
+        "context": "Founder & Strategy",
+        "composition": "Strategic systems diagram showing acquisition, delivery, automation layer, quality loop and margin flywheel.",
+        "constraints": [
+          "short readable text",
+          "realistic work context",
+          "clear hierarchy",
+          "website-safe crop",
+          "no copied brands or real public figures"
+        ],
+        "negative": "generic stock-photo smiles, fantasy elements, celebrity likenesses, copyrighted brands, unreadable text, clutter, warped hands, exaggerated claims"
+      },
+      "tags": [
+        "founder-strategy",
+        "operating model",
+        "16:9",
+        "founder"
+      ],
+      "source_reference_ids": [
+        "openai-model-doc",
+        "openai-images-20",
+        "evolink-awesome",
+        "zerolu-awesome",
+        "creativebloq-x-discussion",
+        "reddit-field-guide"
+      ],
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-050-operating-model-diagram.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 50
+      }
+    }
+  ],
+  "repository": {
+    "recommended_name": "awesome-gpt-image-2-work-prompts",
+    "description": "50 bilingual GPT Image 2 prompts with JSON data and generated examples for practical workplace visuals.",
+    "topics": [
+      "gpt-image-2",
+      "chatgpt-images",
+      "ai-image-prompts",
+      "prompt-library",
+      "prompt-dataset",
+      "bilingual-prompts",
+      "business-prompts",
+      "generative-ai"
+    ]
+  }
+}

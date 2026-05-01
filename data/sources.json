@@ -1,0 +1,89 @@
+{
+  "updated_at": "2026-05-01T08:27:07.345Z",
+  "sources": [
+    {
+      "id": "openai-model-doc",
+      "type": "official",
+      "title": "GPT Image 2 Model | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
+      "used_for": "Model naming and capability boundary."
+    },
+    {
+      "id": "openai-image-guide",
+      "type": "official",
+      "title": "Image generation guide | OpenAI API",
+      "url": "https://platform.openai.com/docs/guides/images/image-generation",
+      "used_for": "Image generation workflow, size vocabulary, generation/editing distinction."
+    },
+    {
+      "id": "openai-images-20",
+      "type": "official",
+      "title": "Introducing ChatGPT Images 2.0 | OpenAI",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+      "used_for": "Consumer product framing and emphasis on reasoning, layouts and text rendering."
+    },
+    {
+      "id": "openai-safety-card",
+      "type": "official",
+      "title": "ChatGPT Images 2.0 System Card",
+      "url": "https://deploymentsafety.openai.com/chatgpt-images-2-0/",
+      "used_for": "Safety and provenance context for realistic image generation."
+    },
+    {
+      "id": "evolink-awesome",
+      "type": "community",
+      "title": "EvoLinkAI/awesome-gpt-image-2-prompts",
+      "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+      "used_for": "Category inspiration: posters, UI mockups, character sheets, product visuals."
+    },
+    {
+      "id": "zerolu-awesome",
+      "type": "community",
+      "title": "ZeroLu/awesome-gpt-image",
+      "url": "https://github.com/ZeroLu/awesome-gpt-image/",
+      "used_for": "X-sourced viral prompt repository pattern and attribution model."
+    },
+    {
+      "id": "gpt-image2-dev-library",
+      "type": "community",
+      "title": "AI Prompts Library | GPT Image 2 Prompt Collections",
+      "url": "https://www.gpt-image2.dev/ai-prompts",
+      "used_for": "Prompt library IA and creator-attributed collection format."
+    },
+    {
+      "id": "promptwall",
+      "type": "community",
+      "title": "PromptWall image prompt library",
+      "url": "https://www.chatgptimage.art/",
+      "used_for": "Searchable prompt-card browsing pattern."
+    },
+    {
+      "id": "promptref",
+      "type": "community",
+      "title": "GPT Image 2 Prompt Library | PromptsRef",
+      "url": "https://promptsref.com/library/gpt-image",
+      "used_for": "Category breadth and examples of hot prompts."
+    },
+    {
+      "id": "creativebloq-x-discussion",
+      "type": "press-x",
+      "title": "ChatGPT Images 2.0 design discussion and X examples | Creative Bloq",
+      "url": "https://www.creativebloq.com/design/graphic-design/chatgpt-images-2-0-has-people-declaring-the-death-of-graphic-design-again",
+      "used_for": "X discussion context: sports posters and risk of homogeneous visual styles."
+    },
+    {
+      "id": "reddit-field-guide",
+      "type": "community",
+      "title": "Complete field guide to ChatGPT Images 2.0 discussion",
+      "url": "https://www.reddit.com/r/promptingmagic/comments/1ss8j4e/the_complete_field_guide_to_chatgpt_images_20/",
+      "used_for": "Community advice around explicit constraints and negative phrasing."
+    },
+    {
+      "id": "runware-model-card",
+      "type": "provider-doc",
+      "title": "Runware GPT Image 2 model docs",
+      "url": "https://runware.ai/docs/models/openai-gpt-image-2",
+      "used_for": "Third-party model card description of strengths: text, layouts, packaging, product comps, diagrams."
+    }
+  ]
+}
