@@ -1,10 +1,40 @@
-# Awesome GPT Image 2 Work Prompts
+<p align="center">
+  <img src="assets/readme-hero.svg" alt="Awesome GPT Image 2 Work Prompts banner">
+</p>
 
-50 条面向真实工作场景的 GPT Image 2 双语 Prompt，覆盖营销、电商、销售、品牌系统、运营、教育培训、HR、客户成功、社群活动和创始人战略等类别。
+<h1 align="center">Awesome GPT Image 2 Work Prompts</h1>
+
+<p align="center">
+  <strong>50 条面向真实工作场景的 GPT Image 2 双语 Prompt。</strong><br>
+  覆盖营销、电商、销售、品牌系统、运营、教育培训、HR、客户成功、社群活动和创始人战略。
+</p>
+
+<p align="center">
+  <img alt="Prompts" src="https://img.shields.io/badge/prompts-50-00C2A8?style=for-the-badge">
+  <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%2B%20ZH--CN-FFD166?style=for-the-badge">
+  <img alt="Dataset" src="https://img.shields.io/badge/dataset-JSON-FF6B4A?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-111827?style=for-the-badge">
+</p>
+
+<p align="center">
+  <a href="README.md">English README</a> ·
+  <a href="data/prompts.json">JSON 数据</a> ·
+  <a href="prompts/en">英文 Prompt</a> ·
+  <a href="prompts/zh-CN">中文 Prompt</a>
+</p>
 
 这个仓库适合直接挂到 GitHub，也适合后续接入网站的 Prompts 页面。每条 prompt 都有结构化 JSON、英文 Markdown、中文 Markdown 和一张对应的生成图片。
 
-[English README](README.md)
+## 精选 Prompt 示例
+
+| 预览 | Prompt |
+| --- | --- |
+| <img src="images/gptimg2-work-001-linkedin-launch-carousel-cover.png" width="260" alt="LinkedIn 发布轮播封面"> | **LinkedIn 发布轮播封面**<br><br>生成一张 B2B SaaS 功能发布用的大胆分栏社媒图，包含清晰标题区、产品 UI 片段、三个利益点标签、克制的品牌动势、清晰可读的短文本，并保留适合网站裁切的留白。<br><br>[English](prompts/en/gptimg2-work-001-linkedin-launch-carousel-cover.md) · [中文](prompts/zh-CN/gptimg2-work-001-linkedin-launch-carousel-cover.md) |
+| <img src="images/gptimg2-work-006-premium-product-hero-shot.png" width="260" alt="高端产品主视觉"> | **高端产品主视觉**<br><br>为桌面配件品牌生成一张摄影棚质感的电商主图，展示材质细节、比例关系、包装边缘、两个功能标注、高级光线和干净的产品中心构图。<br><br>[English](prompts/en/gptimg2-work-006-premium-product-hero-shot.md) · [中文](prompts/zh-CN/gptimg2-work-006-premium-product-hero-shot.md) |
+| <img src="images/gptimg2-work-017-roi-calculator-visual.png" width="260" alt="ROI 计算器视觉"> | **ROI 计算器视觉**<br><br>生成一个适合销售页模块的 ROI 计算器视觉，包含输入区、节省结果卡、图表、企业级可信细节、短标签和清晰的信息层级。<br><br>[English](prompts/en/gptimg2-work-017-roi-calculator-visual.md) · [中文](prompts/zh-CN/gptimg2-work-017-roi-calculator-visual.md) |
+| <img src="images/gptimg2-work-026-weekly-ops-dashboard.png" width="260" alt="周运营看板"> | **周运营看板**<br><br>生成一张信息密集但有序的高管周报看板，包含 KPI 卡片、趋势线、异常队列、运营状态指标和清晰视觉层级。<br><br>[English](prompts/en/gptimg2-work-026-weekly-ops-dashboard.md) · [中文](prompts/zh-CN/gptimg2-work-026-weekly-ops-dashboard.md) |
+| <img src="images/gptimg2-work-046-market-map-visual.png" width="260" alt="市场地图视觉"> | **市场地图视觉**<br><br>生成一张创业公司战略备忘录使用的市场地图，包含品类分区、空白机会、竞品占位、投资人可读标签和克制的策略文档视觉风格。<br><br>[English](prompts/en/gptimg2-work-046-market-map-visual.md) · [中文](prompts/zh-CN/gptimg2-work-046-market-map-visual.md) |
+| <img src="images/gptimg2-work-050-operating-model-diagram.png" width="260" alt="运营模型图"> | **运营模型图**<br><br>为 AI-native 服务业务生成一张战略系统图，展示获客、交付、自动化层、质量循环和利润飞轮，并把它们组织成一个连贯的系统视图。<br><br>[English](prompts/en/gptimg2-work-050-operating-model-diagram.md) · [中文](prompts/zh-CN/gptimg2-work-050-operating-model-diagram.md) |
 
 ## 这个仓库有什么
 
@@ -94,6 +124,7 @@ GEO 方面，README 使用了直接回答、清晰分类、明确用途、可复
 ```text
 .
 ├── categories/
+├── assets/
 ├── data/
 │   ├── prompts.json
 │   └── sources.json
@@ -101,9 +132,11 @@ GEO 方面，README 使用了直接回答、清晰分类、明确用途、可复
 ├── prompts/
 │   ├── en/
 │   └── zh-CN/
+├── CONTRIBUTING.md
 ├── LICENSE
 ├── README.md
-└── README.zh-CN.md
+├── README.zh-CN.md
+└── SECURITY.md
 ```
 
 ## 模型命名说明

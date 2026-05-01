@@ -1,10 +1,40 @@
-# Awesome GPT Image 2 Work Prompts
+<p align="center">
+  <img src="assets/readme-hero.svg" alt="Awesome GPT Image 2 Work Prompts banner">
+</p>
 
-50 bilingual GPT Image 2 prompts for practical work visuals: marketing, ecommerce, sales, brand systems, operations, education, HR, customer success, community, and founder strategy.
+<h1 align="center">Awesome GPT Image 2 Work Prompts</h1>
+
+<p align="center">
+  <strong>50 bilingual GPT Image 2 prompts for practical work visuals.</strong><br>
+  Marketing, ecommerce, sales, brand systems, operations, education, HR, customer success, community, and founder strategy.
+</p>
+
+<p align="center">
+  <img alt="Prompts" src="https://img.shields.io/badge/prompts-50-00C2A8?style=for-the-badge">
+  <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%2B%20ZH--CN-FFD166?style=for-the-badge">
+  <img alt="Dataset" src="https://img.shields.io/badge/dataset-JSON-FF6B4A?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-111827?style=for-the-badge">
+</p>
+
+<p align="center">
+  <a href="README.zh-CN.md">中文说明</a> ·
+  <a href="data/prompts.json">JSON dataset</a> ·
+  <a href="prompts/en">English prompts</a> ·
+  <a href="prompts/zh-CN">Chinese prompts</a>
+</p>
 
 This repository is designed for builders who want prompt examples that can be used in real websites, SaaS prompt libraries, content operations, and business design workflows. Each prompt includes a structured JSON record, English and Chinese Markdown versions, and a generated PNG example image.
 
-[中文说明](README.zh-CN.md)
+## Featured Prompt Examples
+
+| Preview | Prompt |
+| --- | --- |
+| <img src="images/gptimg2-work-001-linkedin-launch-carousel-cover.png" width="260" alt="LinkedIn launch carousel cover"> | **LinkedIn launch carousel cover**<br><br>Create a bold split-layout social graphic for a B2B SaaS feature launch, with a clear headline zone, product UI fragments, three benefit chips, restrained brand motion cues, readable text, and enough negative space for website cropping.<br><br>[English](prompts/en/gptimg2-work-001-linkedin-launch-carousel-cover.md) · [中文](prompts/zh-CN/gptimg2-work-001-linkedin-launch-carousel-cover.md) |
+| <img src="images/gptimg2-work-006-premium-product-hero-shot.png" width="260" alt="Premium product hero shot"> | **Premium product hero shot**<br><br>Create a studio-quality ecommerce hero image for a desk accessory brand, showing material detail, scale, packaging edges, two functional callouts, premium lighting, and a clean product-focused composition.<br><br>[English](prompts/en/gptimg2-work-006-premium-product-hero-shot.md) · [中文](prompts/zh-CN/gptimg2-work-006-premium-product-hero-shot.md) |
+| <img src="images/gptimg2-work-017-roi-calculator-visual.png" width="260" alt="ROI calculator visual"> | **ROI calculator visual**<br><br>Create a dashboard-style ROI calculator visual with input fields, savings result cards, charts, trust-building enterprise details, short labels, and a layout that works as a sales page module.<br><br>[English](prompts/en/gptimg2-work-017-roi-calculator-visual.md) · [中文](prompts/zh-CN/gptimg2-work-017-roi-calculator-visual.md) |
+| <img src="images/gptimg2-work-026-weekly-ops-dashboard.png" width="260" alt="Weekly operations dashboard"> | **Weekly ops dashboard**<br><br>Create an information-dense but orderly executive dashboard with KPI cards, trend lines, anomaly queues, operational status indicators, and clear hierarchy for a weekly business update.<br><br>[English](prompts/en/gptimg2-work-026-weekly-ops-dashboard.md) · [中文](prompts/zh-CN/gptimg2-work-026-weekly-ops-dashboard.md) |
+| <img src="images/gptimg2-work-046-market-map-visual.png" width="260" alt="Market map visual"> | **Market map visual**<br><br>Create a clean startup market map with category segments, whitespace opportunities, competitor placeholders, investor-readable labels, and a restrained strategy-memo visual style.<br><br>[English](prompts/en/gptimg2-work-046-market-map-visual.md) · [中文](prompts/zh-CN/gptimg2-work-046-market-map-visual.md) |
+| <img src="images/gptimg2-work-050-operating-model-diagram.png" width="260" alt="Operating model diagram"> | **Operating model diagram**<br><br>Create a strategic operating model diagram for an AI-native service business, showing acquisition, delivery, automation layers, quality loops, and a profit flywheel in one coherent system view.<br><br>[English](prompts/en/gptimg2-work-050-operating-model-diagram.md) · [中文](prompts/zh-CN/gptimg2-work-050-operating-model-diagram.md) |
 
 ## What This Repository Provides
 
@@ -94,6 +124,7 @@ For generative engine optimization, the content is written in an answer-first st
 ```text
 .
 ├── categories/
+├── assets/
 ├── data/
 │   ├── prompts.json
 │   └── sources.json
@@ -101,9 +132,11 @@ For generative engine optimization, the content is written in an answer-first st
 ├── prompts/
 │   ├── en/
 │   └── zh-CN/
+├── CONTRIBUTING.md
 ├── LICENSE
 ├── README.md
-└── README.zh-CN.md
+├── README.zh-CN.md
+└── SECURITY.md
 ```
 
 ## Model Naming
