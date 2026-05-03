@@ -7,3 +7,5 @@ Target user: customer success manager / 客户成功经理
 - gptimg2-work-038: Support escalation flow / 支持升级流程图
 - gptimg2-work-039: Customer health score card / 客户健康评分卡
 - gptimg2-work-040: Implementation checklist / 实施清单
+- gptimg2-work-065: Customer implementation journey map / 客户实施旅程图
+- gptimg2-work-066: Renewal value recap QBR / 续约价值回顾 QBR

@@ -7,3 +7,5 @@ Target user: growth marketer / 增长营销人员
 - gptimg2-work-003: Newsletter sponsorship banner / Newsletter 赞助横幅
 - gptimg2-work-004: App store feature graphic / 应用商店特色图
 - gptimg2-work-005: Retargeting ad creative / 再营销广告素材
+- gptimg2-work-051: Competitive positioning ad matrix / 竞品定位广告矩阵
+- gptimg2-work-052: Lifecycle email campaign hero / 生命周期邮件活动主视觉

@@ -5,12 +5,12 @@
 <h1 align="center">Awesome GPT Image 2 Work Prompts</h1>
 
 <p align="center">
-  <strong>50 bilingual GPT Image 2 prompts for practical work visuals.</strong><br>
+  <strong>70 bilingual GPT Image 2 prompts for practical work visuals.</strong><br>
   Marketing, ecommerce, sales, brand systems, operations, education, HR, customer success, community, and founder strategy.
 </p>
 
 <p align="center">
-  <img alt="Prompts" src="https://img.shields.io/badge/prompts-50-00C2A8?style=for-the-badge">
+  <img alt="Prompts" src="https://img.shields.io/badge/prompts-70-00C2A8?style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%2B%20ZH--CN-FFD166?style=for-the-badge">
   <img alt="Dataset" src="https://img.shields.io/badge/dataset-JSON-FF6B4A?style=for-the-badge">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-111827?style=for-the-badge">
@@ -36,13 +36,22 @@ This repository is designed for builders who want prompt examples that can be us
 | <img src="images/gptimg2-work-046-market-map-visual.png" width="260" alt="Market map visual"> | **Market map visual**<br><br>Create a clean startup market map with category segments, whitespace opportunities, competitor placeholders, investor-readable labels, and a restrained strategy-memo visual style.<br><br>[English](prompts/en/gptimg2-work-046-market-map-visual.md) · [中文](prompts/zh-CN/gptimg2-work-046-market-map-visual.md) |
 | <img src="images/gptimg2-work-050-operating-model-diagram.png" width="260" alt="Operating model diagram"> | **Operating model diagram**<br><br>Create a strategic operating model diagram for an AI-native service business, showing acquisition, delivery, automation layers, quality loops, and a profit flywheel in one coherent system view.<br><br>[English](prompts/en/gptimg2-work-050-operating-model-diagram.md) · [中文](prompts/zh-CN/gptimg2-work-050-operating-model-diagram.md) |
 
+## Latest Additions
+
+| Preview | Prompt |
+| --- | --- |
+| <img src="images/gptimg2-work-051-competitive-positioning-ad-matrix.png" width="260" alt="Competitive positioning ad matrix"> | **Competitive positioning ad matrix**<br><br>A two-axis B2B SaaS positioning visual with proof chips, competitor-neutral placeholders, product zone, dashboard fragments, and CTA strip.<br><br>[English](prompts/en/gptimg2-work-051-competitive-positioning-ad-matrix.md) · [中文](prompts/zh-CN/gptimg2-work-051-competitive-positioning-ad-matrix.md) |
+| <img src="images/gptimg2-work-058-sales-objection-battlecard.png" width="260" alt="Sales objection-handling battlecard"> | **Sales objection-handling battlecard**<br><br>A practical sales enablement card covering budget, timing, need, and competition objections with response framing and discovery questions.<br><br>[English](prompts/en/gptimg2-work-058-sales-objection-battlecard.md) · [中文](prompts/zh-CN/gptimg2-work-058-sales-objection-battlecard.md) |
+| <img src="images/gptimg2-work-061-kpi-anomaly-root-cause-map.png" width="260" alt="KPI anomaly root-cause map"> | **KPI anomaly root-cause map**<br><br>An executive-ready diagnostic map linking a KPI drop to traffic, conversion, fulfillment, support, and latency investigation branches.<br><br>[English](prompts/en/gptimg2-work-061-kpi-anomaly-root-cause-map.md) · [中文](prompts/zh-CN/gptimg2-work-061-kpi-anomaly-root-cause-map.md) |
+| <img src="images/gptimg2-work-069-unit-economics-founder-dashboard.png" width="260" alt="Unit economics founder dashboard"> | **Unit economics founder dashboard**<br><br>An investor-ready operating dashboard for CAC, payback, margin bridge, retention, expansion revenue, churn reasons, and scenario levers.<br><br>[English](prompts/en/gptimg2-work-069-unit-economics-founder-dashboard.md) · [中文](prompts/zh-CN/gptimg2-work-069-unit-economics-founder-dashboard.md) |
+
 ## What This Repository Provides
 
-- 50 original GPT Image 2 / ChatGPT Images 2.0 prompts for workplace use cases.
+- 70 original GPT Image 2 / ChatGPT Images 2.0 prompts for workplace use cases.
 - Bilingual prompt content in English and Simplified Chinese.
 - A website-friendly JSON dataset at `data/prompts.json`.
 - One Markdown file per prompt under `prompts/en/` and `prompts/zh-CN/`.
-- 50 generated PNG examples under `images/`.
+- 70 generated PNG examples under `images/`.
 - Category indexes for content browsing and GitHub navigation.
 
 ## Who It Is For

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T08:27:07.345Z",
+  "updated_at": "2026-05-02T16:00:00.000Z",
   "sources": [
     {
       "id": "openai-model-doc",
@@ -48,7 +48,7 @@
       "type": "community",
       "title": "AI Prompts Library | GPT Image 2 Prompt Collections",
       "url": "https://www.gpt-image2.dev/ai-prompts",
-      "used_for": "Prompt library IA and creator-attributed collection format."
+      "used_for": "Prompt library IA, creator-attributed collection format and practical business-category inspiration."
     },
     {
       "id": "promptwall",
@@ -62,7 +62,7 @@
       "type": "community",
       "title": "GPT Image 2 Prompt Library | PromptsRef",
       "url": "https://promptsref.com/library/gpt-image",
-      "used_for": "Category breadth and examples of hot prompts."
+      "used_for": "Category breadth, prompt-card browsing patterns and examples of visual prompt formulation."
     },
     {
       "id": "creativebloq-x-discussion",
@@ -76,14 +76,14 @@
       "type": "community",
       "title": "Complete field guide to ChatGPT Images 2.0 discussion",
       "url": "https://www.reddit.com/r/promptingmagic/comments/1ss8j4e/the_complete_field_guide_to_chatgpt_images_20/",
-      "used_for": "Community advice around explicit constraints and negative phrasing."
+      "used_for": "Community advice around explicit constraints, composition control and negative phrasing."
     },
     {
       "id": "runware-model-card",
       "type": "provider-doc",
       "title": "Runware GPT Image 2 model docs",
       "url": "https://runware.ai/docs/models/openai-gpt-image-2",
-      "used_for": "Third-party model card description of strengths: text, layouts, packaging, product comps, diagrams."
+      "used_for": "Third-party model card description of strengths: text rendering, layouts, packaging, product comps, dashboards and diagrams."
     }
   ]
 }

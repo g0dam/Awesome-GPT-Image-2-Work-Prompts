@@ -5,12 +5,12 @@
 <h1 align="center">Awesome GPT Image 2 Work Prompts</h1>
 
 <p align="center">
-  <strong>50 条面向真实工作场景的 GPT Image 2 双语 Prompt。</strong><br>
+  <strong>70 条面向真实工作场景的 GPT Image 2 双语 Prompt。</strong><br>
   覆盖营销、电商、销售、品牌系统、运营、教育培训、HR、客户成功、社群活动和创始人战略。
 </p>
 
 <p align="center">
-  <img alt="Prompts" src="https://img.shields.io/badge/prompts-50-00C2A8?style=for-the-badge">
+  <img alt="Prompts" src="https://img.shields.io/badge/prompts-70-00C2A8?style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%2B%20ZH--CN-FFD166?style=for-the-badge">
   <img alt="Dataset" src="https://img.shields.io/badge/dataset-JSON-FF6B4A?style=for-the-badge">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-111827?style=for-the-badge">
@@ -38,11 +38,11 @@
 
 ## 这个仓库有什么
 
-- 50 条原创 GPT Image 2 / ChatGPT Images 2.0 工作场景 prompt。
+- 70 条原创 GPT Image 2 / ChatGPT Images 2.0 工作场景 prompt。
 - 英文和简体中文两个版本。
 - 可直接给网站或后台导入的 `data/prompts.json`。
 - 每条 prompt 独立 Markdown 文件：`prompts/en/` 和 `prompts/zh-CN/`。
-- 50 张对应 PNG 示例图：`images/`。
+- 70 张对应 PNG 示例图：`images/`。
 - 按工作属性需求整理的分类索引：`categories/`。
 
 ## 适合谁使用

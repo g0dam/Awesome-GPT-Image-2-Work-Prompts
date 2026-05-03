@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0",
+  "version": "1.1.0",
   "model_target": "gpt-image-2 / ChatGPT Images 2.0",
   "language_versions": [
     "en",
     "zh-CN"
   ],
-  "count": 50,
+  "count": 70,
   "categories": [
     {
       "slug": "marketing-growth",
@@ -3518,11 +3518,1411 @@
         "tool": "image_gen",
         "generated_order": 50
       }
+    },
+    {
+      "id": "gptimg2-work-051",
+      "slug": "competitive-positioning-ad-matrix",
+      "title": {
+        "en": "Competitive positioning ad matrix",
+        "zh": "竞品定位广告矩阵"
+      },
+      "category": {
+        "slug": "marketing-growth",
+        "en": "Marketing & Growth",
+        "zh": "营销增长"
+      },
+      "target_user": {
+        "en": "growth marketer",
+        "zh": "增长营销人员"
+      },
+      "use_case": {
+        "en": "Create a competitive positioning visual for a B2B SaaS landing page or paid campaign",
+        "zh": "为 B2B SaaS 落地页或投放广告创建竞品定位视觉"
+      },
+      "deliverable": {
+        "en": "positioning ad matrix",
+        "zh": "定位广告矩阵"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a growth marketer. Goal: Create a competitive positioning visual for a B2B SaaS landing page or paid campaign. Deliverable: Competitive positioning ad matrix. Visual direction: A two-axis competitive positioning matrix with four quadrants, a highlighted product zone, competitor-neutral placeholders, proof chips, SaaS dashboard fragments and a CTA strip. Layout and content requirements: show a clear two-axis matrix with concise quadrant labels; use competitor-neutral placeholders rather than real brand names; include one highlighted value zone, three proof chips and a CTA area; keep hierarchy readable for both GitHub preview and website card crops; use realistic SaaS UI fragments without copying any product interface. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid real company logos, competitor names, celebrity likenesses, generic stock-photo people, unreadable text, inflated performance claims, cluttered axes, distorted UI.",
+        "zh": "为增长营销人员生成一张 16:9 的真实工作场景图片。目标：为 B2B SaaS 落地页或投放广告创建竞品定位视觉。交付物：竞品定位广告矩阵。视觉方向：A two-axis competitive positioning matrix with four quadrants, a highlighted product zone, competitor-neutral placeholders, proof chips, SaaS dashboard fragments and a CTA strip.。版式与内容要求：show a clear two-axis matrix with concise quadrant labels；use competitor-neutral placeholders rather than real brand names；include one highlighted value zone, three proof chips and a CTA area；keep hierarchy readable for both GitHub preview and website card crops；use realistic SaaS UI fragments without copying any product interface。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：real company logos, competitor names, celebrity likenesses, generic stock-photo people, unreadable text, inflated performance claims, cluttered axes, distorted UI。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Competitive positioning ad matrix",
+        "context": "Marketing & Growth",
+        "composition": "A two-axis competitive positioning matrix with four quadrants, a highlighted product zone, competitor-neutral placeholders, proof chips, SaaS dashboard fragments and a CTA strip.",
+        "constraints": [
+          "show a clear two-axis matrix with concise quadrant labels",
+          "use competitor-neutral placeholders rather than real brand names",
+          "include one highlighted value zone, three proof chips and a CTA area",
+          "keep hierarchy readable for both GitHub preview and website card crops",
+          "use realistic SaaS UI fragments without copying any product interface"
+        ],
+        "negative": "real company logos, competitor names, celebrity likenesses, generic stock-photo people, unreadable text, inflated performance claims, cluttered axes, distorted UI"
+      },
+      "tags": [
+        "marketing-growth",
+        "positioning ad matrix",
+        "16:9",
+        "growth marketer"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-051-competitive-positioning-ad-matrix.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 51
+      }
+    },
+    {
+      "id": "gptimg2-work-052",
+      "slug": "lifecycle-email-campaign-hero",
+      "title": {
+        "en": "Lifecycle email campaign hero",
+        "zh": "生命周期邮件活动主视觉"
+      },
+      "category": {
+        "slug": "marketing-growth",
+        "en": "Marketing & Growth",
+        "zh": "营销增长"
+      },
+      "target_user": {
+        "en": "lifecycle marketer",
+        "zh": "生命周期营销人员"
+      },
+      "use_case": {
+        "en": "Design a campaign planning hero for onboarding, activation and expansion emails",
+        "zh": "为注册、激活和扩展邮件设计活动规划主视觉"
+      },
+      "deliverable": {
+        "en": "email campaign hero",
+        "zh": "邮件活动主视觉"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a lifecycle marketer. Goal: Design a campaign planning hero for onboarding, activation and expansion emails. Deliverable: Lifecycle email campaign hero. Visual direction: A segmented customer journey board with email preview cards, trigger timeline, subject-line variants, performance panel and campaign planning annotations. Layout and content requirements: show signup, activation and expansion stages as a connected journey; include three email preview cards and behavioral trigger markers; use short readable subject-line placeholders and metric cards; make the layout feel like a real campaign planning workspace; reserve negative space for cropping and card display. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid spammy claims, real brand names, inbox provider logos, cluttered templates, unreadable subject lines, stock-photo smiles, distorted UI.",
+        "zh": "为生命周期营销人员生成一张 16:9 的真实工作场景图片。目标：为注册、激活和扩展邮件设计活动规划主视觉。交付物：生命周期邮件活动主视觉。视觉方向：A segmented customer journey board with email preview cards, trigger timeline, subject-line variants, performance panel and campaign planning annotations.。版式与内容要求：show signup, activation and expansion stages as a connected journey；include three email preview cards and behavioral trigger markers；use short readable subject-line placeholders and metric cards；make the layout feel like a real campaign planning workspace；reserve negative space for cropping and card display。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：spammy claims, real brand names, inbox provider logos, cluttered templates, unreadable subject lines, stock-photo smiles, distorted UI。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Lifecycle email campaign hero",
+        "context": "Marketing & Growth",
+        "composition": "A segmented customer journey board with email preview cards, trigger timeline, subject-line variants, performance panel and campaign planning annotations.",
+        "constraints": [
+          "show signup, activation and expansion stages as a connected journey",
+          "include three email preview cards and behavioral trigger markers",
+          "use short readable subject-line placeholders and metric cards",
+          "make the layout feel like a real campaign planning workspace",
+          "reserve negative space for cropping and card display"
+        ],
+        "negative": "spammy claims, real brand names, inbox provider logos, cluttered templates, unreadable subject lines, stock-photo smiles, distorted UI"
+      },
+      "tags": [
+        "marketing-growth",
+        "email campaign hero",
+        "16:9",
+        "lifecycle marketer"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-052-lifecycle-email-campaign-hero.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 52
+      }
+    },
+    {
+      "id": "gptimg2-work-053",
+      "slug": "packaging-dieline-supplier-mockup",
+      "title": {
+        "en": "Packaging dieline supplier mockup",
+        "zh": "包装刀模供应商评审图"
+      },
+      "category": {
+        "slug": "product-ecommerce",
+        "en": "Product & Ecommerce",
+        "zh": "产品与电商"
+      },
+      "target_user": {
+        "en": "product manager",
+        "zh": "产品经理"
+      },
+      "use_case": {
+        "en": "Prepare a packaging handoff board for supplier review",
+        "zh": "为供应商评审准备包装交付说明板"
+      },
+      "deliverable": {
+        "en": "packaging dieline mockup",
+        "zh": "包装刀模图"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a product manager. Goal: Prepare a packaging handoff board for supplier review. Deliverable: Packaging dieline supplier mockup. Visual direction: An unfolded box dieline with panels, inserts, material notes, label placements, barcode placeholder, finish callouts and a small assembled 3D preview. Layout and content requirements: show print-safe zones, fold lines and panel labels; include material, finish and insert notes as readable callouts; use a small assembled package preview next to the flat dieline; avoid real certification marks or manufacturer logos; make the asset useful for supplier discussion. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid real brand marks, fake certification logos, entertainment packaging, unreadable annotations, distorted dieline geometry, messy mockup clutter.",
+        "zh": "为产品经理生成一张 4:3 的真实工作场景图片。目标：为供应商评审准备包装交付说明板。交付物：包装刀模供应商评审图。视觉方向：An unfolded box dieline with panels, inserts, material notes, label placements, barcode placeholder, finish callouts and a small assembled 3D preview.。版式与内容要求：show print-safe zones, fold lines and panel labels；include material, finish and insert notes as readable callouts；use a small assembled package preview next to the flat dieline；avoid real certification marks or manufacturer logos；make the asset useful for supplier discussion。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：real brand marks, fake certification logos, entertainment packaging, unreadable annotations, distorted dieline geometry, messy mockup clutter。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Packaging dieline supplier mockup",
+        "context": "Product & Ecommerce",
+        "composition": "An unfolded box dieline with panels, inserts, material notes, label placements, barcode placeholder, finish callouts and a small assembled 3D preview.",
+        "constraints": [
+          "show print-safe zones, fold lines and panel labels",
+          "include material, finish and insert notes as readable callouts",
+          "use a small assembled package preview next to the flat dieline",
+          "avoid real certification marks or manufacturer logos",
+          "make the asset useful for supplier discussion"
+        ],
+        "negative": "real brand marks, fake certification logos, entertainment packaging, unreadable annotations, distorted dieline geometry, messy mockup clutter"
+      },
+      "tags": [
+        "product-ecommerce",
+        "packaging dieline mockup",
+        "4:3",
+        "product manager"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-053-packaging-dieline-supplier-mockup.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 53
+      }
+    },
+    {
+      "id": "gptimg2-work-054",
+      "slug": "ecommerce-product-comparison-table",
+      "title": {
+        "en": "Ecommerce product comparison table",
+        "zh": "电商产品对比表"
+      },
+      "category": {
+        "slug": "product-ecommerce",
+        "en": "Product & Ecommerce",
+        "zh": "产品与电商"
+      },
+      "target_user": {
+        "en": "ecommerce operator",
+        "zh": "电商运营"
+      },
+      "use_case": {
+        "en": "Create a conversion-focused comparison section for three product tiers",
+        "zh": "为三个产品档位创建转化导向的对比区块"
+      },
+      "deliverable": {
+        "en": "product comparison table",
+        "zh": "产品对比表"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a ecommerce operator. Goal: Create a conversion-focused comparison section for three product tiers. Deliverable: Ecommerce product comparison table. Visual direction: A three-column product comparison layout with generic product thumbnails, feature rows, use-case badges, price placeholders and one recommended option. Layout and content requirements: use neutral labels such as Product A, Product B and Product C; make the recommended tier visually clear without aggressive sales pressure; include feature rows, use-case chips and trust notes; keep all labels short enough to read in a website preview; use clean ecommerce card styling. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid real product brands, fake discounts, guaranteed claims, confusing feature rows, tiny text, marketplace clutter, distorted product thumbnails.",
+        "zh": "为电商运营生成一张 16:9 的真实工作场景图片。目标：为三个产品档位创建转化导向的对比区块。交付物：电商产品对比表。视觉方向：A three-column product comparison layout with generic product thumbnails, feature rows, use-case badges, price placeholders and one recommended option.。版式与内容要求：use neutral labels such as Product A, Product B and Product C；make the recommended tier visually clear without aggressive sales pressure；include feature rows, use-case chips and trust notes；keep all labels short enough to read in a website preview；use clean ecommerce card styling。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：real product brands, fake discounts, guaranteed claims, confusing feature rows, tiny text, marketplace clutter, distorted product thumbnails。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Ecommerce product comparison table",
+        "context": "Product & Ecommerce",
+        "composition": "A three-column product comparison layout with generic product thumbnails, feature rows, use-case badges, price placeholders and one recommended option.",
+        "constraints": [
+          "use neutral labels such as Product A, Product B and Product C",
+          "make the recommended tier visually clear without aggressive sales pressure",
+          "include feature rows, use-case chips and trust notes",
+          "keep all labels short enough to read in a website preview",
+          "use clean ecommerce card styling"
+        ],
+        "negative": "real product brands, fake discounts, guaranteed claims, confusing feature rows, tiny text, marketplace clutter, distorted product thumbnails"
+      },
+      "tags": [
+        "product-ecommerce",
+        "product comparison table",
+        "16:9",
+        "ecommerce operator"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-054-ecommerce-product-comparison-table.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 54
+      }
+    },
+    {
+      "id": "gptimg2-work-055",
+      "slug": "brand-campaign-key-visual-board",
+      "title": {
+        "en": "Brand campaign key visual board",
+        "zh": "品牌活动核心视觉板"
+      },
+      "category": {
+        "slug": "brand-design-system",
+        "en": "Brand & Design System",
+        "zh": "品牌与设计系统"
+      },
+      "target_user": {
+        "en": "brand designer",
+        "zh": "品牌设计师"
+      },
+      "use_case": {
+        "en": "Shape a quarterly product campaign visual system across web, social and email",
+        "zh": "为季度产品活动制定覆盖网页、社媒和邮件的视觉系统"
+      },
+      "deliverable": {
+        "en": "campaign key visual board",
+        "zh": "活动核心视觉板"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a brand designer. Goal: Shape a quarterly product campaign visual system across web, social and email. Deliverable: Brand campaign key visual board. Visual direction: A campaign system board with hero lockup area, message tiles, palette strip, image direction thumbnails, motion cues and application previews. Layout and content requirements: use placeholder copy only and no real logos; show three message tiles and three application previews; include a palette strip and motion cue arrows; make the board feel like a real brand review artifact; keep layout disciplined and editorial. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid copied logos, celebrity images, messy moodboard clutter, decorative-only visuals, unreadable type, fake brand marks.",
+        "zh": "为品牌设计师生成一张 16:9 的真实工作场景图片。目标：为季度产品活动制定覆盖网页、社媒和邮件的视觉系统。交付物：品牌活动核心视觉板。视觉方向：A campaign system board with hero lockup area, message tiles, palette strip, image direction thumbnails, motion cues and application previews.。版式与内容要求：use placeholder copy only and no real logos；show three message tiles and three application previews；include a palette strip and motion cue arrows；make the board feel like a real brand review artifact；keep layout disciplined and editorial。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：copied logos, celebrity images, messy moodboard clutter, decorative-only visuals, unreadable type, fake brand marks。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Brand campaign key visual board",
+        "context": "Brand & Design System",
+        "composition": "A campaign system board with hero lockup area, message tiles, palette strip, image direction thumbnails, motion cues and application previews.",
+        "constraints": [
+          "use placeholder copy only and no real logos",
+          "show three message tiles and three application previews",
+          "include a palette strip and motion cue arrows",
+          "make the board feel like a real brand review artifact",
+          "keep layout disciplined and editorial"
+        ],
+        "negative": "copied logos, celebrity images, messy moodboard clutter, decorative-only visuals, unreadable type, fake brand marks"
+      },
+      "tags": [
+        "brand-design-system",
+        "campaign key visual board",
+        "16:9",
+        "brand designer"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-055-brand-campaign-key-visual-board.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 55
+      }
+    },
+    {
+      "id": "gptimg2-work-056",
+      "slug": "typography-specimen-system-sheet",
+      "title": {
+        "en": "Typography specimen system sheet",
+        "zh": "字体样张与系统规范页"
+      },
+      "category": {
+        "slug": "brand-design-system",
+        "en": "Brand & Design System",
+        "zh": "品牌与设计系统"
+      },
+      "target_user": {
+        "en": "design systems lead",
+        "zh": "设计系统负责人"
+      },
+      "use_case": {
+        "en": "Document product UI type scale, numeric examples and accessibility notes",
+        "zh": "记录产品 UI 字阶、数字样式和可访问性说明"
+      },
+      "deliverable": {
+        "en": "typography specimen sheet",
+        "zh": "字体样张规范页"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a design systems lead. Goal: Document product UI type scale, numeric examples and accessibility notes. Deliverable: Typography specimen system sheet. Visual direction: A design-system documentation spread with type scale, numeric table samples, button labels, chart annotation examples, contrast notes, spacing tokens and baseline grid hints. Layout and content requirements: use placeholder text and neutral labels only; include headline, body, numeric and UI component examples; show accessibility and contrast notes without legal fine print; use a precise documentation grid; keep typography crisp and readable. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid decorative poster excess, fake logos, tiny unreadable samples, inconsistent baselines, celebrity references, clutter.",
+        "zh": "为设计系统负责人生成一张 4:3 的真实工作场景图片。目标：记录产品 UI 字阶、数字样式和可访问性说明。交付物：字体样张与系统规范页。视觉方向：A design-system documentation spread with type scale, numeric table samples, button labels, chart annotation examples, contrast notes, spacing tokens and baseline grid hints.。版式与内容要求：use placeholder text and neutral labels only；include headline, body, numeric and UI component examples；show accessibility and contrast notes without legal fine print；use a precise documentation grid；keep typography crisp and readable。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：decorative poster excess, fake logos, tiny unreadable samples, inconsistent baselines, celebrity references, clutter。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Typography specimen system sheet",
+        "context": "Brand & Design System",
+        "composition": "A design-system documentation spread with type scale, numeric table samples, button labels, chart annotation examples, contrast notes, spacing tokens and baseline grid hints.",
+        "constraints": [
+          "use placeholder text and neutral labels only",
+          "include headline, body, numeric and UI component examples",
+          "show accessibility and contrast notes without legal fine print",
+          "use a precise documentation grid",
+          "keep typography crisp and readable"
+        ],
+        "negative": "decorative poster excess, fake logos, tiny unreadable samples, inconsistent baselines, celebrity references, clutter"
+      },
+      "tags": [
+        "brand-design-system",
+        "typography specimen sheet",
+        "4:3",
+        "design systems lead"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-056-typography-specimen-system-sheet.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 56
+      }
+    },
+    {
+      "id": "gptimg2-work-057",
+      "slug": "procurement-business-case-visual",
+      "title": {
+        "en": "Procurement business case visual",
+        "zh": "采购商业论证视觉"
+      },
+      "category": {
+        "slug": "sales-pitch",
+        "en": "Sales & Pitch",
+        "zh": "销售与提案"
+      },
+      "target_user": {
+        "en": "sales lead",
+        "zh": "销售负责人"
+      },
+      "use_case": {
+        "en": "Create an enterprise buying-committee business case for software procurement",
+        "zh": "为企业采购委员会创建软件采购商业论证视觉"
+      },
+      "deliverable": {
+        "en": "procurement business case",
+        "zh": "采购商业论证图"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a sales lead. Goal: Create an enterprise buying-committee business case for software procurement. Deliverable: Procurement business case visual. Visual direction: A one-page decision board with problem cost, risk reduction, implementation timeline, stakeholder approvals, ROI range and a final decision box. Layout and content requirements: make the flow understandable to finance and procurement stakeholders; show evidence blocks, timeline and approval path; use cautious language and placeholder metrics; include risk and implementation detail without overloading the page; make the visual feel enterprise-ready. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid aggressive sales copy, guaranteed ROI, fake real company names, real logos, stock-photo executives, dense tiny numbers, clutter.",
+        "zh": "为销售负责人生成一张 16:9 的真实工作场景图片。目标：为企业采购委员会创建软件采购商业论证视觉。交付物：采购商业论证视觉。视觉方向：A one-page decision board with problem cost, risk reduction, implementation timeline, stakeholder approvals, ROI range and a final decision box.。版式与内容要求：make the flow understandable to finance and procurement stakeholders；show evidence blocks, timeline and approval path；use cautious language and placeholder metrics；include risk and implementation detail without overloading the page；make the visual feel enterprise-ready。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：aggressive sales copy, guaranteed ROI, fake real company names, real logos, stock-photo executives, dense tiny numbers, clutter。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Procurement business case visual",
+        "context": "Sales & Pitch",
+        "composition": "A one-page decision board with problem cost, risk reduction, implementation timeline, stakeholder approvals, ROI range and a final decision box.",
+        "constraints": [
+          "make the flow understandable to finance and procurement stakeholders",
+          "show evidence blocks, timeline and approval path",
+          "use cautious language and placeholder metrics",
+          "include risk and implementation detail without overloading the page",
+          "make the visual feel enterprise-ready"
+        ],
+        "negative": "aggressive sales copy, guaranteed ROI, fake real company names, real logos, stock-photo executives, dense tiny numbers, clutter"
+      },
+      "tags": [
+        "sales-pitch",
+        "procurement business case",
+        "16:9",
+        "sales lead"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-057-procurement-business-case-visual.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 57
+      }
+    },
+    {
+      "id": "gptimg2-work-058",
+      "slug": "sales-objection-battlecard",
+      "title": {
+        "en": "Sales objection-handling battlecard",
+        "zh": "销售异议处理战卡"
+      },
+      "category": {
+        "slug": "sales-pitch",
+        "en": "Sales & Pitch",
+        "zh": "销售与提案"
+      },
+      "target_user": {
+        "en": "account executive",
+        "zh": "客户经理"
+      },
+      "use_case": {
+        "en": "Create a practical enablement card for handling buyer objections",
+        "zh": "为处理买方异议创建实用销售赋能卡片"
+      },
+      "deliverable": {
+        "en": "objection-handling battlecard",
+        "zh": "异议处理战卡"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a account executive. Goal: Create a practical enablement card for handling buyer objections. Deliverable: Sales objection-handling battlecard. Visual direction: A compact enablement card with objection categories, response framing, proof asset placeholders, competitor-neutral comparison cues, discovery questions and next-step checklist. Layout and content requirements: cover budget, timing, need and competition objections; separate response framing from proof assets and questions; keep tone consultative rather than manipulative; use short bullets and clear sections; avoid real competitor names. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid real competitor names, inflated claims, manipulative fear tactics, stock-photo people, tiny text, cluttered battlecard grids.",
+        "zh": "为客户经理生成一张 4:3 的真实工作场景图片。目标：为处理买方异议创建实用销售赋能卡片。交付物：销售异议处理战卡。视觉方向：A compact enablement card with objection categories, response framing, proof asset placeholders, competitor-neutral comparison cues, discovery questions and next-step checklist.。版式与内容要求：cover budget, timing, need and competition objections；separate response framing from proof assets and questions；keep tone consultative rather than manipulative；use short bullets and clear sections；avoid real competitor names。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：real competitor names, inflated claims, manipulative fear tactics, stock-photo people, tiny text, cluttered battlecard grids。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Sales objection-handling battlecard",
+        "context": "Sales & Pitch",
+        "composition": "A compact enablement card with objection categories, response framing, proof asset placeholders, competitor-neutral comparison cues, discovery questions and next-step checklist.",
+        "constraints": [
+          "cover budget, timing, need and competition objections",
+          "separate response framing from proof assets and questions",
+          "keep tone consultative rather than manipulative",
+          "use short bullets and clear sections",
+          "avoid real competitor names"
+        ],
+        "negative": "real competitor names, inflated claims, manipulative fear tactics, stock-photo people, tiny text, cluttered battlecard grids"
+      },
+      "tags": [
+        "sales-pitch",
+        "objection-handling battlecard",
+        "4:3",
+        "account executive"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-058-sales-objection-battlecard.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 58
+      }
+    },
+    {
+      "id": "gptimg2-work-059",
+      "slug": "warehouse-process-simulation-storyboard",
+      "title": {
+        "en": "Warehouse process simulation storyboard",
+        "zh": "仓储流程模拟故事板"
+      },
+      "category": {
+        "slug": "education-training",
+        "en": "Education & Training",
+        "zh": "教育培训"
+      },
+      "target_user": {
+        "en": "training designer",
+        "zh": "培训设计师"
+      },
+      "use_case": {
+        "en": "Teach a new warehouse receiving workflow through scenario panels",
+        "zh": "通过情境分镜讲解新的仓库收货流程"
+      },
+      "deliverable": {
+        "en": "process simulation storyboard",
+        "zh": "流程模拟故事板"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a training designer. Goal: Teach a new warehouse receiving workflow through scenario panels. Deliverable: Warehouse process simulation storyboard. Visual direction: A six-panel training storyboard from delivery arrival to inspection, scanning, exception routing, inventory update and supervisor sign-off. Layout and content requirements: show six sequential panels with role badges and decision points; include timing markers, exception routing and safety reminders; use realistic warehouse context without unsafe behavior; make arrows and process order clear; keep text short and training-friendly. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid comic entertainment styling, unsafe warehouse practices, real company logos, excessive text, distorted equipment, cluttered panels.",
+        "zh": "为培训设计师生成一张 16:9 的真实工作场景图片。目标：通过情境分镜讲解新的仓库收货流程。交付物：仓储流程模拟故事板。视觉方向：A six-panel training storyboard from delivery arrival to inspection, scanning, exception routing, inventory update and supervisor sign-off.。版式与内容要求：show six sequential panels with role badges and decision points；include timing markers, exception routing and safety reminders；use realistic warehouse context without unsafe behavior；make arrows and process order clear；keep text short and training-friendly。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：comic entertainment styling, unsafe warehouse practices, real company logos, excessive text, distorted equipment, cluttered panels。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Warehouse process simulation storyboard",
+        "context": "Education & Training",
+        "composition": "A six-panel training storyboard from delivery arrival to inspection, scanning, exception routing, inventory update and supervisor sign-off.",
+        "constraints": [
+          "show six sequential panels with role badges and decision points",
+          "include timing markers, exception routing and safety reminders",
+          "use realistic warehouse context without unsafe behavior",
+          "make arrows and process order clear",
+          "keep text short and training-friendly"
+        ],
+        "negative": "comic entertainment styling, unsafe warehouse practices, real company logos, excessive text, distorted equipment, cluttered panels"
+      },
+      "tags": [
+        "education-training",
+        "process simulation storyboard",
+        "16:9",
+        "training designer"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-059-warehouse-process-simulation-storyboard.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 59
+      }
+    },
+    {
+      "id": "gptimg2-work-060",
+      "slug": "data-handling-compliance-scenario-poster",
+      "title": {
+        "en": "Data handling compliance scenario poster",
+        "zh": "数据处理合规情境海报"
+      },
+      "category": {
+        "slug": "education-training",
+        "en": "Education & Training",
+        "zh": "教育培训"
+      },
+      "target_user": {
+        "en": "corporate trainer",
+        "zh": "企业培训负责人"
+      },
+      "use_case": {
+        "en": "Explain data handling rules through realistic workplace scenarios",
+        "zh": "通过真实工作情境解释数据处理规则"
+      },
+      "deliverable": {
+        "en": "compliance scenario poster",
+        "zh": "合规情境海报"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a corporate trainer. Goal: Explain data handling rules through realistic workplace scenarios. Deliverable: Data handling compliance scenario poster. Visual direction: A corporate learning poster with three workplace scenarios, each showing risk cue, approved action, escalation path and do-not-do note. Layout and content requirements: cover customer data export, vendor file sharing and AI tool input review; use accessible scenario cards with approval and warning states; keep language practical and non-alarmist; include a short footer checklist; use no real company names. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid fear-mongering, dense legal fine print, real logos, unreadable text, celebrity likenesses, cluttered compliance charts.",
+        "zh": "为企业培训负责人生成一张 4:3 的真实工作场景图片。目标：通过真实工作情境解释数据处理规则。交付物：数据处理合规情境海报。视觉方向：A corporate learning poster with three workplace scenarios, each showing risk cue, approved action, escalation path and do-not-do note.。版式与内容要求：cover customer data export, vendor file sharing and AI tool input review；use accessible scenario cards with approval and warning states；keep language practical and non-alarmist；include a short footer checklist；use no real company names。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：fear-mongering, dense legal fine print, real logos, unreadable text, celebrity likenesses, cluttered compliance charts。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Data handling compliance scenario poster",
+        "context": "Education & Training",
+        "composition": "A corporate learning poster with three workplace scenarios, each showing risk cue, approved action, escalation path and do-not-do note.",
+        "constraints": [
+          "cover customer data export, vendor file sharing and AI tool input review",
+          "use accessible scenario cards with approval and warning states",
+          "keep language practical and non-alarmist",
+          "include a short footer checklist",
+          "use no real company names"
+        ],
+        "negative": "fear-mongering, dense legal fine print, real logos, unreadable text, celebrity likenesses, cluttered compliance charts"
+      },
+      "tags": [
+        "education-training",
+        "compliance scenario poster",
+        "4:3",
+        "corporate trainer"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-060-data-handling-compliance-scenario-poster.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 60
+      }
+    },
+    {
+      "id": "gptimg2-work-061",
+      "slug": "kpi-anomaly-root-cause-map",
+      "title": {
+        "en": "KPI anomaly root-cause map",
+        "zh": "KPI 异常根因分析图"
+      },
+      "category": {
+        "slug": "data-operations",
+        "en": "Data & Operations",
+        "zh": "数据与运营"
+      },
+      "target_user": {
+        "en": "operations analyst",
+        "zh": "运营分析师"
+      },
+      "use_case": {
+        "en": "Map likely drivers behind a KPI drop for an executive operations review",
+        "zh": "为运营复盘梳理 KPI 下滑背后的可能驱动因素"
+      },
+      "deliverable": {
+        "en": "root-cause map",
+        "zh": "根因分析图"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a operations analyst. Goal: Map likely drivers behind a KPI drop for an executive operations review. Deliverable: KPI anomaly root-cause map. Visual direction: A node-link diagnostic board with central KPI drop card and branches for traffic, conversion, fulfillment, support volume and system latency. Layout and content requirements: show linked diagnostic branches with owner chips and confidence tags; include small sparklines and next investigation actions; keep the map readable instead of spaghetti-like; use anomaly colors sparingly; make it executive-ready. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid fake brand names, excessive numbers, messy lines, alarmist red dashboards, tiny charts, decorative-only infographic elements.",
+        "zh": "为运营分析师生成一张 16:9 的真实工作场景图片。目标：为运营复盘梳理 KPI 下滑背后的可能驱动因素。交付物：KPI 异常根因分析图。视觉方向：A node-link diagnostic board with central KPI drop card and branches for traffic, conversion, fulfillment, support volume and system latency.。版式与内容要求：show linked diagnostic branches with owner chips and confidence tags；include small sparklines and next investigation actions；keep the map readable instead of spaghetti-like；use anomaly colors sparingly；make it executive-ready。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：fake brand names, excessive numbers, messy lines, alarmist red dashboards, tiny charts, decorative-only infographic elements。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "KPI anomaly root-cause map",
+        "context": "Data & Operations",
+        "composition": "A node-link diagnostic board with central KPI drop card and branches for traffic, conversion, fulfillment, support volume and system latency.",
+        "constraints": [
+          "show linked diagnostic branches with owner chips and confidence tags",
+          "include small sparklines and next investigation actions",
+          "keep the map readable instead of spaghetti-like",
+          "use anomaly colors sparingly",
+          "make it executive-ready"
+        ],
+        "negative": "fake brand names, excessive numbers, messy lines, alarmist red dashboards, tiny charts, decorative-only infographic elements"
+      },
+      "tags": [
+        "data-operations",
+        "root-cause map",
+        "16:9",
+        "operations analyst"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-061-kpi-anomaly-root-cause-map.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 61
+      }
+    },
+    {
+      "id": "gptimg2-work-062",
+      "slug": "sla-monitoring-wallboard",
+      "title": {
+        "en": "SLA monitoring wallboard",
+        "zh": "SLA 监控大屏"
+      },
+      "category": {
+        "slug": "data-operations",
+        "en": "Data & Operations",
+        "zh": "数据与运营"
+      },
+      "target_user": {
+        "en": "support operations manager",
+        "zh": "支持运营经理"
+      },
+      "use_case": {
+        "en": "Create a support operations wallboard for monitoring SLA risk and staffing actions",
+        "zh": "创建用于监控 SLA 风险和排班动作的支持运营大屏"
+      },
+      "deliverable": {
+        "en": "SLA monitoring wallboard",
+        "zh": "SLA 监控大屏"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a support operations manager. Goal: Create a support operations wallboard for monitoring SLA risk and staffing actions. Deliverable: SLA monitoring wallboard. Visual direction: A command-center dashboard with support queues, response-time gauges, escalation lanes, regional workload distribution, backlog aging and staffing suggestions. Layout and content requirements: show compact dashboard modules that could work on an office screen; use clear status colors and readable high-contrast labels; include alert panel and suggested staffing actions; keep metrics realistic and neutral; avoid sci-fi display tropes. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid excessive glow, sci-fi fantasy UI, fake brand names, unrealistic metrics, unreadable charts, cluttered dashboards.",
+        "zh": "为支持运营经理生成一张 16:9 的真实工作场景图片。目标：创建用于监控 SLA 风险和排班动作的支持运营大屏。交付物：SLA 监控大屏。视觉方向：A command-center dashboard with support queues, response-time gauges, escalation lanes, regional workload distribution, backlog aging and staffing suggestions.。版式与内容要求：show compact dashboard modules that could work on an office screen；use clear status colors and readable high-contrast labels；include alert panel and suggested staffing actions；keep metrics realistic and neutral；avoid sci-fi display tropes。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：excessive glow, sci-fi fantasy UI, fake brand names, unrealistic metrics, unreadable charts, cluttered dashboards。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "SLA monitoring wallboard",
+        "context": "Data & Operations",
+        "composition": "A command-center dashboard with support queues, response-time gauges, escalation lanes, regional workload distribution, backlog aging and staffing suggestions.",
+        "constraints": [
+          "show compact dashboard modules that could work on an office screen",
+          "use clear status colors and readable high-contrast labels",
+          "include alert panel and suggested staffing actions",
+          "keep metrics realistic and neutral",
+          "avoid sci-fi display tropes"
+        ],
+        "negative": "excessive glow, sci-fi fantasy UI, fake brand names, unrealistic metrics, unreadable charts, cluttered dashboards"
+      },
+      "tags": [
+        "data-operations",
+        "SLA monitoring wallboard",
+        "16:9",
+        "support operations manager"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-062-sla-monitoring-wallboard.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 62
+      }
+    },
+    {
+      "id": "gptimg2-work-063",
+      "slug": "skills-matrix-career-path-visual",
+      "title": {
+        "en": "Skills matrix career path visual",
+        "zh": "能力矩阵与职业路径图"
+      },
+      "category": {
+        "slug": "hr-internal-comms",
+        "en": "HR & Internal Comms",
+        "zh": "HR 与内部沟通"
+      },
+      "target_user": {
+        "en": "people ops manager",
+        "zh": "组织发展负责人"
+      },
+      "use_case": {
+        "en": "Create an internal talent planning visual for role families and growth paths",
+        "zh": "为岗位族和成长路径创建内部人才规划视觉"
+      },
+      "deliverable": {
+        "en": "skills matrix and career path",
+        "zh": "能力矩阵与职业路径图"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a people ops manager. Goal: Create an internal talent planning visual for role families and growth paths. Deliverable: Skills matrix career path visual. Visual direction: A role-family grid with proficiency levels, skill clusters, learning moves, promotion readiness signals and manager coaching prompts. Layout and content requirements: show role families and proficiency levels without ranking employees; include learning moves and coaching prompts; use abstract inclusive avatars rather than real faces; keep tables readable and calm; make it feel like an internal planning tool. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid surveillance vibes, real employee data, ranking shame, cartoon entertainment style, tiny unreadable tables, clutter.",
+        "zh": "为组织发展负责人生成一张 4:3 的真实工作场景图片。目标：为岗位族和成长路径创建内部人才规划视觉。交付物：能力矩阵与职业路径图。视觉方向：A role-family grid with proficiency levels, skill clusters, learning moves, promotion readiness signals and manager coaching prompts.。版式与内容要求：show role families and proficiency levels without ranking employees；include learning moves and coaching prompts；use abstract inclusive avatars rather than real faces；keep tables readable and calm；make it feel like an internal planning tool。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：surveillance vibes, real employee data, ranking shame, cartoon entertainment style, tiny unreadable tables, clutter。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Skills matrix career path visual",
+        "context": "HR & Internal Comms",
+        "composition": "A role-family grid with proficiency levels, skill clusters, learning moves, promotion readiness signals and manager coaching prompts.",
+        "constraints": [
+          "show role families and proficiency levels without ranking employees",
+          "include learning moves and coaching prompts",
+          "use abstract inclusive avatars rather than real faces",
+          "keep tables readable and calm",
+          "make it feel like an internal planning tool"
+        ],
+        "negative": "surveillance vibes, real employee data, ranking shame, cartoon entertainment style, tiny unreadable tables, clutter"
+      },
+      "tags": [
+        "hr-internal-comms",
+        "skills matrix and career path",
+        "4:3",
+        "people ops manager"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-063-skills-matrix-career-path-visual.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 63
+      }
+    },
+    {
+      "id": "gptimg2-work-064",
+      "slug": "change-management-communications-map",
+      "title": {
+        "en": "Change management communications map",
+        "zh": "变革管理沟通地图"
+      },
+      "category": {
+        "slug": "hr-internal-comms",
+        "en": "HR & Internal Comms",
+        "zh": "HR 与内部沟通"
+      },
+      "target_user": {
+        "en": "internal communications lead",
+        "zh": "内部沟通负责人"
+      },
+      "use_case": {
+        "en": "Plan stakeholder messaging for a new company operating model rollout",
+        "zh": "为新的公司运营模型上线规划利益相关方沟通"
+      },
+      "deliverable": {
+        "en": "communications map",
+        "zh": "沟通地图"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a internal communications lead. Goal: Plan stakeholder messaging for a new company operating model rollout. Deliverable: Change management communications map. Visual direction: A communications planning canvas with stakeholder groups, message themes, channel cadence, resistance risks, feedback loops and launch milestones. Layout and content requirements: show stakeholder groups, channels and cadence as swimlanes; include risk flags and feedback loops; use owner tags and launch milestones; keep tone practical rather than propaganda-like; make arrows and dependencies clear. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid propaganda tone, fake company logos, dense paragraphs, confusing arrows, stock-photo people, entertainment styling.",
+        "zh": "为内部沟通负责人生成一张 16:9 的真实工作场景图片。目标：为新的公司运营模型上线规划利益相关方沟通。交付物：变革管理沟通地图。视觉方向：A communications planning canvas with stakeholder groups, message themes, channel cadence, resistance risks, feedback loops and launch milestones.。版式与内容要求：show stakeholder groups, channels and cadence as swimlanes；include risk flags and feedback loops；use owner tags and launch milestones；keep tone practical rather than propaganda-like；make arrows and dependencies clear。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：propaganda tone, fake company logos, dense paragraphs, confusing arrows, stock-photo people, entertainment styling。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Change management communications map",
+        "context": "HR & Internal Comms",
+        "composition": "A communications planning canvas with stakeholder groups, message themes, channel cadence, resistance risks, feedback loops and launch milestones.",
+        "constraints": [
+          "show stakeholder groups, channels and cadence as swimlanes",
+          "include risk flags and feedback loops",
+          "use owner tags and launch milestones",
+          "keep tone practical rather than propaganda-like",
+          "make arrows and dependencies clear"
+        ],
+        "negative": "propaganda tone, fake company logos, dense paragraphs, confusing arrows, stock-photo people, entertainment styling"
+      },
+      "tags": [
+        "hr-internal-comms",
+        "communications map",
+        "16:9",
+        "internal communications lead"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-064-change-management-communications-map.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 64
+      }
+    },
+    {
+      "id": "gptimg2-work-065",
+      "slug": "customer-implementation-journey-map",
+      "title": {
+        "en": "Customer implementation journey map",
+        "zh": "客户实施旅程图"
+      },
+      "category": {
+        "slug": "customer-success-support",
+        "en": "Customer Success & Support",
+        "zh": "客户成功与支持"
+      },
+      "target_user": {
+        "en": "customer success manager",
+        "zh": "客户成功经理"
+      },
+      "use_case": {
+        "en": "Create an onboarding journey map for a mid-market customer implementation",
+        "zh": "为中型客户实施项目创建上线旅程图"
+      },
+      "deliverable": {
+        "en": "implementation journey map",
+        "zh": "实施旅程图"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a customer success manager. Goal: Create an onboarding journey map for a mid-market customer implementation. Deliverable: Customer implementation journey map. Visual direction: A customer success playbook map from kickoff, data setup, configuration, training, pilot, go-live and adoption review. Layout and content requirements: show vendor and customer responsibilities in separate lanes; include risk flags, success criteria and meeting cadence; add artifact checklist and milestone markers; use clear swimlanes and concise labels; keep it realistic for onboarding discussions. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid real company names, vague smiley customer photos, unrealistic promises, clutter, tiny text, decorative-only journey maps.",
+        "zh": "为客户成功经理生成一张 16:9 的真实工作场景图片。目标：为中型客户实施项目创建上线旅程图。交付物：客户实施旅程图。视觉方向：A customer success playbook map from kickoff, data setup, configuration, training, pilot, go-live and adoption review.。版式与内容要求：show vendor and customer responsibilities in separate lanes；include risk flags, success criteria and meeting cadence；add artifact checklist and milestone markers；use clear swimlanes and concise labels；keep it realistic for onboarding discussions。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：real company names, vague smiley customer photos, unrealistic promises, clutter, tiny text, decorative-only journey maps。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Customer implementation journey map",
+        "context": "Customer Success & Support",
+        "composition": "A customer success playbook map from kickoff, data setup, configuration, training, pilot, go-live and adoption review.",
+        "constraints": [
+          "show vendor and customer responsibilities in separate lanes",
+          "include risk flags, success criteria and meeting cadence",
+          "add artifact checklist and milestone markers",
+          "use clear swimlanes and concise labels",
+          "keep it realistic for onboarding discussions"
+        ],
+        "negative": "real company names, vague smiley customer photos, unrealistic promises, clutter, tiny text, decorative-only journey maps"
+      },
+      "tags": [
+        "customer-success-support",
+        "implementation journey map",
+        "16:9",
+        "customer success manager"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-065-customer-implementation-journey-map.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 65
+      }
+    },
+    {
+      "id": "gptimg2-work-066",
+      "slug": "renewal-value-recap-qbr",
+      "title": {
+        "en": "Renewal value recap QBR",
+        "zh": "续约价值回顾 QBR"
+      },
+      "category": {
+        "slug": "customer-success-support",
+        "en": "Customer Success & Support",
+        "zh": "客户成功与支持"
+      },
+      "target_user": {
+        "en": "customer success manager",
+        "zh": "客户成功经理"
+      },
+      "use_case": {
+        "en": "Prepare a quarterly business review visual that summarizes adoption, outcomes and renewal confidence",
+        "zh": "准备总结采用、成果和续约信心的季度业务回顾视觉"
+      },
+      "deliverable": {
+        "en": "renewal value recap",
+        "zh": "续约价值回顾图"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a customer success manager. Goal: Prepare a quarterly business review visual that summarizes adoption, outcomes and renewal confidence. Deliverable: Renewal value recap QBR. Visual direction: A polished QBR recap with before-and-after outcomes, adoption metrics, value delivered, open risks, quote placeholders, next-quarter opportunities and renewal confidence score. Layout and content requirements: use fictional customer placeholders only; separate outcomes, adoption, value delivered and risks; include next-quarter opportunities and confidence score; use cautious, evidence-based language; make it executive-readable. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid guaranteed ROI claims, real logos, stock-photo people, confetti celebration, tiny text, cluttered QBR slides.",
+        "zh": "为客户成功经理生成一张 4:3 的真实工作场景图片。目标：准备总结采用、成果和续约信心的季度业务回顾视觉。交付物：续约价值回顾 QBR。视觉方向：A polished QBR recap with before-and-after outcomes, adoption metrics, value delivered, open risks, quote placeholders, next-quarter opportunities and renewal confidence score.。版式与内容要求：use fictional customer placeholders only；separate outcomes, adoption, value delivered and risks；include next-quarter opportunities and confidence score；use cautious, evidence-based language；make it executive-readable。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：guaranteed ROI claims, real logos, stock-photo people, confetti celebration, tiny text, cluttered QBR slides。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Renewal value recap QBR",
+        "context": "Customer Success & Support",
+        "composition": "A polished QBR recap with before-and-after outcomes, adoption metrics, value delivered, open risks, quote placeholders, next-quarter opportunities and renewal confidence score.",
+        "constraints": [
+          "use fictional customer placeholders only",
+          "separate outcomes, adoption, value delivered and risks",
+          "include next-quarter opportunities and confidence score",
+          "use cautious, evidence-based language",
+          "make it executive-readable"
+        ],
+        "negative": "guaranteed ROI claims, real logos, stock-photo people, confetti celebration, tiny text, cluttered QBR slides"
+      },
+      "tags": [
+        "customer-success-support",
+        "renewal value recap",
+        "4:3",
+        "customer success manager"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-066-renewal-value-recap-qbr.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 66
+      }
+    },
+    {
+      "id": "gptimg2-work-067",
+      "slug": "sponsor-prospectus-one-pager",
+      "title": {
+        "en": "Sponsor prospectus one-pager",
+        "zh": "赞助商招商单页"
+      },
+      "category": {
+        "slug": "events-community",
+        "en": "Events & Community",
+        "zh": "活动与社群"
+      },
+      "target_user": {
+        "en": "events marketer",
+        "zh": "活动营销人员"
+      },
+      "use_case": {
+        "en": "Pitch sponsors for a professional B2B conference or industry event",
+        "zh": "为专业 B2B 会议或行业活动制作赞助招商单页"
+      },
+      "deliverable": {
+        "en": "sponsor prospectus",
+        "zh": "赞助招商页"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a events marketer. Goal: Pitch sponsors for a professional B2B conference or industry event. Deliverable: Sponsor prospectus one-pager. Visual direction: A credible event sales sheet with audience profile, sponsorship tiers, booth visibility map, content opportunities, lead capture benefits, brand safety notes and contact area. Layout and content requirements: use placeholder audience and sponsor data only; show tiers, visibility and content opportunities clearly; include brand safety and next-step sections; feel premium but not festival-like; avoid fake inflated numbers. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid real sponsor logos, fake attendee photos, inflated audience numbers, tiny text, clutter, party poster styling.",
+        "zh": "为活动营销人员生成一张 16:9 的真实工作场景图片。目标：为专业 B2B 会议或行业活动制作赞助招商单页。交付物：赞助商招商单页。视觉方向：A credible event sales sheet with audience profile, sponsorship tiers, booth visibility map, content opportunities, lead capture benefits, brand safety notes and contact area.。版式与内容要求：use placeholder audience and sponsor data only；show tiers, visibility and content opportunities clearly；include brand safety and next-step sections；feel premium but not festival-like；avoid fake inflated numbers。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：real sponsor logos, fake attendee photos, inflated audience numbers, tiny text, clutter, party poster styling。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Sponsor prospectus one-pager",
+        "context": "Events & Community",
+        "composition": "A credible event sales sheet with audience profile, sponsorship tiers, booth visibility map, content opportunities, lead capture benefits, brand safety notes and contact area.",
+        "constraints": [
+          "use placeholder audience and sponsor data only",
+          "show tiers, visibility and content opportunities clearly",
+          "include brand safety and next-step sections",
+          "feel premium but not festival-like",
+          "avoid fake inflated numbers"
+        ],
+        "negative": "real sponsor logos, fake attendee photos, inflated audience numbers, tiny text, clutter, party poster styling"
+      },
+      "tags": [
+        "events-community",
+        "sponsor prospectus",
+        "16:9",
+        "events marketer"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-067-sponsor-prospectus-one-pager.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 67
+      }
+    },
+    {
+      "id": "gptimg2-work-068",
+      "slug": "event-floor-plan-signage-kit",
+      "title": {
+        "en": "Event floor plan signage kit",
+        "zh": "活动平面图与导视套件"
+      },
+      "category": {
+        "slug": "events-community",
+        "en": "Events & Community",
+        "zh": "活动与社群"
+      },
+      "target_user": {
+        "en": "community manager",
+        "zh": "社群运营"
+      },
+      "use_case": {
+        "en": "Plan a professional meetup layout, signage system and staff operations cues",
+        "zh": "规划专业 Meetup 的场地布局、导视系统和工作人员提示"
+      },
+      "deliverable": {
+        "en": "floor plan and signage kit",
+        "zh": "平面图与导视套件"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a community manager. Goal: Plan a professional meetup layout, signage system and staff operations cues. Deliverable: Event floor plan signage kit. Visual direction: A simplified venue map with registration, main stage, breakout tables, demo booths, networking zone, quiet area, sponsor wall, signage samples, badge system and accessibility notes. Layout and content requirements: use neutral event and venue placeholders only; show wayfinding signage and badge color system; include staff cue cards and accessibility notes; keep floor plan labels legible; make it practical for operations planning. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid real venue names, brand logos, crowded party scenes, tiny labels, decorative-only event graphics, confusing floor plans.",
+        "zh": "为社群运营生成一张 16:9 的真实工作场景图片。目标：规划专业 Meetup 的场地布局、导视系统和工作人员提示。交付物：活动平面图与导视套件。视觉方向：A simplified venue map with registration, main stage, breakout tables, demo booths, networking zone, quiet area, sponsor wall, signage samples, badge system and accessibility notes.。版式与内容要求：use neutral event and venue placeholders only；show wayfinding signage and badge color system；include staff cue cards and accessibility notes；keep floor plan labels legible；make it practical for operations planning。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：real venue names, brand logos, crowded party scenes, tiny labels, decorative-only event graphics, confusing floor plans。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Event floor plan signage kit",
+        "context": "Events & Community",
+        "composition": "A simplified venue map with registration, main stage, breakout tables, demo booths, networking zone, quiet area, sponsor wall, signage samples, badge system and accessibility notes.",
+        "constraints": [
+          "use neutral event and venue placeholders only",
+          "show wayfinding signage and badge color system",
+          "include staff cue cards and accessibility notes",
+          "keep floor plan labels legible",
+          "make it practical for operations planning"
+        ],
+        "negative": "real venue names, brand logos, crowded party scenes, tiny labels, decorative-only event graphics, confusing floor plans"
+      },
+      "tags": [
+        "events-community",
+        "floor plan and signage kit",
+        "16:9",
+        "community manager"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-068-event-floor-plan-signage-kit.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 68
+      }
+    },
+    {
+      "id": "gptimg2-work-069",
+      "slug": "unit-economics-founder-dashboard",
+      "title": {
+        "en": "Unit economics founder dashboard",
+        "zh": "单位经济模型创始人看板"
+      },
+      "category": {
+        "slug": "founder-strategy",
+        "en": "Founder & Strategy",
+        "zh": "创始人与战略"
+      },
+      "target_user": {
+        "en": "founder",
+        "zh": "创始人"
+      },
+      "use_case": {
+        "en": "Review subscription business health through unit economics and scenario levers",
+        "zh": "通过单位经济模型和情景变量复盘订阅业务健康度"
+      },
+      "deliverable": {
+        "en": "unit economics dashboard",
+        "zh": "单位经济看板"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a founder. Goal: Review subscription business health through unit economics and scenario levers. Deliverable: Unit economics founder dashboard. Visual direction: An investor-ready operating dashboard with CAC, payback period, gross margin bridge, cohort retention, expansion revenue, churn reasons and cash efficiency scenario toggles. Layout and content requirements: show the core unit economics metrics as clear cards; include retention, expansion, churn and scenario levers; use placeholder numbers and no real company data; add a concise what-changed summary; make the view useful for founder decisions. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid crypto finance clichés, hype language, fake real company data, unreadable charts, clutter, decorative-only dashboards.",
+        "zh": "为创始人生成一张 16:9 的真实工作场景图片。目标：通过单位经济模型和情景变量复盘订阅业务健康度。交付物：单位经济模型创始人看板。视觉方向：An investor-ready operating dashboard with CAC, payback period, gross margin bridge, cohort retention, expansion revenue, churn reasons and cash efficiency scenario toggles.。版式与内容要求：show the core unit economics metrics as clear cards；include retention, expansion, churn and scenario levers；use placeholder numbers and no real company data；add a concise what-changed summary；make the view useful for founder decisions。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：crypto finance clichés, hype language, fake real company data, unreadable charts, clutter, decorative-only dashboards。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Unit economics founder dashboard",
+        "context": "Founder & Strategy",
+        "composition": "An investor-ready operating dashboard with CAC, payback period, gross margin bridge, cohort retention, expansion revenue, churn reasons and cash efficiency scenario toggles.",
+        "constraints": [
+          "show the core unit economics metrics as clear cards",
+          "include retention, expansion, churn and scenario levers",
+          "use placeholder numbers and no real company data",
+          "add a concise what-changed summary",
+          "make the view useful for founder decisions"
+        ],
+        "negative": "crypto finance clichés, hype language, fake real company data, unreadable charts, clutter, decorative-only dashboards"
+      },
+      "tags": [
+        "founder-strategy",
+        "unit economics dashboard",
+        "16:9",
+        "founder"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-069-unit-economics-founder-dashboard.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 69
+      }
+    },
+    {
+      "id": "gptimg2-work-070",
+      "slug": "board-update-narrative-slide",
+      "title": {
+        "en": "Board update narrative slide",
+        "zh": "董事会更新叙事页"
+      },
+      "category": {
+        "slug": "founder-strategy",
+        "en": "Founder & Strategy",
+        "zh": "创始人与战略"
+      },
+      "target_user": {
+        "en": "founder",
+        "zh": "创始人"
+      },
+      "use_case": {
+        "en": "Create a monthly investor update slide that frames progress, constraints and decisions needed",
+        "zh": "创建展示进展、约束和待决事项的月度投资人更新页"
+      },
+      "deliverable": {
+        "en": "board update slide",
+        "zh": "董事会更新页"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a founder. Goal: Create a monthly investor update slide that frames progress, constraints and decisions needed. Deliverable: Board update narrative slide. Visual direction: A mature board-deck slide with progress since last update, current constraints, decisions needed, metric cards, milestone timeline, hiring/resource ask and risk register. Layout and content requirements: separate progress, constraints and decisions needed; include metrics, timeline, resource ask and risk register; use fictional placeholders and measured language; make board input requested visually explicit; keep text concise and executive-readable. Use precise layout language, professional work context, crisp readable labels, realistic interface or document details where useful, and enough negative space for website cards and GitHub preview crops. Avoid startup hype clichés, real company names, dense paragraphs, dramatic imagery, tiny tables, cluttered board slides.",
+        "zh": "为创始人生成一张 16:9 的真实工作场景图片。目标：创建展示进展、约束和待决事项的月度投资人更新页。交付物：董事会更新叙事页。视觉方向：A mature board-deck slide with progress since last update, current constraints, decisions needed, metric cards, milestone timeline, hiring/resource ask and risk register.。版式与内容要求：separate progress, constraints and decisions needed；include metrics, timeline, resource ask and risk register；use fictional placeholders and measured language；make board input requested visually explicit；keep text concise and executive-readable。请使用明确的版式语言、专业工作语境、清晰可读的短标签、必要的界面或文档细节，并保留适合网站卡片和 GitHub 预览裁切的留白。避免：startup hype clichés, real company names, dense paragraphs, dramatic imagery, tiny tables, cluttered board slides。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual asset for a prompt library and website card",
+        "subject": "Board update narrative slide",
+        "context": "Founder & Strategy",
+        "composition": "A mature board-deck slide with progress since last update, current constraints, decisions needed, metric cards, milestone timeline, hiring/resource ask and risk register.",
+        "constraints": [
+          "separate progress, constraints and decisions needed",
+          "include metrics, timeline, resource ask and risk register",
+          "use fictional placeholders and measured language",
+          "make board input requested visually explicit",
+          "keep text concise and executive-readable"
+        ],
+        "negative": "startup hype clichés, real company names, dense paragraphs, dramatic imagery, tiny tables, cluttered board slides"
+      },
+      "tags": [
+        "founder-strategy",
+        "board update slide",
+        "16:9",
+        "founder"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "gpt-image2-dev-library",
+        "promptref",
+        "reddit-field-guide",
+        "runware-model-card",
+        "zerolu-awesome"
+      ],
+      "source_notes": "Original long-form work prompt rewritten from public GPT Image 2 prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-070-board-update-narrative-slide.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 70
+      }
     }
   ],
   "repository": {
     "recommended_name": "awesome-gpt-image-2-work-prompts",
-    "description": "50 bilingual GPT Image 2 prompts with JSON data and generated examples for practical workplace visuals.",
+    "description": "70 bilingual GPT Image 2 prompts with JSON data and generated examples for practical workplace visuals.",
     "topics": [
       "gpt-image-2",
       "chatgpt-images",
