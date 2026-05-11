@@ -5,12 +5,12 @@
 <h1 align="center">Awesome GPT Image 2 Work Prompts</h1>
 
 <p align="center">
-  <strong>70 bilingual GPT Image 2 prompts for practical work visuals.</strong><br>
+  <strong>100 bilingual GPT Image 2 prompts for practical work visuals.</strong><br>
   Marketing, ecommerce, sales, brand systems, operations, education, HR, customer success, community, and founder strategy.
 </p>
 
 <p align="center">
-  <img alt="Prompts" src="https://img.shields.io/badge/prompts-70-00C2A8?style=for-the-badge">
+  <img alt="Prompts" src="https://img.shields.io/badge/prompts-100-00C2A8?style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%2B%20ZH--CN-FFD166?style=for-the-badge">
   <img alt="Dataset" src="https://img.shields.io/badge/dataset-JSON-FF6B4A?style=for-the-badge">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-111827?style=for-the-badge">
@@ -45,13 +45,22 @@ This repository is designed for builders who want prompt examples that can be us
 | <img src="images/gptimg2-work-061-kpi-anomaly-root-cause-map.png" width="260" alt="KPI anomaly root-cause map"> | **KPI anomaly root-cause map**<br><br>An executive-ready diagnostic map linking a KPI drop to traffic, conversion, fulfillment, support, and latency investigation branches.<br><br>[English](prompts/en/gptimg2-work-061-kpi-anomaly-root-cause-map.md) · [中文](prompts/zh-CN/gptimg2-work-061-kpi-anomaly-root-cause-map.md) |
 | <img src="images/gptimg2-work-069-unit-economics-founder-dashboard.png" width="260" alt="Unit economics founder dashboard"> | **Unit economics founder dashboard**<br><br>An investor-ready operating dashboard for CAC, payback, margin bridge, retention, expansion revenue, churn reasons, and scenario levers.<br><br>[English](prompts/en/gptimg2-work-069-unit-economics-founder-dashboard.md) · [中文](prompts/zh-CN/gptimg2-work-069-unit-economics-founder-dashboard.md) |
 
+## Visual Design Expansion
+
+| Preview | Prompt |
+| --- | --- |
+| <img src="images/gptimg2-work-071-paid-social-creative-testing-matrix.png" width="260" alt="Paid social creative testing matrix"> | **Paid social creative testing matrix**<br><br>A structured B2B campaign testing board with audience segments, creative concepts, hook labels, visual angle tags, CTA placeholders, and learning objectives.<br><br>[English](prompts/en/gptimg2-work-071-paid-social-creative-testing-matrix.md) · [中文](prompts/zh-CN/gptimg2-work-071-paid-social-creative-testing-matrix.md) |
+| <img src="images/gptimg2-work-079-color-accessibility-palette-matrix.png" width="260" alt="Color accessibility palette matrix"> | **Color accessibility palette matrix**<br><br>A design-system color matrix covering semantic tokens, contrast badges, approved pairings, chart usage, and UI component samples.<br><br>[English](prompts/en/gptimg2-work-079-color-accessibility-palette-matrix.md) · [中文](prompts/zh-CN/gptimg2-work-079-color-accessibility-palette-matrix.md) |
+| <img src="images/gptimg2-work-086-data-visualization-style-guide.png" width="260" alt="Data visualization style guide"> | **Data visualization style guide**<br><br>A chart governance sheet with approved chart types, axis labels, annotations, do/don’t cards, dashboard spacing tokens, and cleanup examples.<br><br>[English](prompts/en/gptimg2-work-086-data-visualization-style-guide.md) · [中文](prompts/zh-CN/gptimg2-work-086-data-visualization-style-guide.md) |
+| <img src="images/gptimg2-work-100-strategic-roadmap-visual-system.png" width="260" alt="Strategic roadmap visual system"> | **Strategic roadmap visual system**<br><br>A four-quarter executive roadmap system with themes, bets, milestones, evidence, dependencies, risks, decision gates, and board-review callouts.<br><br>[English](prompts/en/gptimg2-work-100-strategic-roadmap-visual-system.md) · [中文](prompts/zh-CN/gptimg2-work-100-strategic-roadmap-visual-system.md) |
+
 ## What This Repository Provides
 
-- 70 original GPT Image 2 / ChatGPT Images 2.0 prompts for workplace use cases.
+- 100 original GPT Image 2 / ChatGPT Images 2.0 prompts for workplace use cases.
 - Bilingual prompt content in English and Simplified Chinese.
 - A website-friendly JSON dataset at `data/prompts.json`.
 - One Markdown file per prompt under `prompts/en/` and `prompts/zh-CN/`.
-- 70 generated PNG examples under `images/`.
+- 100 generated PNG examples under `images/`.
 - Category indexes for content browsing and GitHub navigation.
 
 ## Who It Is For

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T16:00:00.000Z",
+  "updated_at": "2026-05-10T16:00:00.000Z",
   "sources": [
     {
       "id": "openai-model-doc",
@@ -84,6 +84,48 @@
       "title": "Runware GPT Image 2 model docs",
       "url": "https://runware.ai/docs/models/openai-gpt-image-2",
       "used_for": "Third-party model card description of strengths: text rendering, layouts, packaging, product comps, dashboards and diagrams."
+    },
+    {
+      "id": "figma-typography-systems",
+      "type": "design-reference",
+      "title": "Kick-start your typography system in Figma",
+      "url": "https://www.figma.com/best-practices/typography-systems-in-figma/",
+      "used_for": "Typography system naming, scale, reusable text styles and handoff-oriented documentation patterns."
+    },
+    {
+      "id": "figma-accessibility",
+      "type": "design-reference",
+      "title": "Accessibility at Figma",
+      "url": "https://help.figma.com/hc/en-us/articles/35063862380311",
+      "used_for": "Accessibility and WCAG-aware design-system framing for contrast and documentation."
+    },
+    {
+      "id": "material-color",
+      "type": "design-reference",
+      "title": "Color - Material Design",
+      "url": "https://m1.material.io/style/color.html",
+      "used_for": "Color roles, hierarchy, contrast and semantic color usage inspiration."
+    },
+    {
+      "id": "material-typography",
+      "type": "design-reference",
+      "title": "Typography - Material Design",
+      "url": "https://m1.material.io/style/typography.html",
+      "used_for": "Typography hierarchy, readability and type-scale inspiration."
+    },
+    {
+      "id": "nngroup-visual-design-principles",
+      "type": "design-reference",
+      "title": "5 Principles of Visual Design in UX",
+      "url": "https://media.nngroup.com/media/articles/attachments/Visual-Design-Principles-Poster.pdf",
+      "used_for": "Visual hierarchy, contrast, scale and grouping principles for prompt constraints."
+    },
+    {
+      "id": "morphed-gpt-image-2-guide",
+      "type": "community-guide",
+      "title": "GPT Image 2 Prompt Guide",
+      "url": "https://morphed.app/blog/gpt-image-2-prompt-guide",
+      "used_for": "Prompt formulation patterns for visual detail, constraints and output specificity."
     }
   ]
 }

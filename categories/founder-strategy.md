@@ -9,3 +9,6 @@ Target user: founder / 创始人
 - gptimg2-work-050: Operating model diagram / 经营模型图
 - gptimg2-work-069: Unit economics founder dashboard / 单位经济模型创始人看板
 - gptimg2-work-070: Board update narrative slide / 董事会更新叙事页
+- gptimg2-work-098: Strategic flywheel diagram / 战略飞轮图
+- gptimg2-work-099: Market category creation visual / 市场品类创建视觉
+- gptimg2-work-100: Strategic roadmap visual system / 战略路线图视觉系统

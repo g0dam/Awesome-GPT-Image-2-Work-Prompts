@@ -5,12 +5,12 @@
 <h1 align="center">Awesome GPT Image 2 Work Prompts</h1>
 
 <p align="center">
-  <strong>70 条面向真实工作场景的 GPT Image 2 双语 Prompt。</strong><br>
+  <strong>100 条面向真实工作场景的 GPT Image 2 双语 Prompt。</strong><br>
   覆盖营销、电商、销售、品牌系统、运营、教育培训、HR、客户成功、社群活动和创始人战略。
 </p>
 
 <p align="center">
-  <img alt="Prompts" src="https://img.shields.io/badge/prompts-70-00C2A8?style=for-the-badge">
+  <img alt="Prompts" src="https://img.shields.io/badge/prompts-100-00C2A8?style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%2B%20ZH--CN-FFD166?style=for-the-badge">
   <img alt="Dataset" src="https://img.shields.io/badge/dataset-JSON-FF6B4A?style=for-the-badge">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-111827?style=for-the-badge">
@@ -36,13 +36,22 @@
 | <img src="images/gptimg2-work-046-market-map-visual.png" width="260" alt="市场地图视觉"> | **市场地图视觉**<br><br>生成一张创业公司战略备忘录使用的市场地图，包含品类分区、空白机会、竞品占位、投资人可读标签和克制的策略文档视觉风格。<br><br>[English](prompts/en/gptimg2-work-046-market-map-visual.md) · [中文](prompts/zh-CN/gptimg2-work-046-market-map-visual.md) |
 | <img src="images/gptimg2-work-050-operating-model-diagram.png" width="260" alt="运营模型图"> | **运营模型图**<br><br>为 AI-native 服务业务生成一张战略系统图，展示获客、交付、自动化层、质量循环和利润飞轮，并把它们组织成一个连贯的系统视图。<br><br>[English](prompts/en/gptimg2-work-050-operating-model-diagram.md) · [中文](prompts/zh-CN/gptimg2-work-050-operating-model-diagram.md) |
 
+## 视觉设计新增示例
+
+| 预览 | Prompt |
+| --- | --- |
+| <img src="images/gptimg2-work-071-paid-social-creative-testing-matrix.png" width="260" alt="付费社媒创意测试矩阵"> | **付费社媒创意测试矩阵**<br><br>面向 B2B 活动的创意测试板，包含受众分组、创意概念、hook 标签、视觉角度、CTA 占位和学习目标。<br><br>[English](prompts/en/gptimg2-work-071-paid-social-creative-testing-matrix.md) · [中文](prompts/zh-CN/gptimg2-work-071-paid-social-creative-testing-matrix.md) |
+| <img src="images/gptimg2-work-079-color-accessibility-palette-matrix.png" width="260" alt="色彩可访问性矩阵"> | **色彩可访问性矩阵**<br><br>设计系统色彩矩阵，覆盖语义 token、对比度标记、可用组合、图表用色和 UI 组件样例。<br><br>[English](prompts/en/gptimg2-work-079-color-accessibility-palette-matrix.md) · [中文](prompts/zh-CN/gptimg2-work-079-color-accessibility-palette-matrix.md) |
+| <img src="images/gptimg2-work-086-data-visualization-style-guide.png" width="260" alt="数据可视化风格指南"> | **数据可视化风格指南**<br><br>图表治理规范页，包含可用图表类型、坐标轴、标注、do/don’t、仪表盘间距和图表清理示例。<br><br>[English](prompts/en/gptimg2-work-086-data-visualization-style-guide.md) · [中文](prompts/zh-CN/gptimg2-work-086-data-visualization-style-guide.md) |
+| <img src="images/gptimg2-work-100-strategic-roadmap-visual-system.png" width="260" alt="战略路线图视觉系统"> | **战略路线图视觉系统**<br><br>四季度高管路线图系统，包含主题、战略赌注、里程碑、证据、依赖、风险、决策门和董事会审查提示。<br><br>[English](prompts/en/gptimg2-work-100-strategic-roadmap-visual-system.md) · [中文](prompts/zh-CN/gptimg2-work-100-strategic-roadmap-visual-system.md) |
+
 ## 这个仓库有什么
 
-- 70 条原创 GPT Image 2 / ChatGPT Images 2.0 工作场景 prompt。
+- 100 条原创 GPT Image 2 / ChatGPT Images 2.0 工作场景 prompt。
 - 英文和简体中文两个版本。
 - 可直接给网站或后台导入的 `data/prompts.json`。
 - 每条 prompt 独立 Markdown 文件：`prompts/en/` 和 `prompts/zh-CN/`。
-- 70 张对应 PNG 示例图：`images/`。
+- 100 张对应 PNG 示例图：`images/`。
 - 按工作属性需求整理的分类索引：`categories/`。
 
 ## 适合谁使用

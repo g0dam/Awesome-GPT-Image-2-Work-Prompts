@@ -9,3 +9,6 @@ Target user: sales lead / 销售负责人
 - gptimg2-work-020: Enterprise case study header / 企业案例研究头图
 - gptimg2-work-057: Procurement business case visual / 采购商业论证视觉
 - gptimg2-work-058: Sales objection-handling battlecard / 销售异议处理战卡
+- gptimg2-work-080: Executive pitch deck storyboard / 高管提案叙事分镜
+- gptimg2-work-081: Pricing page visual hierarchy concept / 定价页视觉层级方案
+- gptimg2-work-082: Enterprise security trust center graphic / 企业安全信任中心视觉

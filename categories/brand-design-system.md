@@ -9,3 +9,6 @@ Target user: brand designer / 品牌设计师
 - gptimg2-work-015: Icon style direction sheet / 图标风格方向表
 - gptimg2-work-055: Brand campaign key visual board / 品牌活动核心视觉板
 - gptimg2-work-056: Typography specimen system sheet / 字体样张与系统规范页
+- gptimg2-work-077: Visual identity usage audit / 视觉识别应用审查板
+- gptimg2-work-078: Component illustration style guide / 组件插画风格指南
+- gptimg2-work-079: Color accessibility palette matrix / 色彩可访问性矩阵

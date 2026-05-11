@@ -1,11 +1,11 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "model_target": "gpt-image-2 / ChatGPT Images 2.0",
   "language_versions": [
     "en",
     "zh-CN"
   ],
-  "count": 70,
+  "count": 100,
   "categories": [
     {
       "slug": "marketing-growth",
@@ -4918,11 +4918,2201 @@
         "tool": "image_gen",
         "generated_order": 70
       }
+    },
+    {
+      "id": "gptimg2-work-071",
+      "slug": "paid-social-creative-testing-matrix",
+      "title": {
+        "en": "Paid social creative testing matrix",
+        "zh": "付费社媒创意测试矩阵"
+      },
+      "category": {
+        "slug": "marketing-growth",
+        "en": "Marketing & Growth",
+        "zh": "营销增长"
+      },
+      "target_user": {
+        "en": "growth marketer",
+        "zh": "增长营销人员"
+      },
+      "use_case": {
+        "en": "Plan a B2B SaaS paid social test across creative concepts and audience segments",
+        "zh": "规划 B2B SaaS 面向不同创意概念和受众分组的付费社媒测试"
+      },
+      "deliverable": {
+        "en": "creative testing matrix",
+        "zh": "创意测试矩阵"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a growth marketer. Goal: Plan a B2B SaaS paid social test across creative concepts and audience segments. Deliverable: Paid social creative testing matrix. Visual direction: A structured campaign testing grid with creative concepts, audience segments, miniature ad thumbnails, hook labels, visual angle tags, CTA placeholders, learning objectives and a hypothesis sidebar. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为增长营销人员生成一张4:3的真实工作场景图片。目标：规划 B2B SaaS 面向不同创意概念和受众分组的付费社媒测试。交付物：付费社媒创意测试矩阵。视觉方向：A structured campaign testing grid with creative concepts, audience segments, miniature ad thumbnails, hook labels, visual angle tags, CTA placeholders, learning objectives and a hypothesis sidebar.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Paid social creative testing matrix",
+        "context": "Marketing & Growth",
+        "composition": "A structured campaign testing grid with creative concepts, audience segments, miniature ad thumbnails, hook labels, visual angle tags, CTA placeholders, learning objectives and a hypothesis sidebar.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "marketing-growth",
+        "creative testing matrix",
+        "4:3",
+        "growth marketer",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-071-paid-social-creative-testing-matrix.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 71
+      }
+    },
+    {
+      "id": "gptimg2-work-072",
+      "slug": "landing-page-visual-hierarchy-audit",
+      "title": {
+        "en": "Landing page visual hierarchy audit",
+        "zh": "落地页视觉层级审查板"
+      },
+      "category": {
+        "slug": "marketing-growth",
+        "en": "Marketing & Growth",
+        "zh": "营销增长"
+      },
+      "target_user": {
+        "en": "conversion designer",
+        "zh": "转化设计师"
+      },
+      "use_case": {
+        "en": "Audit the visual hierarchy and scan path of a landing page before optimization",
+        "zh": "在优化前审查落地页视觉层级与浏览路径"
+      },
+      "deliverable": {
+        "en": "visual hierarchy audit board",
+        "zh": "视觉层级审查板"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a conversion designer. Goal: Audit the visual hierarchy and scan path of a landing page before optimization. Deliverable: Landing page visual hierarchy audit. Visual direction: A landing page audit board with heatmap zones, scan path arrows, friction notes, typography scale, contrast tags and recommended layout fixes. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为转化设计师生成一张16:9的真实工作场景图片。目标：在优化前审查落地页视觉层级与浏览路径。交付物：落地页视觉层级审查板。视觉方向：A landing page audit board with heatmap zones, scan path arrows, friction notes, typography scale, contrast tags and recommended layout fixes.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Landing page visual hierarchy audit",
+        "context": "Marketing & Growth",
+        "composition": "A landing page audit board with heatmap zones, scan path arrows, friction notes, typography scale, contrast tags and recommended layout fixes.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "marketing-growth",
+        "visual hierarchy audit board",
+        "16:9",
+        "conversion designer",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-072-landing-page-visual-hierarchy-audit.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 72
+      }
+    },
+    {
+      "id": "gptimg2-work-073",
+      "slug": "product-led-growth-activation-flow",
+      "title": {
+        "en": "Product-led growth activation flow",
+        "zh": "产品驱动增长激活流程图"
+      },
+      "category": {
+        "slug": "marketing-growth",
+        "en": "Marketing & Growth",
+        "zh": "营销增长"
+      },
+      "target_user": {
+        "en": "growth designer",
+        "zh": "增长设计师"
+      },
+      "use_case": {
+        "en": "Visualize the onboarding path from first visit to aha moment",
+        "zh": "可视化从首次访问到 aha moment 的新用户激活路径"
+      },
+      "deliverable": {
+        "en": "activation flow hero",
+        "zh": "激活流程主视觉"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a growth designer. Goal: Visualize the onboarding path from first visit to aha moment. Deliverable: Product-led growth activation flow. Visual direction: A premium SaaS onboarding journey with signup, first task, progress checklist, activation badge, usage milestone, numbered steps and product UI cards. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为增长设计师生成一张16:9的真实工作场景图片。目标：可视化从首次访问到 aha moment 的新用户激活路径。交付物：产品驱动增长激活流程图。视觉方向：A premium SaaS onboarding journey with signup, first task, progress checklist, activation badge, usage milestone, numbered steps and product UI cards.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Product-led growth activation flow",
+        "context": "Marketing & Growth",
+        "composition": "A premium SaaS onboarding journey with signup, first task, progress checklist, activation badge, usage milestone, numbered steps and product UI cards.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "marketing-growth",
+        "activation flow hero",
+        "16:9",
+        "growth designer",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-073-product-led-growth-activation-flow.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 73
+      }
+    },
+    {
+      "id": "gptimg2-work-074",
+      "slug": "product-detail-page-content-system",
+      "title": {
+        "en": "Product detail page content system",
+        "zh": "商品详情页内容系统"
+      },
+      "category": {
+        "slug": "product-ecommerce",
+        "en": "Product & Ecommerce",
+        "zh": "产品与电商"
+      },
+      "target_user": {
+        "en": "ecommerce UX designer",
+        "zh": "电商 UX 设计师"
+      },
+      "use_case": {
+        "en": "Design a product detail page blueprint with image, benefits, specs and trust modules",
+        "zh": "设计包含主图、利益点、规格和信任模块的商品详情页蓝图"
+      },
+      "deliverable": {
+        "en": "PDP content system",
+        "zh": "商品详情页内容系统"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a ecommerce UX designer. Goal: Design a product detail page blueprint with image, benefits, specs and trust modules. Deliverable: Product detail page content system. Visual direction: A high-fidelity product detail page blueprint with hero image zone, gallery, benefit stack, spec accordion, comparison strip, trust modules and sticky add-to-cart bar. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为电商 UX 设计师生成一张4:3的真实工作场景图片。目标：设计包含主图、利益点、规格和信任模块的商品详情页蓝图。交付物：商品详情页内容系统。视觉方向：A high-fidelity product detail page blueprint with hero image zone, gallery, benefit stack, spec accordion, comparison strip, trust modules and sticky add-to-cart bar.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Product detail page content system",
+        "context": "Product & Ecommerce",
+        "composition": "A high-fidelity product detail page blueprint with hero image zone, gallery, benefit stack, spec accordion, comparison strip, trust modules and sticky add-to-cart bar.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "product-ecommerce",
+        "PDP content system",
+        "4:3",
+        "ecommerce UX designer",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-074-product-detail-page-content-system.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 74
+      }
+    },
+    {
+      "id": "gptimg2-work-075",
+      "slug": "lifestyle-product-photography-board",
+      "title": {
+        "en": "Lifestyle product photography art-direction board",
+        "zh": "生活方式产品摄影指导板"
+      },
+      "category": {
+        "slug": "product-ecommerce",
+        "en": "Product & Ecommerce",
+        "zh": "产品与电商"
+      },
+      "target_user": {
+        "en": "ecommerce creative director",
+        "zh": "电商创意总监"
+      },
+      "use_case": {
+        "en": "Plan a product photography shot list and production direction for a listing campaign",
+        "zh": "为商品详情和营销图规划产品摄影镜头清单与制作方向"
+      },
+      "deliverable": {
+        "en": "photography art-direction board",
+        "zh": "摄影指导板"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a ecommerce creative director. Goal: Plan a product photography shot list and production direction for a listing campaign. Deliverable: Lifestyle product photography art-direction board. Visual direction: A refined production moodboard with six shot frames, lighting diagram, prop list, surface materials, crop ratios, color palette and retouching notes. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为电商创意总监生成一张16:9的真实工作场景图片。目标：为商品详情和营销图规划产品摄影镜头清单与制作方向。交付物：生活方式产品摄影指导板。视觉方向：A refined production moodboard with six shot frames, lighting diagram, prop list, surface materials, crop ratios, color palette and retouching notes.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Lifestyle product photography art-direction board",
+        "context": "Product & Ecommerce",
+        "composition": "A refined production moodboard with six shot frames, lighting diagram, prop list, surface materials, crop ratios, color palette and retouching notes.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "product-ecommerce",
+        "photography art-direction board",
+        "16:9",
+        "ecommerce creative director",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-075-lifestyle-product-photography-board.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 75
+      }
+    },
+    {
+      "id": "gptimg2-work-076",
+      "slug": "marketplace-listing-image-set",
+      "title": {
+        "en": "Marketplace listing image set",
+        "zh": "电商平台商品图套组"
+      },
+      "category": {
+        "slug": "product-ecommerce",
+        "en": "Product & Ecommerce",
+        "zh": "产品与电商"
+      },
+      "target_user": {
+        "en": "ecommerce operator",
+        "zh": "电商运营"
+      },
+      "use_case": {
+        "en": "Create a consistent listing gallery image system for a marketplace product",
+        "zh": "为平台商品创建一致的详情图库视觉系统"
+      },
+      "deliverable": {
+        "en": "listing image set",
+        "zh": "商品图套组"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a ecommerce operator. Goal: Create a consistent listing gallery image system for a marketplace product. Deliverable: Marketplace listing image set. Visual direction: An eight-card listing gallery system covering hero, features, dimensions, use case, comparison, included items, material detail and care instructions. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为电商运营生成一张16:9的真实工作场景图片。目标：为平台商品创建一致的详情图库视觉系统。交付物：电商平台商品图套组。视觉方向：An eight-card listing gallery system covering hero, features, dimensions, use case, comparison, included items, material detail and care instructions.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Marketplace listing image set",
+        "context": "Product & Ecommerce",
+        "composition": "An eight-card listing gallery system covering hero, features, dimensions, use case, comparison, included items, material detail and care instructions.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "product-ecommerce",
+        "listing image set",
+        "16:9",
+        "ecommerce operator",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-076-marketplace-listing-image-set.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 76
+      }
+    },
+    {
+      "id": "gptimg2-work-077",
+      "slug": "visual-identity-usage-audit",
+      "title": {
+        "en": "Visual identity usage audit",
+        "zh": "视觉识别应用审查板"
+      },
+      "category": {
+        "slug": "brand-design-system",
+        "en": "Brand & Design System",
+        "zh": "品牌与设计系统"
+      },
+      "target_user": {
+        "en": "brand designer",
+        "zh": "品牌设计师"
+      },
+      "use_case": {
+        "en": "Review brand consistency across major touchpoints and define remediation priorities",
+        "zh": "审查主要触点上的品牌一致性并定义修复优先级"
+      },
+      "deliverable": {
+        "en": "identity usage audit",
+        "zh": "视觉识别审查板"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a brand designer. Goal: Review brand consistency across major touchpoints and define remediation priorities. Deliverable: Visual identity usage audit. Visual direction: A brand governance audit grid with website header, email banner, social card, product UI, sales slide and event signage examples marked by pass/fail criteria. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为品牌设计师生成一张4:3的真实工作场景图片。目标：审查主要触点上的品牌一致性并定义修复优先级。交付物：视觉识别应用审查板。视觉方向：A brand governance audit grid with website header, email banner, social card, product UI, sales slide and event signage examples marked by pass/fail criteria.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Visual identity usage audit",
+        "context": "Brand & Design System",
+        "composition": "A brand governance audit grid with website header, email banner, social card, product UI, sales slide and event signage examples marked by pass/fail criteria.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "brand-design-system",
+        "identity usage audit",
+        "4:3",
+        "brand designer",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-077-visual-identity-usage-audit.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 77
+      }
+    },
+    {
+      "id": "gptimg2-work-078",
+      "slug": "component-illustration-style-guide",
+      "title": {
+        "en": "Component illustration style guide",
+        "zh": "组件插画风格指南"
+      },
+      "category": {
+        "slug": "brand-design-system",
+        "en": "Brand & Design System",
+        "zh": "品牌与设计系统"
+      },
+      "target_user": {
+        "en": "design systems lead",
+        "zh": "设计系统负责人"
+      },
+      "use_case": {
+        "en": "Define illustration principles for product empty states and help content",
+        "zh": "定义产品空状态和帮助内容中的插画原则"
+      },
+      "deliverable": {
+        "en": "illustration style guide",
+        "zh": "插画风格指南"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a design systems lead. Goal: Define illustration principles for product empty states and help content. Deliverable: Component illustration style guide. Visual direction: A component illustration documentation sheet with line weight, radius, perspective, shadow depth, object metaphors, do/dont examples and sizing rules. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为设计系统负责人生成一张16:9的真实工作场景图片。目标：定义产品空状态和帮助内容中的插画原则。交付物：组件插画风格指南。视觉方向：A component illustration documentation sheet with line weight, radius, perspective, shadow depth, object metaphors, do/dont examples and sizing rules.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Component illustration style guide",
+        "context": "Brand & Design System",
+        "composition": "A component illustration documentation sheet with line weight, radius, perspective, shadow depth, object metaphors, do/dont examples and sizing rules.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "brand-design-system",
+        "illustration style guide",
+        "16:9",
+        "design systems lead",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-078-component-illustration-style-guide.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 78
+      }
+    },
+    {
+      "id": "gptimg2-work-079",
+      "slug": "color-accessibility-palette-matrix",
+      "title": {
+        "en": "Color accessibility palette matrix",
+        "zh": "色彩可访问性矩阵"
+      },
+      "category": {
+        "slug": "brand-design-system",
+        "en": "Brand & Design System",
+        "zh": "品牌与设计系统"
+      },
+      "target_user": {
+        "en": "brand systems designer",
+        "zh": "品牌系统设计师"
+      },
+      "use_case": {
+        "en": "Document color contrast, semantic tokens and approved UI color pairings",
+        "zh": "记录色彩对比度、语义 token 和可用 UI 配色组合"
+      },
+      "deliverable": {
+        "en": "palette matrix",
+        "zh": "色彩矩阵"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a brand systems designer. Goal: Document color contrast, semantic tokens and approved UI color pairings. Deliverable: Color accessibility palette matrix. Visual direction: A design-system color matrix with semantic swatches, contrast badges, approved text sizes, pairings to avoid, chart usage and UI samples. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为品牌系统设计师生成一张16:9的真实工作场景图片。目标：记录色彩对比度、语义 token 和可用 UI 配色组合。交付物：色彩可访问性矩阵。视觉方向：A design-system color matrix with semantic swatches, contrast badges, approved text sizes, pairings to avoid, chart usage and UI samples.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Color accessibility palette matrix",
+        "context": "Brand & Design System",
+        "composition": "A design-system color matrix with semantic swatches, contrast badges, approved text sizes, pairings to avoid, chart usage and UI samples.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "brand-design-system",
+        "palette matrix",
+        "16:9",
+        "brand systems designer",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-079-color-accessibility-palette-matrix.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 79
+      }
+    },
+    {
+      "id": "gptimg2-work-080",
+      "slug": "executive-pitch-deck-storyboard",
+      "title": {
+        "en": "Executive pitch deck storyboard",
+        "zh": "高管提案叙事分镜"
+      },
+      "category": {
+        "slug": "sales-pitch",
+        "en": "Sales & Pitch",
+        "zh": "销售与提案"
+      },
+      "target_user": {
+        "en": "sales designer",
+        "zh": "销售设计师"
+      },
+      "use_case": {
+        "en": "Plan a sales deck narrative before creating high-fidelity slides",
+        "zh": "在制作高保真销售页之前规划提案叙事"
+      },
+      "deliverable": {
+        "en": "pitch deck storyboard",
+        "zh": "提案分镜板"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a sales designer. Goal: Plan a sales deck narrative before creating high-fidelity slides. Deliverable: Executive pitch deck storyboard. Visual direction: A 10-slide pitch sequence with slide roles, visual rhythm notes, audience emotion curve, evidence markers and recommended chart types. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为销售设计师生成一张4:3的真实工作场景图片。目标：在制作高保真销售页之前规划提案叙事。交付物：高管提案叙事分镜。视觉方向：A 10-slide pitch sequence with slide roles, visual rhythm notes, audience emotion curve, evidence markers and recommended chart types.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Executive pitch deck storyboard",
+        "context": "Sales & Pitch",
+        "composition": "A 10-slide pitch sequence with slide roles, visual rhythm notes, audience emotion curve, evidence markers and recommended chart types.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "sales-pitch",
+        "pitch deck storyboard",
+        "4:3",
+        "sales designer",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-080-executive-pitch-deck-storyboard.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 80
+      }
+    },
+    {
+      "id": "gptimg2-work-081",
+      "slug": "pricing-page-visual-hierarchy-concept",
+      "title": {
+        "en": "Pricing page visual hierarchy concept",
+        "zh": "定价页视觉层级方案"
+      },
+      "category": {
+        "slug": "sales-pitch",
+        "en": "Sales & Pitch",
+        "zh": "销售与提案"
+      },
+      "target_user": {
+        "en": "sales-led SaaS designer",
+        "zh": "销售型 SaaS 设计师"
+      },
+      "use_case": {
+        "en": "Design a pricing page hierarchy that clarifies tiers and reduces buyer objections",
+        "zh": "设计能清晰表达档位并降低购买异议的定价页层级"
+      },
+      "deliverable": {
+        "en": "pricing page concept",
+        "zh": "定价页方案"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a sales-led SaaS designer. Goal: Design a pricing page hierarchy that clarifies tiers and reduces buyer objections. Deliverable: Pricing page visual hierarchy concept. Visual direction: A pricing page design review board with three tiers, enterprise CTA, proof row, FAQ modules, add-on panel and eye-path annotations. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为销售型 SaaS 设计师生成一张16:9的真实工作场景图片。目标：设计能清晰表达档位并降低购买异议的定价页层级。交付物：定价页视觉层级方案。视觉方向：A pricing page design review board with three tiers, enterprise CTA, proof row, FAQ modules, add-on panel and eye-path annotations.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Pricing page visual hierarchy concept",
+        "context": "Sales & Pitch",
+        "composition": "A pricing page design review board with three tiers, enterprise CTA, proof row, FAQ modules, add-on panel and eye-path annotations.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "sales-pitch",
+        "pricing page concept",
+        "16:9",
+        "sales-led SaaS designer",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-081-pricing-page-visual-hierarchy-concept.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 81
+      }
+    },
+    {
+      "id": "gptimg2-work-082",
+      "slug": "enterprise-security-trust-center-graphic",
+      "title": {
+        "en": "Enterprise security trust center graphic",
+        "zh": "企业安全信任中心视觉"
+      },
+      "category": {
+        "slug": "sales-pitch",
+        "en": "Sales & Pitch",
+        "zh": "销售与提案"
+      },
+      "target_user": {
+        "en": "solutions consultant",
+        "zh": "解决方案顾问"
+      },
+      "use_case": {
+        "en": "Create a trustworthy security overview for enterprise buyer evaluation",
+        "zh": "为企业买方评估创建可信的安全说明视觉"
+      },
+      "deliverable": {
+        "en": "trust center graphic",
+        "zh": "信任中心视觉"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a solutions consultant. Goal: Create a trustworthy security overview for enterprise buyer evaluation. Deliverable: Enterprise security trust center graphic. Visual direction: A trust center landing visual with security pillars, compliance placeholders, architecture overview, data flow, audit timeline and documentation links. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为解决方案顾问生成一张16:9的真实工作场景图片。目标：为企业买方评估创建可信的安全说明视觉。交付物：企业安全信任中心视觉。视觉方向：A trust center landing visual with security pillars, compliance placeholders, architecture overview, data flow, audit timeline and documentation links.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Enterprise security trust center graphic",
+        "context": "Sales & Pitch",
+        "composition": "A trust center landing visual with security pillars, compliance placeholders, architecture overview, data flow, audit timeline and documentation links.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "sales-pitch",
+        "trust center graphic",
+        "16:9",
+        "solutions consultant",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-082-enterprise-security-trust-center-graphic.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 82
+      }
+    },
+    {
+      "id": "gptimg2-work-083",
+      "slug": "instructional-infographic-template-system",
+      "title": {
+        "en": "Instructional infographic template system",
+        "zh": "教学信息图模板系统"
+      },
+      "category": {
+        "slug": "education-training",
+        "en": "Education & Training",
+        "zh": "教育培训"
+      },
+      "target_user": {
+        "en": "learning designer",
+        "zh": "学习设计师"
+      },
+      "use_case": {
+        "en": "Build reusable infographic modules for internal training content",
+        "zh": "为内部培训内容构建可复用信息图模块"
+      },
+      "deliverable": {
+        "en": "infographic template system",
+        "zh": "信息图模板系统"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a learning designer. Goal: Build reusable infographic modules for internal training content. Deliverable: Instructional infographic template system. Visual direction: A template kit preview with modules for process steps, comparison, decision tree, checklist, common mistakes, grid rules and accessibility notes. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为学习设计师生成一张4:3的真实工作场景图片。目标：为内部培训内容构建可复用信息图模块。交付物：教学信息图模板系统。视觉方向：A template kit preview with modules for process steps, comparison, decision tree, checklist, common mistakes, grid rules and accessibility notes.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Instructional infographic template system",
+        "context": "Education & Training",
+        "composition": "A template kit preview with modules for process steps, comparison, decision tree, checklist, common mistakes, grid rules and accessibility notes.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "education-training",
+        "infographic template system",
+        "4:3",
+        "learning designer",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-083-instructional-infographic-template-system.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 83
+      }
+    },
+    {
+      "id": "gptimg2-work-084",
+      "slug": "workshop-facilitation-wallboard",
+      "title": {
+        "en": "Workshop facilitation wallboard",
+        "zh": "工作坊引导白板"
+      },
+      "category": {
+        "slug": "education-training",
+        "en": "Education & Training",
+        "zh": "教育培训"
+      },
+      "target_user": {
+        "en": "service designer",
+        "zh": "服务设计师"
+      },
+      "use_case": {
+        "en": "Prepare a structured strategy workshop board for facilitation and synthesis",
+        "zh": "准备用于引导和沉淀的结构化战略工作坊白板"
+      },
+      "deliverable": {
+        "en": "facilitation wallboard",
+        "zh": "引导白板"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a service designer. Goal: Prepare a structured strategy workshop board for facilitation and synthesis. Deliverable: Workshop facilitation wallboard. Visual direction: A workshop board with agenda, breakout activities, dot voting, decision log, parking lot, stakeholder map, synthesis canvas and facilitator notes. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为服务设计师生成一张16:9的真实工作场景图片。目标：准备用于引导和沉淀的结构化战略工作坊白板。交付物：工作坊引导白板。视觉方向：A workshop board with agenda, breakout activities, dot voting, decision log, parking lot, stakeholder map, synthesis canvas and facilitator notes.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Workshop facilitation wallboard",
+        "context": "Education & Training",
+        "composition": "A workshop board with agenda, breakout activities, dot voting, decision log, parking lot, stakeholder map, synthesis canvas and facilitator notes.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "education-training",
+        "facilitation wallboard",
+        "16:9",
+        "service designer",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-084-workshop-facilitation-wallboard.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 84
+      }
+    },
+    {
+      "id": "gptimg2-work-085",
+      "slug": "software-feature-tutorial-storyboard",
+      "title": {
+        "en": "Software feature tutorial storyboard",
+        "zh": "软件功能教程分镜"
+      },
+      "category": {
+        "slug": "education-training",
+        "en": "Education & Training",
+        "zh": "教育培训"
+      },
+      "target_user": {
+        "en": "product education manager",
+        "zh": "产品教育负责人"
+      },
+      "use_case": {
+        "en": "Create an annotated walkthrough for teaching a product feature",
+        "zh": "创建用于讲解产品功能的标注式教程分镜"
+      },
+      "deliverable": {
+        "en": "feature tutorial storyboard",
+        "zh": "功能教程分镜"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a product education manager. Goal: Create an annotated walkthrough for teaching a product feature. Deliverable: Software feature tutorial storyboard. Visual direction: A six-step feature walkthrough with UI placeholders, callout arrows, tooltip examples, progress indicator, error prevention notes and mobile cues. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为产品教育负责人生成一张16:9的真实工作场景图片。目标：创建用于讲解产品功能的标注式教程分镜。交付物：软件功能教程分镜。视觉方向：A six-step feature walkthrough with UI placeholders, callout arrows, tooltip examples, progress indicator, error prevention notes and mobile cues.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Software feature tutorial storyboard",
+        "context": "Education & Training",
+        "composition": "A six-step feature walkthrough with UI placeholders, callout arrows, tooltip examples, progress indicator, error prevention notes and mobile cues.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "education-training",
+        "feature tutorial storyboard",
+        "16:9",
+        "product education manager",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-085-software-feature-tutorial-storyboard.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 85
+      }
+    },
+    {
+      "id": "gptimg2-work-086",
+      "slug": "data-visualization-style-guide",
+      "title": {
+        "en": "Data visualization style guide",
+        "zh": "数据可视化风格指南"
+      },
+      "category": {
+        "slug": "data-operations",
+        "en": "Data & Operations",
+        "zh": "数据与运营"
+      },
+      "target_user": {
+        "en": "analytics lead",
+        "zh": "数据分析负责人"
+      },
+      "use_case": {
+        "en": "Document approved chart types, color rules and annotation patterns for dashboards",
+        "zh": "记录仪表盘中可用图表类型、颜色规则和标注方式"
+      },
+      "deliverable": {
+        "en": "data visualization style guide",
+        "zh": "数据可视化风格指南"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a analytics lead. Goal: Document approved chart types, color rules and annotation patterns for dashboards. Deliverable: Data visualization style guide. Visual direction: A chart governance sheet with approved chart types, color rules, axis labels, annotations, chart do/dont cards, spacing tokens and cleanup example. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为数据分析负责人生成一张4:3的真实工作场景图片。目标：记录仪表盘中可用图表类型、颜色规则和标注方式。交付物：数据可视化风格指南。视觉方向：A chart governance sheet with approved chart types, color rules, axis labels, annotations, chart do/dont cards, spacing tokens and cleanup example.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Data visualization style guide",
+        "context": "Data & Operations",
+        "composition": "A chart governance sheet with approved chart types, color rules, axis labels, annotations, chart do/dont cards, spacing tokens and cleanup example.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "data-operations",
+        "data visualization style guide",
+        "4:3",
+        "analytics lead",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-086-data-visualization-style-guide.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 86
+      }
+    },
+    {
+      "id": "gptimg2-work-087",
+      "slug": "supply-chain-exception-control-tower",
+      "title": {
+        "en": "Supply chain exception control tower",
+        "zh": "供应链异常控制塔"
+      },
+      "category": {
+        "slug": "data-operations",
+        "en": "Data & Operations",
+        "zh": "数据与运营"
+      },
+      "target_user": {
+        "en": "operations analyst",
+        "zh": "运营分析师"
+      },
+      "use_case": {
+        "en": "Monitor supply chain exceptions and customer impact in an executive display",
+        "zh": "在管理层大屏中监控供应链异常和客户影响"
+      },
+      "deliverable": {
+        "en": "exception control tower",
+        "zh": "异常控制塔"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a operations analyst. Goal: Monitor supply chain exceptions and customer impact in an executive display. Deliverable: Supply chain exception control tower. Visual direction: A control tower dashboard with inbound shipments, inventory risk, supplier status, warehouse capacity, customer-impact forecast and decision queue. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为运营分析师生成一张16:9的真实工作场景图片。目标：在管理层大屏中监控供应链异常和客户影响。交付物：供应链异常控制塔。视觉方向：A control tower dashboard with inbound shipments, inventory risk, supplier status, warehouse capacity, customer-impact forecast and decision queue.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Supply chain exception control tower",
+        "context": "Data & Operations",
+        "composition": "A control tower dashboard with inbound shipments, inventory risk, supplier status, warehouse capacity, customer-impact forecast and decision queue.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "data-operations",
+        "exception control tower",
+        "16:9",
+        "operations analyst",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-087-supply-chain-exception-control-tower.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 87
+      }
+    },
+    {
+      "id": "gptimg2-work-088",
+      "slug": "experiment-results-readout-dashboard",
+      "title": {
+        "en": "Experiment results readout dashboard",
+        "zh": "实验结果汇报看板"
+      },
+      "category": {
+        "slug": "data-operations",
+        "en": "Data & Operations",
+        "zh": "数据与运营"
+      },
+      "target_user": {
+        "en": "product operations analyst",
+        "zh": "产品运营分析师"
+      },
+      "use_case": {
+        "en": "Summarize A/B test evidence and decision recommendations for product review",
+        "zh": "为产品复盘总结 A/B 测试证据和决策建议"
+      },
+      "deliverable": {
+        "en": "experiment readout dashboard",
+        "zh": "实验结果看板"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a product operations analyst. Goal: Summarize A/B test evidence and decision recommendations for product review. Deliverable: Experiment results readout dashboard. Visual direction: An experiment readout with hypothesis, audience split, primary metric, guardrail metrics, segment breakdown, observations and recommendation. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为产品运营分析师生成一张16:9的真实工作场景图片。目标：为产品复盘总结 A/B 测试证据和决策建议。交付物：实验结果汇报看板。视觉方向：An experiment readout with hypothesis, audience split, primary metric, guardrail metrics, segment breakdown, observations and recommendation.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Experiment results readout dashboard",
+        "context": "Data & Operations",
+        "composition": "An experiment readout with hypothesis, audience split, primary metric, guardrail metrics, segment breakdown, observations and recommendation.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "data-operations",
+        "experiment readout dashboard",
+        "16:9",
+        "product operations analyst",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-088-experiment-results-readout-dashboard.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 88
+      }
+    },
+    {
+      "id": "gptimg2-work-089",
+      "slug": "employee-onboarding-experience-journey-map",
+      "title": {
+        "en": "Employee onboarding experience journey map",
+        "zh": "员工入职体验旅程图"
+      },
+      "category": {
+        "slug": "hr-internal-comms",
+        "en": "HR & Internal Comms",
+        "zh": "HR 与内部沟通"
+      },
+      "target_user": {
+        "en": "people operations designer",
+        "zh": "员工体验设计师"
+      },
+      "use_case": {
+        "en": "Map the new hire experience from offer accepted to first 90 days",
+        "zh": "梳理从接受 offer 到入职 90 天的新员工体验"
+      },
+      "deliverable": {
+        "en": "onboarding journey map",
+        "zh": "入职体验旅程图"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a people operations designer. Goal: Map the new hire experience from offer accepted to first 90 days. Deliverable: Employee onboarding experience journey map. Visual direction: A service-design journey map with paperwork, equipment, manager intro, rituals, role clarity, first project, feedback checkpoints and belonging signals. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为员工体验设计师生成一张4:3的真实工作场景图片。目标：梳理从接受 offer 到入职 90 天的新员工体验。交付物：员工入职体验旅程图。视觉方向：A service-design journey map with paperwork, equipment, manager intro, rituals, role clarity, first project, feedback checkpoints and belonging signals.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Employee onboarding experience journey map",
+        "context": "HR & Internal Comms",
+        "composition": "A service-design journey map with paperwork, equipment, manager intro, rituals, role clarity, first project, feedback checkpoints and belonging signals.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "hr-internal-comms",
+        "onboarding journey map",
+        "4:3",
+        "people operations designer",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-089-employee-onboarding-experience-journey-map.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 89
+      }
+    },
+    {
+      "id": "gptimg2-work-090",
+      "slug": "internal-newsletter-editorial-cover-system",
+      "title": {
+        "en": "Internal newsletter editorial cover system",
+        "zh": "内部 Newsletter 编辑封面系统"
+      },
+      "category": {
+        "slug": "hr-internal-comms",
+        "en": "HR & Internal Comms",
+        "zh": "HR 与内部沟通"
+      },
+      "target_user": {
+        "en": "internal communications designer",
+        "zh": "内部沟通设计师"
+      },
+      "use_case": {
+        "en": "Create a modular editorial cover system for recurring internal newsletters",
+        "zh": "为周期性内部 Newsletter 创建模块化编辑封面系统"
+      },
+      "deliverable": {
+        "en": "newsletter cover system",
+        "zh": "Newsletter 封面系统"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a internal communications designer. Goal: Create a modular editorial cover system for recurring internal newsletters. Deliverable: Internal newsletter editorial cover system. Visual direction: A modular editorial cover template with masthead, lead story, executive note, employee spotlight, metric highlight, events and CTA strip. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为内部沟通设计师生成一张16:9的真实工作场景图片。目标：为周期性内部 Newsletter 创建模块化编辑封面系统。交付物：内部 Newsletter 编辑封面系统。视觉方向：A modular editorial cover template with masthead, lead story, executive note, employee spotlight, metric highlight, events and CTA strip.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Internal newsletter editorial cover system",
+        "context": "HR & Internal Comms",
+        "composition": "A modular editorial cover template with masthead, lead story, executive note, employee spotlight, metric highlight, events and CTA strip.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "hr-internal-comms",
+        "newsletter cover system",
+        "16:9",
+        "internal communications designer",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-090-internal-newsletter-editorial-cover-system.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 90
+      }
+    },
+    {
+      "id": "gptimg2-work-091",
+      "slug": "team-rituals-operating-calendar",
+      "title": {
+        "en": "Team rituals operating calendar",
+        "zh": "团队协作节奏日历"
+      },
+      "category": {
+        "slug": "hr-internal-comms",
+        "en": "HR & Internal Comms",
+        "zh": "HR 与内部沟通"
+      },
+      "target_user": {
+        "en": "people operations manager",
+        "zh": "组织发展负责人"
+      },
+      "use_case": {
+        "en": "Design a monthly operating rhythm for team meetings and async rituals",
+        "zh": "设计团队会议和异步协作的月度运行节奏"
+      },
+      "deliverable": {
+        "en": "operating calendar",
+        "zh": "协作日历"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a people operations manager. Goal: Design a monthly operating rhythm for team meetings and async rituals. Deliverable: Team rituals operating calendar. Visual direction: A monthly operating calendar with planning, async updates, review rituals, demo day, retro, one-on-ones, purpose tags and cancellation criteria. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为组织发展负责人生成一张16:9的真实工作场景图片。目标：设计团队会议和异步协作的月度运行节奏。交付物：团队协作节奏日历。视觉方向：A monthly operating calendar with planning, async updates, review rituals, demo day, retro, one-on-ones, purpose tags and cancellation criteria.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Team rituals operating calendar",
+        "context": "HR & Internal Comms",
+        "composition": "A monthly operating calendar with planning, async updates, review rituals, demo day, retro, one-on-ones, purpose tags and cancellation criteria.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "hr-internal-comms",
+        "operating calendar",
+        "16:9",
+        "people operations manager",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-091-team-rituals-operating-calendar.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 91
+      }
+    },
+    {
+      "id": "gptimg2-work-092",
+      "slug": "customer-maturity-model-visual",
+      "title": {
+        "en": "Customer maturity model visual",
+        "zh": "客户成熟度模型图"
+      },
+      "category": {
+        "slug": "customer-success-support",
+        "en": "Customer Success & Support",
+        "zh": "客户成功与支持"
+      },
+      "target_user": {
+        "en": "customer success strategist",
+        "zh": "客户成功策略负责人"
+      },
+      "use_case": {
+        "en": "Assess customer maturity and recommend next-step adoption moves",
+        "zh": "评估客户成熟度并推荐下一步采用动作"
+      },
+      "deliverable": {
+        "en": "maturity model visual",
+        "zh": "成熟度模型图"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a customer success strategist. Goal: Assess customer maturity and recommend next-step adoption moves. Deliverable: Customer maturity model visual. Visual direction: A consulting-style maturity framework with five stages, capability pillars, recommended moves, success signals, risk flags and scorecard. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为客户成功策略负责人生成一张4:3的真实工作场景图片。目标：评估客户成熟度并推荐下一步采用动作。交付物：客户成熟度模型图。视觉方向：A consulting-style maturity framework with five stages, capability pillars, recommended moves, success signals, risk flags and scorecard.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Customer maturity model visual",
+        "context": "Customer Success & Support",
+        "composition": "A consulting-style maturity framework with five stages, capability pillars, recommended moves, success signals, risk flags and scorecard.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "customer-success-support",
+        "maturity model visual",
+        "4:3",
+        "customer success strategist",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-092-customer-maturity-model-visual.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 92
+      }
+    },
+    {
+      "id": "gptimg2-work-093",
+      "slug": "knowledge-base-taxonomy-map",
+      "title": {
+        "en": "Knowledge base taxonomy map",
+        "zh": "知识库分类地图"
+      },
+      "category": {
+        "slug": "customer-success-support",
+        "en": "Customer Success & Support",
+        "zh": "客户成功与支持"
+      },
+      "target_user": {
+        "en": "support content strategist",
+        "zh": "支持内容策略师"
+      },
+      "use_case": {
+        "en": "Design a help center taxonomy that connects intent, articles and escalation paths",
+        "zh": "设计连接用户意图、文章和升级路径的帮助中心分类体系"
+      },
+      "deliverable": {
+        "en": "taxonomy map",
+        "zh": "分类地图"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a support content strategist. Goal: Design a help center taxonomy that connects intent, articles and escalation paths. Deliverable: Knowledge base taxonomy map. Visual direction: A knowledge management IA diagram with categories, article clusters, intent labels, search synonyms, escalation links, owners, freshness status and gaps. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为支持内容策略师生成一张16:9的真实工作场景图片。目标：设计连接用户意图、文章和升级路径的帮助中心分类体系。交付物：知识库分类地图。视觉方向：A knowledge management IA diagram with categories, article clusters, intent labels, search synonyms, escalation links, owners, freshness status and gaps.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Knowledge base taxonomy map",
+        "context": "Customer Success & Support",
+        "composition": "A knowledge management IA diagram with categories, article clusters, intent labels, search synonyms, escalation links, owners, freshness status and gaps.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "customer-success-support",
+        "taxonomy map",
+        "16:9",
+        "support content strategist",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-093-knowledge-base-taxonomy-map.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 93
+      }
+    },
+    {
+      "id": "gptimg2-work-094",
+      "slug": "chatbot-conversation-quality-review-board",
+      "title": {
+        "en": "Chatbot conversation quality review board",
+        "zh": "聊天机器人对话质量审查板"
+      },
+      "category": {
+        "slug": "customer-success-support",
+        "en": "Customer Success & Support",
+        "zh": "客户成功与支持"
+      },
+      "target_user": {
+        "en": "support automation lead",
+        "zh": "支持自动化负责人"
+      },
+      "use_case": {
+        "en": "Review chatbot answer quality and identify prompt or knowledge base improvements",
+        "zh": "审查聊天机器人回答质量并识别 prompt 或知识库改进点"
+      },
+      "deliverable": {
+        "en": "conversation quality review board",
+        "zh": "对话质量审查板"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a support automation lead. Goal: Review chatbot answer quality and identify prompt or knowledge base improvements. Deliverable: Chatbot conversation quality review board. Visual direction: A QA review interface with annotated support transcript, intent detection, accuracy, tone, escalation decision, missing article, scorecard and rewritten answer. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为支持自动化负责人生成一张16:9的真实工作场景图片。目标：审查聊天机器人回答质量并识别 prompt 或知识库改进点。交付物：聊天机器人对话质量审查板。视觉方向：A QA review interface with annotated support transcript, intent detection, accuracy, tone, escalation decision, missing article, scorecard and rewritten answer.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Chatbot conversation quality review board",
+        "context": "Customer Success & Support",
+        "composition": "A QA review interface with annotated support transcript, intent detection, accuracy, tone, escalation decision, missing article, scorecard and rewritten answer.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "customer-success-support",
+        "conversation quality review board",
+        "16:9",
+        "support automation lead",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-094-chatbot-conversation-quality-review-board.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 94
+      }
+    },
+    {
+      "id": "gptimg2-work-095",
+      "slug": "conference-keynote-stage-screen-system",
+      "title": {
+        "en": "Conference keynote stage screen system",
+        "zh": "会议主舞台屏幕视觉系统"
+      },
+      "category": {
+        "slug": "events-community",
+        "en": "Events & Community",
+        "zh": "活动与社群"
+      },
+      "target_user": {
+        "en": "event creative director",
+        "zh": "活动创意总监"
+      },
+      "use_case": {
+        "en": "Design a cohesive keynote stage screen system for a professional conference",
+        "zh": "为专业会议设计一致的主舞台屏幕视觉系统"
+      },
+      "deliverable": {
+        "en": "stage screen system",
+        "zh": "舞台屏幕系统"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a event creative director. Goal: Design a cohesive keynote stage screen system for a professional conference. Deliverable: Conference keynote stage screen system. Visual direction: A B2B conference screen system with opening title, speaker intro, agenda, transition bumper, sponsor-safe lower third, closing CTA, safe zones and contrast notes. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为活动创意总监生成一张4:3的真实工作场景图片。目标：为专业会议设计一致的主舞台屏幕视觉系统。交付物：会议主舞台屏幕视觉系统。视觉方向：A B2B conference screen system with opening title, speaker intro, agenda, transition bumper, sponsor-safe lower third, closing CTA, safe zones and contrast notes.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Conference keynote stage screen system",
+        "context": "Events & Community",
+        "composition": "A B2B conference screen system with opening title, speaker intro, agenda, transition bumper, sponsor-safe lower third, closing CTA, safe zones and contrast notes.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "events-community",
+        "stage screen system",
+        "4:3",
+        "event creative director",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-095-conference-keynote-stage-screen-system.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 95
+      }
+    },
+    {
+      "id": "gptimg2-work-096",
+      "slug": "community-content-calendar-wall",
+      "title": {
+        "en": "Community content calendar wall",
+        "zh": "社群内容日历墙"
+      },
+      "category": {
+        "slug": "events-community",
+        "en": "Events & Community",
+        "zh": "活动与社群"
+      },
+      "target_user": {
+        "en": "community manager",
+        "zh": "社群运营"
+      },
+      "use_case": {
+        "en": "Plan a six-week community content calendar with themes and operational workload",
+        "zh": "规划包含主题和运营工作量的六周社群内容日历"
+      },
+      "deliverable": {
+        "en": "content calendar wall",
+        "zh": "内容日历墙"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a community manager. Goal: Plan a six-week community content calendar with themes and operational workload. Deliverable: Community content calendar wall. Visual direction: A six-week editorial operations board with themes, channel mix, rituals, member spotlights, AMA, feedback loop, event reminders and moderation workload. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为社群运营生成一张16:9的真实工作场景图片。目标：规划包含主题和运营工作量的六周社群内容日历。交付物：社群内容日历墙。视觉方向：A six-week editorial operations board with themes, channel mix, rituals, member spotlights, AMA, feedback loop, event reminders and moderation workload.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Community content calendar wall",
+        "context": "Events & Community",
+        "composition": "A six-week editorial operations board with themes, channel mix, rituals, member spotlights, AMA, feedback loop, event reminders and moderation workload.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "events-community",
+        "content calendar wall",
+        "16:9",
+        "community manager",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-096-community-content-calendar-wall.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 96
+      }
+    },
+    {
+      "id": "gptimg2-work-097",
+      "slug": "partner-ecosystem-announcement-kit",
+      "title": {
+        "en": "Partner ecosystem announcement kit",
+        "zh": "合作生态发布视觉套件"
+      },
+      "category": {
+        "slug": "events-community",
+        "en": "Events & Community",
+        "zh": "活动与社群"
+      },
+      "target_user": {
+        "en": "partnerships manager",
+        "zh": "合作伙伴经理"
+      },
+      "use_case": {
+        "en": "Prepare a co-marketing visual package for a partnership announcement",
+        "zh": "为合作伙伴发布准备联合营销视觉套件"
+      },
+      "deliverable": {
+        "en": "partner announcement kit",
+        "zh": "合作发布套件"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a partnerships manager. Goal: Prepare a co-marketing visual package for a partnership announcement. Deliverable: Partner ecosystem announcement kit. Visual direction: A B2B partnership launch kit with co-marketing hero, social card, email banner, webinar tile, benefit diagram, quote card and co-branding rules. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为合作伙伴经理生成一张16:9的真实工作场景图片。目标：为合作伙伴发布准备联合营销视觉套件。交付物：合作生态发布视觉套件。视觉方向：A B2B partnership launch kit with co-marketing hero, social card, email banner, webinar tile, benefit diagram, quote card and co-branding rules.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Partner ecosystem announcement kit",
+        "context": "Events & Community",
+        "composition": "A B2B partnership launch kit with co-marketing hero, social card, email banner, webinar tile, benefit diagram, quote card and co-branding rules.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "events-community",
+        "partner announcement kit",
+        "16:9",
+        "partnerships manager",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-097-partner-ecosystem-announcement-kit.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 97
+      }
+    },
+    {
+      "id": "gptimg2-work-098",
+      "slug": "strategic-flywheel-diagram",
+      "title": {
+        "en": "Strategic flywheel diagram",
+        "zh": "战略飞轮图"
+      },
+      "category": {
+        "slug": "founder-strategy",
+        "en": "Founder & Strategy",
+        "zh": "创始人与战略"
+      },
+      "target_user": {
+        "en": "founder",
+        "zh": "创始人"
+      },
+      "use_case": {
+        "en": "Explain a product-led business model as connected compounding loops",
+        "zh": "用相互连接的复利循环解释产品驱动业务模型"
+      },
+      "deliverable": {
+        "en": "strategic flywheel diagram",
+        "zh": "战略飞轮图"
+      },
+      "format": {
+        "aspect_ratio": "4:3",
+        "recommended_size": "1200x900",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 4:3 business-ready image for a founder. Goal: Explain a product-led business model as connected compounding loops. Deliverable: Strategic flywheel diagram. Visual direction: A founder strategy diagram with acquisition, activation, usage data, product improvement and expansion revenue loops plus levers and bottlenecks. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为创始人生成一张4:3的真实工作场景图片。目标：用相互连接的复利循环解释产品驱动业务模型。交付物：战略飞轮图。视觉方向：A founder strategy diagram with acquisition, activation, usage data, product improvement and expansion revenue loops plus levers and bottlenecks.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Strategic flywheel diagram",
+        "context": "Founder & Strategy",
+        "composition": "A founder strategy diagram with acquisition, activation, usage data, product improvement and expansion revenue loops plus levers and bottlenecks.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "founder-strategy",
+        "strategic flywheel diagram",
+        "4:3",
+        "founder",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-098-strategic-flywheel-diagram.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 98
+      }
+    },
+    {
+      "id": "gptimg2-work-099",
+      "slug": "market-category-creation-visual",
+      "title": {
+        "en": "Market category creation visual",
+        "zh": "市场品类创建视觉"
+      },
+      "category": {
+        "slug": "founder-strategy",
+        "en": "Founder & Strategy",
+        "zh": "创始人与战略"
+      },
+      "target_user": {
+        "en": "founder",
+        "zh": "创始人"
+      },
+      "use_case": {
+        "en": "Frame a category creation narrative for a positioning memo",
+        "zh": "为定位备忘录构建新品类叙事框架"
+      },
+      "deliverable": {
+        "en": "category creation canvas",
+        "zh": "品类创建画布"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a founder. Goal: Frame a category creation narrative for a positioning memo. Deliverable: Market category creation visual. Visual direction: A positioning canvas with old worldview, new shift, urgent pain, category placeholder, enemy of progress, promise, proof pillars and adoption triggers. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为创始人生成一张16:9的真实工作场景图片。目标：为定位备忘录构建新品类叙事框架。交付物：市场品类创建视觉。视觉方向：A positioning canvas with old worldview, new shift, urgent pain, category placeholder, enemy of progress, promise, proof pillars and adoption triggers.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Market category creation visual",
+        "context": "Founder & Strategy",
+        "composition": "A positioning canvas with old worldview, new shift, urgent pain, category placeholder, enemy of progress, promise, proof pillars and adoption triggers.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "founder-strategy",
+        "category creation canvas",
+        "16:9",
+        "founder",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-099-market-category-creation-visual.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 99
+      }
+    },
+    {
+      "id": "gptimg2-work-100",
+      "slug": "strategic-roadmap-visual-system",
+      "title": {
+        "en": "Strategic roadmap visual system",
+        "zh": "战略路线图视觉系统"
+      },
+      "category": {
+        "slug": "founder-strategy",
+        "en": "Founder & Strategy",
+        "zh": "创始人与战略"
+      },
+      "target_user": {
+        "en": "founder",
+        "zh": "创始人"
+      },
+      "use_case": {
+        "en": "Plan a four-quarter roadmap with themes, bets, milestones and decision gates",
+        "zh": "规划包含主题、赌注、里程碑和决策门的四季度路线图"
+      },
+      "deliverable": {
+        "en": "roadmap visual system",
+        "zh": "路线图视觉系统"
+      },
+      "format": {
+        "aspect_ratio": "16:9",
+        "recommended_size": "1536x864",
+        "media_kind": "image"
+      },
+      "prompt": {
+        "en": "Create a 16:9 business-ready image for a founder. Goal: Plan a four-quarter roadmap with themes, bets, milestones and decision gates. Deliverable: Strategic roadmap visual system. Visual direction: A four-quarter executive roadmap with themes, strategic bets, milestones, resource allocation, evidence, dependencies, risks and decision gates. Use precise visual design language: define focal point, grid, hierarchy, typography, color role, spacing, annotations, crop safety, and realistic work context. Keep labels short and readable; make the artifact useful for a real professional review, campaign, handoff, or operating meeting. Avoid real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, and purely decorative entertainment styling.",
+        "zh": "为创始人生成一张16:9的真实工作场景图片。目标：规划包含主题、赌注、里程碑和决策门的四季度路线图。交付物：战略路线图视觉系统。视觉方向：A four-quarter executive roadmap with themes, strategic bets, milestones, resource allocation, evidence, dependencies, risks and decision gates.。请使用明确的视觉设计语言：说明视觉焦点、网格、层级、字体、色彩角色、间距、标注、裁切安全区和真实工作语境。文字要短且清晰可读，让这张图真正可用于专业评审、营销活动、交付说明或经营会议。避免真实品牌名、复制 logo、名人肖像、隐私数据、虚假承诺、乱码小字、杂乱构图、畸形 UI、图库式人物和纯娱乐装饰风格。"
+      },
+      "prompt_structure": {
+        "purpose": "work-ready visual design asset for a prompt library and website card",
+        "subject": "Strategic roadmap visual system",
+        "context": "Founder & Strategy",
+        "composition": "A four-quarter executive roadmap with themes, strategic bets, milestones, resource allocation, evidence, dependencies, risks and decision gates.",
+        "constraints": [
+          "clear focal point and visual hierarchy",
+          "usable professional artifact, not entertainment art",
+          "short readable labels and annotation discipline",
+          "grid, typography, spacing and color-role control",
+          "website-safe crop and realistic work context"
+        ],
+        "negative": "real brand names, copied logos, celebrity likenesses, private data, fake guarantees, unreadable microtext, clutter, distorted UI, generic stock-photo people, purely decorative entertainment styling"
+      },
+      "tags": [
+        "founder-strategy",
+        "roadmap visual system",
+        "16:9",
+        "founder",
+        "visual-design"
+      ],
+      "source_reference_ids": [
+        "openai-image-guide",
+        "openai-images-20",
+        "figma-typography-systems",
+        "figma-accessibility",
+        "material-color",
+        "material-typography",
+        "nngroup-visual-design-principles",
+        "gpt-image2-dev-library",
+        "promptref"
+      ],
+      "source_notes": "Original visual-design-oriented work prompt rewritten from public design-system, visual hierarchy and GPT Image prompt-pattern research; not copied verbatim from any source.",
+      "license_note": "Original rewritten prompt synthesized from public prompt-pattern research; not a verbatim copy of any source prompt.",
+      "image_path": "images/gptimg2-work-100-strategic-roadmap-visual-system.png",
+      "generated_image_source": {
+        "tool": "image_gen",
+        "generated_order": 100
+      }
     }
   ],
   "repository": {
     "recommended_name": "awesome-gpt-image-2-work-prompts",
-    "description": "70 bilingual GPT Image 2 prompts with JSON data and generated examples for practical workplace visuals.",
+    "description": "100 bilingual GPT Image 2 prompts with JSON data and generated examples for practical workplace visuals.",
     "topics": [
       "gpt-image-2",
       "chatgpt-images",
